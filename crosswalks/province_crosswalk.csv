@@ -1,0 +1,43 @@
+province_name_clean,province_canonical,province_canonical_en,change_type,split_from,split_year,law_number,notes
+ACEH,ACEH,Aceh,name_change,,2009,UU 11/2006,"Formerly DISTA ACEH (pre-2001), then NANGGROE ACEH DARUSSALAM (2001-2009)"
+NANGGROE ACEH DARUSSALAM,ACEH,Aceh,name_change,,2009,UU 11/2006,Transitional name 2001-2009; canonical is ACEH throughout
+DISTA ACEH,ACEH,Aceh,name_change,,,,"Historical name pre-2001; DISTA = Daerah Istimewa"
+BALI,BALI,Bali,stable,,,,
+BANTEN,BANTEN,Banten,province_split,JAWA BARAT,2000,UU 23/2000,Split from Jawa Barat
+BENGKULU,BENGKULU,Bengkulu,stable,,,,
+DI YOGYAKARTA,DI YOGYAKARTA,Special Region of Yogyakarta,name_change,,,,Formerly DISTA YOGYAKARTA; DI = Daerah Istimewa
+DISTA YOGYAKARTA,DI YOGYAKARTA,Special Region of Yogyakarta,name_change,,,,"Historical name; DISTA = Daerah Istimewa. Canonical is DI YOGYAKARTA throughout"
+DKI JAKARTA,DKI JAKARTA,DKI Jakarta,stable,,,,DKI = Daerah Khusus Ibukota
+GORONTALO,GORONTALO,Gorontalo,province_split,SULAWESI UTARA,2000,UU 38/2000,Split from Sulawesi Utara
+IRIAN JAYA,PAPUA,Papua,name_change,,2000,UU 45/1999,"Name changed to Papua 2000; PAPUA BARAT split off 2003. At 1999 boundaries IRIAN JAYA = PAPUA + PAPUA BARAT combined"
+JAMBI,JAMBI,Jambi,stable,,,,
+JAWA BARAT,JAWA BARAT,West Java,stable,,,,"Note: BANTEN split off 2000; pre-split JAWA BARAT observations cover current JAWA BARAT + BANTEN territory"
+JAWA TENGAH,JAWA TENGAH,Central Java,stable,,,,
+JAWA TIMUR,JAWA TIMUR,East Java,stable,,,,
+KALIMANTAN BARAT,KALIMANTAN BARAT,West Kalimantan,stable,,,,
+KALIMANTAN SELATAN,KALIMANTAN SELATAN,South Kalimantan,stable,,,,
+KALIMANTAN TENGAH,KALIMANTAN TENGAH,Central Kalimantan,stable,,,,
+KALIMANTAN TIMUR,KALIMANTAN TIMUR,East Kalimantan,stable,,,,"Note: KALIMANTAN UTARA split off 2012; pre-split observations cover both territories"
+KALIMANTAN UTARA,KALIMANTAN TIMUR,East Kalimantan,province_split,KALIMANTAN TIMUR,2012,UU 20/2012,"Split from Kalimantan Timur in 2012; at 2000-boundary its districts belong to KALIMANTAN TIMUR"
+KEPULAUAN BANGKA BELITUNG,KEPULAUAN BANGKA BELITUNG,Bangka Belitung Islands,province_split,SUMATERA SELATAN,2000,UU 27/2000,Split from Sumatera Selatan
+KEPULAUAN RIAU,KEPULAUAN RIAU,Riau Islands,province_split,RIAU,2002,UU 25/2002,Split from Riau
+LAMPUNG,LAMPUNG,Lampung,stable,,,,
+MALUKU,MALUKU,Maluku,stable,,,,"Note: MALUKU UTARA split off 1999; pre-split observations cover both territories"
+MALUKU UTARA,MALUKU UTARA,North Maluku,province_split,MALUKU,1999,UU 46/1999,Split from Maluku
+NUSA TENGGARA BARAT,NUSA TENGGARA BARAT,West Nusa Tenggara,stable,,,,
+NUSA TENGGARA TIMUR,NUSA TENGGARA TIMUR,East Nusa Tenggara,stable,,,,
+PAPUA,PAPUA,Papua,stable,,,,"Note: PAPUA BARAT split off 2003; PAPUA SELATAN/TENGAH/PEGUNUNGAN split off 2022. At 1999 boundaries PAPUA covers all these territories."
+PAPUA BARAT,PAPUA BARAT,West Papua,province_split,PAPUA,2003,UU 45/1999,"Split from Papua (formerly Irian Jaya). Formally established 2003. Note: PAPUA BARAT DAYA split off 2022."
+PAPUA BARAT DAYA,PAPUA BARAT,West Papua,province_split,PAPUA BARAT,2022,UU 29/2022,Split from Papua Barat; maps to 2000-vintage PAPUA BARAT
+PAPUA PEGUNUNGAN,PAPUA,Papua,province_split,PAPUA,2022,UU 16/2022,Split from Papua; maps to 2000-vintage PAPUA
+PAPUA SELATAN,PAPUA,Papua,province_split,PAPUA,2022,UU 14/2022,Split from Papua; maps to 2000-vintage PAPUA
+PAPUA TENGAH,PAPUA,Papua,province_split,PAPUA,2022,UU 15/2022,Split from Papua; maps to 2000-vintage PAPUA
+RIAU,RIAU,Riau,stable,,,,"Note: KEPULAUAN RIAU split off 2002; pre-split RIAU observations cover both territories"
+SULAWESI BARAT,SULAWESI BARAT,West Sulawesi,province_split,SULAWESI SELATAN,2004,UU 26/2004,Split from Sulawesi Selatan
+SULAWESI SELATAN,SULAWESI SELATAN,South Sulawesi,stable,,,,"Note: SULAWESI BARAT split off 2004; pre-split observations cover both territories"
+SULAWESI TENGAH,SULAWESI TENGAH,Central Sulawesi,stable,,,,
+SULAWESI TENGGARA,SULAWESI TENGGARA,Southeast Sulawesi,stable,,,,
+SULAWESI UTARA,SULAWESI UTARA,North Sulawesi,stable,,,,"Note: GORONTALO split off 2000; pre-split observations cover both territories"
+SUMATERA BARAT,SUMATERA BARAT,West Sumatra,stable,,,,
+SUMATERA SELATAN,SUMATERA SELATAN,South Sumatra,stable,,,,"Note: KEPULAUAN BANGKA BELITUNG split off 2000; pre-split observations cover both territories"
+SUMATERA UTARA,SUMATERA UTARA,North Sumatra,stable,,,,

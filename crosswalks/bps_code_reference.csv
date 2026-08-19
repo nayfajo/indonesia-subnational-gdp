@@ -1,0 +1,486 @@
+bps_code,bps_name,province,province_code,admin_type,code_vintage,notes
+1101,Simeulue,ACEH,11,Kabupaten,current,Split from Aceh Barat 1999
+1102,Aceh Singkil,ACEH,11,Kabupaten,current,
+1103,Aceh Selatan,ACEH,11,Kabupaten,current,
+1104,Aceh Tenggara,ACEH,11,Kabupaten,current,
+1105,Aceh Timur,ACEH,11,Kabupaten,current,
+1106,Aceh Tengah,ACEH,11,Kabupaten,current,
+1107,Aceh Barat,ACEH,11,Kabupaten,current,
+1108,Aceh Besar,ACEH,11,Kabupaten,current,
+1109,Pidie,ACEH,11,Kabupaten,current,
+1110,Bireuen,ACEH,11,Kabupaten,current,
+1111,Aceh Utara,ACEH,11,Kabupaten,current,
+1112,Aceh Barat Daya,ACEH,11,Kabupaten,current,Created 2002
+1113,Gayo Lues,ACEH,11,Kabupaten,current,Created 2002
+1114,Aceh Tamiang,ACEH,11,Kabupaten,current,Created 2002
+1115,Nagan Raya,ACEH,11,Kabupaten,current,Created 2002
+1116,Aceh Jaya,ACEH,11,Kabupaten,current,Created 2002
+1117,Bener Meriah,ACEH,11,Kabupaten,current,Created 2003 (not in panel)
+1118,Pidie Jaya,ACEH,11,Kabupaten,current,Created 2007 (not in panel)
+1171,Banda Aceh,ACEH,11,Kota,current,
+1172,Sabang,ACEH,11,Kota,current,
+1173,Langsa,ACEH,11,Kota,current,Created 2001
+1174,Lhokseumawe,ACEH,11,Kota,current,Created 2001
+1175,Subulussalam,ACEH,11,Kota,current,Created 2007 (not in panel)
+1201,Tapanuli Tengah,SUMATERA UTARA,12,Kabupaten,current,
+1202,Tapanuli Utara,SUMATERA UTARA,12,Kabupaten,current,
+1203,Tapanuli Selatan,SUMATERA UTARA,12,Kabupaten,current,
+1204,Nias,SUMATERA UTARA,12,Kabupaten,current,
+1205,Langkat,SUMATERA UTARA,12,Kabupaten,current,
+1206,Karo,SUMATERA UTARA,12,Kabupaten,current,
+1207,Deli Serdang,SUMATERA UTARA,12,Kabupaten,current,
+1208,Simalungun,SUMATERA UTARA,12,Kabupaten,current,
+1209,Asahan,SUMATERA UTARA,12,Kabupaten,current,
+1210,Labuhanbatu,SUMATERA UTARA,12,Kabupaten,current,BPS spells Labuhanbatu; panel has LABUHAN BATU
+1211,Dairi,SUMATERA UTARA,12,Kabupaten,current,
+1212,Toba Samosir,SUMATERA UTARA,12,Kabupaten,current,Created 1999
+1213,Mandailing Natal,SUMATERA UTARA,12,Kabupaten,current,Created 1998/1999
+1271,Sibolga,SUMATERA UTARA,12,Kota,current,
+1272,Tanjungbalai,SUMATERA UTARA,12,Kota,current,BPS spells Tanjungbalai; panel TANJUNG BALAI
+1273,Pematangsiantar,SUMATERA UTARA,12,Kota,current,BPS Pematangsiantar; panel PEMATANG SIANTAR
+1274,Tebing Tinggi,SUMATERA UTARA,12,Kota,current,
+1275,Medan,SUMATERA UTARA,12,Kota,current,
+1276,Binjai,SUMATERA UTARA,12,Kota,current,
+1277,Padangsidimpuan,SUMATERA UTARA,12,Kota,current,BPS Padangsidimpuan; panel PADANG SIDEMPUAN; created 2001
+1301,Kepulauan Mentawai,SUMATERA BARAT,13,Kabupaten,current,Created 1999
+1302,Pesisir Selatan,SUMATERA BARAT,13,Kabupaten,current,
+1303,Solok,SUMATERA BARAT,13,Kabupaten,current,
+1304,Sijunjung,SUMATERA BARAT,13,Kabupaten,current,2000 name SAWAHLUNTO/SIJUNJUNG; renamed Sijunjung 2008
+1305,Tanah Datar,SUMATERA BARAT,13,Kabupaten,current,
+1306,Padang Pariaman,SUMATERA BARAT,13,Kabupaten,current,
+1307,Agam,SUMATERA BARAT,13,Kabupaten,current,
+1308,Lima Puluh Kota,SUMATERA BARAT,13,Kabupaten,current,
+1309,Pasaman,SUMATERA BARAT,13,Kabupaten,current,
+1310,Solok Selatan,SUMATERA BARAT,13,Kabupaten,current,Created 2003 (not in panel)
+1311,Dharmasraya,SUMATERA BARAT,13,Kabupaten,current,BPS Dharmasraya; panel DHARMAS RAYA; created 2003
+1312,Pasaman Barat,SUMATERA BARAT,13,Kabupaten,current,Created 2003 (not in panel)
+1371,Padang,SUMATERA BARAT,13,Kota,current,
+1372,Solok,SUMATERA BARAT,13,Kota,current,
+1373,Sawahlunto,SUMATERA BARAT,13,Kota,current,panel SAWAH LUNTO
+1374,Padang Panjang,SUMATERA BARAT,13,Kota,current,
+1375,Bukittinggi,SUMATERA BARAT,13,Kota,current,
+1376,Payakumbuh,SUMATERA BARAT,13,Kota,current,
+1377,Pariaman,SUMATERA BARAT,13,Kota,current,Created 2002
+1401,Kuantan Singingi,RIAU,14,Kabupaten,current,Created 1999
+1402,Indragiri Hulu,RIAU,14,Kabupaten,current,
+1403,Indragiri Hilir,RIAU,14,Kabupaten,current,
+1404,Pelalawan,RIAU,14,Kabupaten,current,Created 1999
+1405,Siak,RIAU,14,Kabupaten,current,Created 1999
+1406,Kampar,RIAU,14,Kabupaten,current,
+1407,Rokan Hulu,RIAU,14,Kabupaten,current,Created 1999
+1408,Bengkalis,RIAU,14,Kabupaten,current,
+1409,Rokan Hilir,RIAU,14,Kabupaten,current,Created 1999
+1410,Kepulauan Meranti,RIAU,14,Kabupaten,current,Created 2009 (not in panel)
+1471,Pekanbaru,RIAU,14,Kota,current,panel PEKAN BARU
+1473,Dumai,RIAU,14,Kota,current,
+1501,Kerinci,JAMBI,15,Kabupaten,current,
+1502,Merangin,JAMBI,15,Kabupaten,current,2000 name SAROLANGUN BANGKO (split into Merangin+Sarolangun 1999)
+1503,Sarolangun,JAMBI,15,Kabupaten,current,Created 1999 from Sarolangun Bangko
+1504,Batang Hari,JAMBI,15,Kabupaten,current,BPS Batanghari; panel BATANG HARI
+1505,Muaro Jambi,JAMBI,15,Kabupaten,current,Created 1999
+1506,Tanjung Jabung Timur,JAMBI,15,Kabupaten,current,Created 1999 from Tanjung Jabung
+1507,Tanjung Jabung Barat,JAMBI,15,Kabupaten,current,2000 name TANJUNG JABUNG (renamed/split 1999)
+1508,Tebo,JAMBI,15,Kabupaten,current,Created 1999 from Bungo Tebo
+1509,Bungo,JAMBI,15,Kabupaten,current,2000 name BUNGO TEBO (split into Bungo+Tebo 1999)
+1571,Jambi,JAMBI,15,Kota,current,
+1572,Sungai Penuh,JAMBI,15,Kota,current,Created 2008 (not in panel)
+1601,Ogan Komering Ulu,SUMATERA SELATAN,16,Kabupaten,current,
+1602,Ogan Komering Ilir,SUMATERA SELATAN,16,Kabupaten,current,
+1603,Muara Enim,SUMATERA SELATAN,16,Kabupaten,current,
+1604,Lahat,SUMATERA SELATAN,16,Kabupaten,current,
+1605,Musi Rawas,SUMATERA SELATAN,16,Kabupaten,current,
+1606,Musi Banyuasin,SUMATERA SELATAN,16,Kabupaten,current,
+1607,Banyuasin,SUMATERA SELATAN,16,Kabupaten,current,Created 2002
+1608,Ogan Komering Ulu Selatan,SUMATERA SELATAN,16,Kabupaten,current,Created 2003 (not in panel)
+1609,Ogan Komering Ulu Timur,SUMATERA SELATAN,16,Kabupaten,current,Created 2003 (not in panel)
+1610,Ogan Ilir,SUMATERA SELATAN,16,Kabupaten,current,Created 2003 (not in panel)
+1611,Empat Lawang,SUMATERA SELATAN,16,Kabupaten,current,Created 2007 (not in panel)
+1671,Palembang,SUMATERA SELATAN,16,Kota,current,
+1672,Prabumulih,SUMATERA SELATAN,16,Kota,current,Created 2001
+1673,Pagar Alam,SUMATERA SELATAN,16,Kota,current,Created 2001
+1674,Lubuklinggau,SUMATERA SELATAN,16,Kota,current,BPS Lubuklinggau; panel LUBUK LINGGAU; created 2001
+1701,Bengkulu Selatan,BENGKULU,17,Kabupaten,current,
+1702,Rejang Lebong,BENGKULU,17,Kabupaten,current,
+1703,Bengkulu Utara,BENGKULU,17,Kabupaten,current,
+1704,Kaur,BENGKULU,17,Kabupaten,current,Created 2003
+1705,Seluma,BENGKULU,17,Kabupaten,current,Created 2003
+1706,Mukomuko,BENGKULU,17,Kabupaten,current,Created 2003
+1707,Lebong,BENGKULU,17,Kabupaten,current,Created 2003 (not in panel)
+1708,Kepahiang,BENGKULU,17,Kabupaten,current,Created 2003 (not in panel)
+1709,Bengkulu Tengah,BENGKULU,17,Kabupaten,current,Created 2008 (not in panel)
+1771,Bengkulu,BENGKULU,17,Kota,current,
+1801,Lampung Selatan,LAMPUNG,18,Kabupaten,current,
+1802,Lampung Tengah,LAMPUNG,18,Kabupaten,current,
+1803,Lampung Utara,LAMPUNG,18,Kabupaten,current,
+1804,Lampung Barat,LAMPUNG,18,Kabupaten,current,
+1805,Tulang Bawang,LAMPUNG,18,Kabupaten,current,
+1806,Tanggamus,LAMPUNG,18,Kabupaten,current,
+1807,Lampung Timur,LAMPUNG,18,Kabupaten,current,Created 1999
+1808,Way Kanan,LAMPUNG,18,Kabupaten,current,Created 1999
+1809,Pesawaran,LAMPUNG,18,Kabupaten,current,Created 2007 (not in panel)
+1810,Pringsewu,LAMPUNG,18,Kabupaten,current,Created 2008 (not in panel)
+1811,Mesuji,LAMPUNG,18,Kabupaten,current,Created 2008 (not in panel)
+1812,Tulang Bawang Barat,LAMPUNG,18,Kabupaten,current,Created 2008 (not in panel)
+1871,Bandar Lampung,LAMPUNG,18,Kota,current,
+1872,Metro,LAMPUNG,18,Kota,current,Created 1999
+1901,Bangka,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Under Sumsel (16xx) before 2000
+1902,Belitung,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Under Sumsel before 2000
+1903,Bangka Barat,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Created 2003
+1904,Bangka Tengah,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Created 2003
+1905,Bangka Selatan,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Created 2003
+1906,Belitung Timur,KEPULAUAN BANGKA BELITUNG,19,Kabupaten,current,Created 2003
+1971,Pangkalpinang,KEPULAUAN BANGKA BELITUNG,19,Kota,current,BPS Pangkalpinang; panel PANGKAL PINANG
+2101,Karimun,KEPULAUAN RIAU,21,Kabupaten,current,Under Riau (14xx) before 2004
+2102,Bintan,KEPULAUAN RIAU,21,Kabupaten,current,Under Riau before 2004; was KEPULAUAN RIAU kab
+2103,Natuna,KEPULAUAN RIAU,21,Kabupaten,current,Under Riau before 2004
+2104,Lingga,KEPULAUAN RIAU,21,Kabupaten,current,Created 2003 (not in panel)
+2105,Kepulauan Anambas,KEPULAUAN RIAU,21,Kabupaten,current,Created 2008 (not in panel)
+2171,Batam,KEPULAUAN RIAU,21,Kota,current,Under Riau before 2004
+2172,Tanjungpinang,KEPULAUAN RIAU,21,Kota,current,BPS Tanjungpinang; panel TANJUNG PINANG
+3101,Kepulauan Seribu,DKI JAKARTA,31,Kabupaten,current,Administrative kabupaten created 2001
+3171,Jakarta Selatan,DKI JAKARTA,31,Kota,current,Administrative kota
+3172,Jakarta Timur,DKI JAKARTA,31,Kota,current,Administrative kota
+3173,Jakarta Pusat,DKI JAKARTA,31,Kota,current,Administrative kota
+3174,Jakarta Barat,DKI JAKARTA,31,Kota,current,Administrative kota
+3175,Jakarta Utara,DKI JAKARTA,31,Kota,current,Administrative kota
+3201,Bogor,JAWA BARAT,32,Kabupaten,current,
+3202,Sukabumi,JAWA BARAT,32,Kabupaten,current,
+3203,Cianjur,JAWA BARAT,32,Kabupaten,current,
+3204,Bandung,JAWA BARAT,32,Kabupaten,current,
+3205,Garut,JAWA BARAT,32,Kabupaten,current,
+3206,Tasikmalaya,JAWA BARAT,32,Kabupaten,current,
+3207,Ciamis,JAWA BARAT,32,Kabupaten,current,
+3208,Kuningan,JAWA BARAT,32,Kabupaten,current,
+3209,Cirebon,JAWA BARAT,32,Kabupaten,current,
+3210,Majalengka,JAWA BARAT,32,Kabupaten,current,
+3211,Sumedang,JAWA BARAT,32,Kabupaten,current,
+3212,Indramayu,JAWA BARAT,32,Kabupaten,current,
+3213,Subang,JAWA BARAT,32,Kabupaten,current,
+3214,Purwakarta,JAWA BARAT,32,Kabupaten,current,
+3215,Karawang,JAWA BARAT,32,Kabupaten,current,
+3216,Bekasi,JAWA BARAT,32,Kabupaten,current,
+3217,Bandung Barat,JAWA BARAT,32,Kabupaten,current,Created 2007 (not in panel)
+3218,Pangandaran,JAWA BARAT,32,Kabupaten,current,Created 2012 (not in panel)
+3271,Bogor,JAWA BARAT,32,Kota,current,
+3272,Sukabumi,JAWA BARAT,32,Kota,current,
+3273,Bandung,JAWA BARAT,32,Kota,current,
+3274,Cirebon,JAWA BARAT,32,Kota,current,
+3275,Bekasi,JAWA BARAT,32,Kota,current,
+3276,Depok,JAWA BARAT,32,Kota,current,Created 1999
+3277,Cimahi,JAWA BARAT,32,Kota,current,Created 2001
+3278,Tasikmalaya,JAWA BARAT,32,Kota,current,Created 2001
+3279,Banjar,JAWA BARAT,32,Kota,current,Created 2002
+3301,Cilacap,JAWA TENGAH,33,Kabupaten,current,
+3302,Banyumas,JAWA TENGAH,33,Kabupaten,current,
+3303,Purbalingga,JAWA TENGAH,33,Kabupaten,current,
+3304,Banjarnegara,JAWA TENGAH,33,Kabupaten,current,
+3305,Kebumen,JAWA TENGAH,33,Kabupaten,current,
+3306,Purworejo,JAWA TENGAH,33,Kabupaten,current,
+3307,Wonosobo,JAWA TENGAH,33,Kabupaten,current,
+3308,Magelang,JAWA TENGAH,33,Kabupaten,current,
+3309,Boyolali,JAWA TENGAH,33,Kabupaten,current,
+3310,Klaten,JAWA TENGAH,33,Kabupaten,current,
+3311,Sukoharjo,JAWA TENGAH,33,Kabupaten,current,
+3312,Wonogiri,JAWA TENGAH,33,Kabupaten,current,
+3313,Karanganyar,JAWA TENGAH,33,Kabupaten,current,
+3314,Sragen,JAWA TENGAH,33,Kabupaten,current,
+3315,Grobogan,JAWA TENGAH,33,Kabupaten,current,
+3316,Blora,JAWA TENGAH,33,Kabupaten,current,
+3317,Rembang,JAWA TENGAH,33,Kabupaten,current,
+3318,Pati,JAWA TENGAH,33,Kabupaten,current,
+3319,Kudus,JAWA TENGAH,33,Kabupaten,current,
+3320,Jepara,JAWA TENGAH,33,Kabupaten,current,
+3321,Demak,JAWA TENGAH,33,Kabupaten,current,
+3322,Semarang,JAWA TENGAH,33,Kabupaten,current,
+3323,Temanggung,JAWA TENGAH,33,Kabupaten,current,
+3324,Kendal,JAWA TENGAH,33,Kabupaten,current,
+3325,Batang,JAWA TENGAH,33,Kabupaten,current,
+3326,Pekalongan,JAWA TENGAH,33,Kabupaten,current,
+3327,Pemalang,JAWA TENGAH,33,Kabupaten,current,
+3328,Tegal,JAWA TENGAH,33,Kabupaten,current,
+3329,Brebes,JAWA TENGAH,33,Kabupaten,current,
+3371,Magelang,JAWA TENGAH,33,Kota,current,
+3372,Surakarta,JAWA TENGAH,33,Kota,current,
+3373,Salatiga,JAWA TENGAH,33,Kota,current,
+3374,Semarang,JAWA TENGAH,33,Kota,current,
+3375,Pekalongan,JAWA TENGAH,33,Kota,current,
+3376,Tegal,JAWA TENGAH,33,Kota,current,
+3401,Kulon Progo,DI YOGYAKARTA,34,Kabupaten,current,
+3402,Bantul,DI YOGYAKARTA,34,Kabupaten,current,
+3403,Gunungkidul,DI YOGYAKARTA,34,Kabupaten,current,BPS Gunungkidul; panel GUNUNG KIDUL
+3404,Sleman,DI YOGYAKARTA,34,Kabupaten,current,
+3471,Yogyakarta,DI YOGYAKARTA,34,Kota,current,
+3501,Pacitan,JAWA TIMUR,35,Kabupaten,current,
+3502,Ponorogo,JAWA TIMUR,35,Kabupaten,current,
+3503,Trenggalek,JAWA TIMUR,35,Kabupaten,current,
+3504,Tulungagung,JAWA TIMUR,35,Kabupaten,current,
+3505,Blitar,JAWA TIMUR,35,Kabupaten,current,
+3506,Kediri,JAWA TIMUR,35,Kabupaten,current,
+3507,Malang,JAWA TIMUR,35,Kabupaten,current,
+3508,Lumajang,JAWA TIMUR,35,Kabupaten,current,
+3509,Jember,JAWA TIMUR,35,Kabupaten,current,
+3510,Banyuwangi,JAWA TIMUR,35,Kabupaten,current,
+3511,Bondowoso,JAWA TIMUR,35,Kabupaten,current,
+3512,Situbondo,JAWA TIMUR,35,Kabupaten,current,
+3513,Probolinggo,JAWA TIMUR,35,Kabupaten,current,
+3514,Pasuruan,JAWA TIMUR,35,Kabupaten,current,
+3515,Sidoarjo,JAWA TIMUR,35,Kabupaten,current,
+3516,Mojokerto,JAWA TIMUR,35,Kabupaten,current,
+3517,Jombang,JAWA TIMUR,35,Kabupaten,current,
+3518,Nganjuk,JAWA TIMUR,35,Kabupaten,current,
+3519,Madiun,JAWA TIMUR,35,Kabupaten,current,
+3520,Magetan,JAWA TIMUR,35,Kabupaten,current,
+3521,Ngawi,JAWA TIMUR,35,Kabupaten,current,
+3522,Bojonegoro,JAWA TIMUR,35,Kabupaten,current,
+3523,Tuban,JAWA TIMUR,35,Kabupaten,current,
+3524,Lamongan,JAWA TIMUR,35,Kabupaten,current,
+3525,Gresik,JAWA TIMUR,35,Kabupaten,current,
+3526,Bangkalan,JAWA TIMUR,35,Kabupaten,current,
+3527,Sampang,JAWA TIMUR,35,Kabupaten,current,
+3528,Pamekasan,JAWA TIMUR,35,Kabupaten,current,
+3529,Sumenep,JAWA TIMUR,35,Kabupaten,current,
+3571,Kediri,JAWA TIMUR,35,Kota,current,
+3572,Blitar,JAWA TIMUR,35,Kota,current,
+3573,Malang,JAWA TIMUR,35,Kota,current,
+3574,Probolinggo,JAWA TIMUR,35,Kota,current,
+3575,Pasuruan,JAWA TIMUR,35,Kota,current,
+3576,Mojokerto,JAWA TIMUR,35,Kota,current,
+3577,Madiun,JAWA TIMUR,35,Kota,current,
+3578,Surabaya,JAWA TIMUR,35,Kota,current,
+3579,Batu,JAWA TIMUR,35,Kota,current,Created 2001
+3601,Pandeglang,BANTEN,36,Kabupaten,current,Under Jawa Barat (32xx) before 2000
+3602,Lebak,BANTEN,36,Kabupaten,current,Under Jawa Barat before 2000
+3603,Tangerang,BANTEN,36,Kabupaten,current,Under Jawa Barat before 2000
+3604,Serang,BANTEN,36,Kabupaten,current,Under Jawa Barat before 2000
+3671,Tangerang,BANTEN,36,Kota,current,Created 1993; under Jawa Barat before 2000
+3672,Cilegon,BANTEN,36,Kota,current,Created 1999; under Jawa Barat before 2000
+3673,Serang,BANTEN,36,Kota,current,Created 2007
+3674,Tangerang Selatan,BANTEN,36,Kota,current,Created 2008 (not in panel)
+5101,Jembrana,BALI,51,Kabupaten,current,
+5102,Tabanan,BALI,51,Kabupaten,current,
+5103,Badung,BALI,51,Kabupaten,current,
+5104,Gianyar,BALI,51,Kabupaten,current,
+5105,Klungkung,BALI,51,Kabupaten,current,
+5106,Bangli,BALI,51,Kabupaten,current,
+5107,Karangasem,BALI,51,Kabupaten,current,
+5108,Buleleng,BALI,51,Kabupaten,current,
+5171,Denpasar,BALI,51,Kota,current,
+5201,Lombok Barat,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5202,Lombok Tengah,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5203,Lombok Timur,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5204,Sumbawa,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5205,Dompu,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5206,Bima,NUSA TENGGARA BARAT,52,Kabupaten,current,
+5207,Sumbawa Barat,NUSA TENGGARA BARAT,52,Kabupaten,current,Created 2003 (not in panel)
+5208,Lombok Utara,NUSA TENGGARA BARAT,52,Kabupaten,current,Created 2008 (not in panel)
+5271,Mataram,NUSA TENGGARA BARAT,52,Kota,current,
+5272,Bima,NUSA TENGGARA BARAT,52,Kota,current,Created 2002
+5301,Sumba Barat,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5302,Sumba Timur,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5303,Kupang,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5304,Timor Tengah Selatan,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5305,Timor Tengah Utara,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5306,Belu,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5307,Alor,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5308,Lembata,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 1999
+5309,Flores Timur,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5310,Sikka,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5311,Ende,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5312,Ngada,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5313,Manggarai,NUSA TENGGARA TIMUR,53,Kabupaten,current,
+5314,Rote Ndao,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2002
+5315,Manggarai Barat,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2003 (not in panel)
+5316,Sumba Tengah,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2007 (not in panel)
+5317,Sumba Barat Daya,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2007 (not in panel)
+5318,Nagekeo,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2007 (not in panel)
+5319,Manggarai Timur,NUSA TENGGARA TIMUR,53,Kabupaten,current,Created 2007 (not in panel)
+5320,Ngada,NUSA TENGGARA TIMUR,53,Kabupaten,current,duplicate placeholder - see 5312
+5371,Kupang,NUSA TENGGARA TIMUR,53,Kota,current,Created 1996
+6101,Sambas,KALIMANTAN BARAT,61,Kabupaten,current,
+6102,Bengkayang,KALIMANTAN BARAT,61,Kabupaten,current,Created 1999
+6103,Landak,KALIMANTAN BARAT,61,Kabupaten,current,Created 1999
+6104,Pontianak,KALIMANTAN BARAT,61,Kabupaten,current,Renamed Mempawah 2014
+6105,Sanggau,KALIMANTAN BARAT,61,Kabupaten,current,
+6106,Ketapang,KALIMANTAN BARAT,61,Kabupaten,current,
+6107,Sintang,KALIMANTAN BARAT,61,Kabupaten,current,
+6108,Kapuas Hulu,KALIMANTAN BARAT,61,Kabupaten,current,
+6109,Sekadau,KALIMANTAN BARAT,61,Kabupaten,current,Created 2003 (not in panel)
+6110,Melawi,KALIMANTAN BARAT,61,Kabupaten,current,Created 2003 (not in panel)
+6111,Kayong Utara,KALIMANTAN BARAT,61,Kabupaten,current,Created 2007 (not in panel)
+6112,Kubu Raya,KALIMANTAN BARAT,61,Kabupaten,current,Created 2007 (not in panel)
+6171,Pontianak,KALIMANTAN BARAT,61,Kota,current,
+6172,Singkawang,KALIMANTAN BARAT,61,Kota,current,Created 2001
+6201,Kotawaringin Barat,KALIMANTAN TENGAH,62,Kabupaten,current,
+6202,Kotawaringin Timur,KALIMANTAN TENGAH,62,Kabupaten,current,
+6203,Kapuas,KALIMANTAN TENGAH,62,Kabupaten,current,
+6204,Barito Selatan,KALIMANTAN TENGAH,62,Kabupaten,current,
+6205,Barito Utara,KALIMANTAN TENGAH,62,Kabupaten,current,
+6206,Sukamara,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6207,Lamandau,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6208,Seruyan,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6209,Katingan,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6210,Pulang Pisau,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6211,Gunung Mas,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6212,Barito Timur,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6213,Murung Raya,KALIMANTAN TENGAH,62,Kabupaten,current,Created 2002
+6271,Palangka Raya,KALIMANTAN TENGAH,62,Kota,current,
+6301,Tanah Laut,KALIMANTAN SELATAN,63,Kabupaten,current,
+6302,Kotabaru,KALIMANTAN SELATAN,63,Kabupaten,current,
+6303,Banjar,KALIMANTAN SELATAN,63,Kabupaten,current,
+6304,Barito Kuala,KALIMANTAN SELATAN,63,Kabupaten,current,
+6305,Tapin,KALIMANTAN SELATAN,63,Kabupaten,current,
+6306,Hulu Sungai Selatan,KALIMANTAN SELATAN,63,Kabupaten,current,
+6307,Hulu Sungai Tengah,KALIMANTAN SELATAN,63,Kabupaten,current,
+6308,Hulu Sungai Utara,KALIMANTAN SELATAN,63,Kabupaten,current,
+6309,Tabalong,KALIMANTAN SELATAN,63,Kabupaten,current,
+6310,Tanah Bumbu,KALIMANTAN SELATAN,63,Kabupaten,current,Created 2003
+6311,Balangan,KALIMANTAN SELATAN,63,Kabupaten,current,Created 2003
+6371,Banjarmasin,KALIMANTAN SELATAN,63,Kota,current,
+6372,Banjarbaru,KALIMANTAN SELATAN,63,Kota,current,BPS Banjarbaru; panel BANJAR BARU
+6401,Paser,KALIMANTAN TIMUR,64,Kabupaten,current,2000 name PASIR; renamed Paser 2007
+6402,Kutai Barat,KALIMANTAN TIMUR,64,Kabupaten,current,Created 1999 from Kutai
+6403,Kutai Kartanegara,KALIMANTAN TIMUR,64,Kabupaten,current,2000 name KUTAI; renamed 1999
+6404,Kutai Timur,KALIMANTAN TIMUR,64,Kabupaten,current,Created 1999 from Kutai
+6405,Berau,KALIMANTAN TIMUR,64,Kabupaten,current,
+6406,Malinau,KALIMANTAN TIMUR,64,Kabupaten,current,Created 1999; now Kaltara 65xx
+6407,Bulungan,KALIMANTAN TIMUR,64,Kabupaten,current,Now Kaltara 65xx
+6408,Nunukan,KALIMANTAN TIMUR,64,Kabupaten,current,Created 1999; now Kaltara 65xx
+6409,Penajam Paser Utara,KALIMANTAN TIMUR,64,Kabupaten,current,Created 2002
+6410,Tana Tidung,KALIMANTAN TIMUR,64,Kabupaten,current,Created 2007; now Kaltara (not in panel)
+6471,Balikpapan,KALIMANTAN TIMUR,64,Kota,current,
+6472,Samarinda,KALIMANTAN TIMUR,64,Kota,current,
+6473,Tarakan,KALIMANTAN TIMUR,64,Kota,current,Now Kaltara 65xx
+6474,Bontang,KALIMANTAN TIMUR,64,Kota,current,Created 1999
+6501,Malinau,KALIMANTAN UTARA,65,Kabupaten,current,Was 6406 (Kaltim) before 2012
+6502,Bulungan,KALIMANTAN UTARA,65,Kabupaten,current,Was 6407 (Kaltim) before 2012
+6503,Tana Tidung,KALIMANTAN UTARA,65,Kabupaten,current,Was 6410 (Kaltim) before 2012 (not in panel)
+6504,Nunukan,KALIMANTAN UTARA,65,Kabupaten,current,Was 6408 (Kaltim) before 2012
+6571,Tarakan,KALIMANTAN UTARA,65,Kota,current,Was 6473 (Kaltim) before 2012
+7101,Bolaang Mongondow,SULAWESI UTARA,71,Kabupaten,current,
+7102,Minahasa,SULAWESI UTARA,71,Kabupaten,current,
+7103,Kepulauan Sangihe,SULAWESI UTARA,71,Kabupaten,current,2000 name SANGIHE TALAUD (split 2002)
+7104,Kepulauan Talaud,SULAWESI UTARA,71,Kabupaten,current,Created 2002 from Sangihe Talaud
+7105,Minahasa Selatan,SULAWESI UTARA,71,Kabupaten,current,Created 2003
+7106,Minahasa Utara,SULAWESI UTARA,71,Kabupaten,current,Created 2003 (not in panel)
+7107,Bolaang Mongondow Utara,SULAWESI UTARA,71,Kabupaten,current,Created 2007 (not in panel)
+7108,Siau Tagulandang Biaro,SULAWESI UTARA,71,Kabupaten,current,Created 2007 (not in panel)
+7109,Minahasa Tenggara,SULAWESI UTARA,71,Kabupaten,current,Created 2007 (not in panel)
+7110,Bolaang Mongondow Selatan,SULAWESI UTARA,71,Kabupaten,current,Created 2008 (not in panel)
+7111,Bolaang Mongondow Timur,SULAWESI UTARA,71,Kabupaten,current,Created 2008 (not in panel)
+7171,Manado,SULAWESI UTARA,71,Kota,current,
+7172,Bitung,SULAWESI UTARA,71,Kota,current,
+7173,Tomohon,SULAWESI UTARA,71,Kota,current,Created 2003
+7174,Kotamobagu,SULAWESI UTARA,71,Kota,current,panel KOTAMOBAGO (typo); created 2007
+7201,Banggai Kepulauan,SULAWESI TENGAH,72,Kabupaten,current,Created 1999
+7202,Banggai,SULAWESI TENGAH,72,Kabupaten,current,
+7203,Morowali,SULAWESI TENGAH,72,Kabupaten,current,Created 1999
+7204,Poso,SULAWESI TENGAH,72,Kabupaten,current,
+7205,Donggala,SULAWESI TENGAH,72,Kabupaten,current,
+7206,Toli-Toli,SULAWESI TENGAH,72,Kabupaten,current,
+7207,Buol,SULAWESI TENGAH,72,Kabupaten,current,Created 1999
+7208,Parigi Moutong,SULAWESI TENGAH,72,Kabupaten,current,Created 2002
+7209,Tojo Una-Una,SULAWESI TENGAH,72,Kabupaten,current,Created 2003 (not in panel)
+7210,Sigi,SULAWESI TENGAH,72,Kabupaten,current,Created 2008 (not in panel)
+7271,Palu,SULAWESI TENGAH,72,Kota,current,
+7301,Kepulauan Selayar,SULAWESI SELATAN,73,Kabupaten,current,2000 name SELAYAR; renamed Kepulauan Selayar 2008
+7302,Bulukumba,SULAWESI SELATAN,73,Kabupaten,current,
+7303,Bantaeng,SULAWESI SELATAN,73,Kabupaten,current,
+7304,Jeneponto,SULAWESI SELATAN,73,Kabupaten,current,
+7305,Takalar,SULAWESI SELATAN,73,Kabupaten,current,
+7306,Gowa,SULAWESI SELATAN,73,Kabupaten,current,
+7307,Sinjai,SULAWESI SELATAN,73,Kabupaten,current,
+7308,Maros,SULAWESI SELATAN,73,Kabupaten,current,
+7309,Pangkajene dan Kepulauan,SULAWESI SELATAN,73,Kabupaten,current,panel PANGKAJENE KEPULAUAN / PANGKAJENE DAN KEPULAUAN
+7310,Barru,SULAWESI SELATAN,73,Kabupaten,current,
+7311,Bone,SULAWESI SELATAN,73,Kabupaten,current,
+7312,Soppeng,SULAWESI SELATAN,73,Kabupaten,current,
+7313,Wajo,SULAWESI SELATAN,73,Kabupaten,current,
+7314,Sidenreng Rappang,SULAWESI SELATAN,73,Kabupaten,current,
+7315,Pinrang,SULAWESI SELATAN,73,Kabupaten,current,
+7316,Enrekang,SULAWESI SELATAN,73,Kabupaten,current,
+7317,Luwu,SULAWESI SELATAN,73,Kabupaten,current,
+7318,Tana Toraja,SULAWESI SELATAN,73,Kabupaten,current,
+7322,Luwu Utara,SULAWESI SELATAN,73,Kabupaten,current,Created 1999
+7324,Luwu Timur,SULAWESI SELATAN,73,Kabupaten,current,Created 2003 (not in panel)
+7326,Toraja Utara,SULAWESI SELATAN,73,Kabupaten,current,Created 2008 (not in panel)
+7371,Makassar,SULAWESI SELATAN,73,Kota,current,2000 name UJUNG PANDANG; renamed Makassar 1999
+7372,Parepare,SULAWESI SELATAN,73,Kota,current,
+7373,Palopo,SULAWESI SELATAN,73,Kota,current,Created 2002
+7401,Kolaka,SULAWESI TENGGARA,74,Kabupaten,current,
+7402,Konawe,SULAWESI TENGGARA,74,Kabupaten,current,2000 name KENDARI (kab); renamed Konawe 2003
+7403,Muna,SULAWESI TENGGARA,74,Kabupaten,current,
+7404,Buton,SULAWESI TENGGARA,74,Kabupaten,current,
+7405,Konawe Selatan,SULAWESI TENGGARA,74,Kabupaten,current,Created 2003 (not in panel)
+7406,Bombana,SULAWESI TENGGARA,74,Kabupaten,current,Created 2003 (not in panel)
+7407,Wakatobi,SULAWESI TENGGARA,74,Kabupaten,current,Created 2003 (not in panel)
+7408,Kolaka Utara,SULAWESI TENGGARA,74,Kabupaten,current,Created 2003 (not in panel)
+7409,Buton Utara,SULAWESI TENGGARA,74,Kabupaten,current,Created 2007 (not in panel)
+7410,Konawe Utara,SULAWESI TENGGARA,74,Kabupaten,current,Created 2007 (not in panel)
+7471,Kendari,SULAWESI TENGGARA,74,Kota,current,
+7472,Baubau,SULAWESI TENGGARA,74,Kota,current,Created 2001
+7501,Boalemo,GORONTALO,75,Kabupaten,current,Created 1999; under Sulut (71xx) before 2000
+7502,Gorontalo,GORONTALO,75,Kabupaten,current,Under Sulut before 2000
+7503,Pohuwato,GORONTALO,75,Kabupaten,current,Created 2003
+7504,Bone Bolango,GORONTALO,75,Kabupaten,current,Created 2003
+7505,Gorontalo Utara,GORONTALO,75,Kabupaten,current,Created 2007 (not in panel)
+7571,Gorontalo,GORONTALO,75,Kota,current,Created 1999
+7601,Majene,SULAWESI BARAT,76,Kabupaten,current,Under Sulsel (73xx) before 2004
+7602,Polewali Mandar,SULAWESI BARAT,76,Kabupaten,current,2000 name POLEWALI MAMASA; renamed 2005; under Sulsel before 2004
+7603,Mamasa,SULAWESI BARAT,76,Kabupaten,current,Created 2002; under Sulsel before 2004
+7604,Mamuju,SULAWESI BARAT,76,Kabupaten,current,Under Sulsel before 2004
+7605,Mamuju Utara,SULAWESI BARAT,76,Kabupaten,current,panel PASANG KAYU; created 2003; renamed Pasangkayu 2017
+7606,Mamuju Tengah,SULAWESI BARAT,76,Kabupaten,current,Created 2012 (not in panel)
+8101,Maluku Tengah,MALUKU,81,Kabupaten,current,
+8102,Maluku Tenggara,MALUKU,81,Kabupaten,current,
+8103,Maluku Tenggara Barat,MALUKU,81,Kabupaten,current,Renamed Kepulauan Tanimbar 2019
+8104,Buru,MALUKU,81,Kabupaten,current,Created 1999
+8105,Seram Bagian Timur,MALUKU,81,Kabupaten,current,Created 2003 (not in panel)
+8106,Seram Bagian Barat,MALUKU,81,Kabupaten,current,Created 2003 (not in panel)
+8107,Kepulauan Aru,MALUKU,81,Kabupaten,current,Created 2003 (not in panel)
+8108,Maluku Barat Daya,MALUKU,81,Kabupaten,current,Created 2008 (not in panel)
+8109,Buru Selatan,MALUKU,81,Kabupaten,current,Created 2008 (not in panel)
+8171,Ambon,MALUKU,81,Kota,current,
+8172,Tual,MALUKU,81,Kota,current,Created 2007 (not in panel)
+8201,Halmahera Barat,MALUKU UTARA,82,Kabupaten,current,Under Maluku (81xx) before 1999; 2000 name Maluku Utara kab
+8202,Halmahera Tengah,MALUKU UTARA,82,Kabupaten,current,Under Maluku before 1999
+8203,Halmahera Utara,MALUKU UTARA,82,Kabupaten,current,Created 2003 (not in panel)
+8204,Halmahera Selatan,MALUKU UTARA,82,Kabupaten,current,Created 2003 (not in panel)
+8205,Kepulauan Sula,MALUKU UTARA,82,Kabupaten,current,Created 2003 (not in panel)
+8206,Halmahera Timur,MALUKU UTARA,82,Kabupaten,current,Created 2003 (not in panel)
+8207,Pulau Morotai,MALUKU UTARA,82,Kabupaten,current,Created 2008 (not in panel)
+8208,Pulau Taliabu,MALUKU UTARA,82,Kabupaten,current,Created 2012 (not in panel)
+8271,Ternate,MALUKU UTARA,82,Kota,current,Created 1999
+8272,Tidore Kepulauan,MALUKU UTARA,82,Kota,current,Created 2003 (not in panel)
+9101,Fakfak,PAPUA BARAT,91,Kabupaten,current,panel FAK-FAK; under Papua (94xx/Irian Jaya) before 2003
+9102,Kaimana,PAPUA BARAT,91,Kabupaten,current,Created 2002; under Papua before 2003
+9103,Teluk Wondama,PAPUA BARAT,91,Kabupaten,current,Created 2002; under Papua before 2003
+9104,Teluk Bintuni,PAPUA BARAT,91,Kabupaten,current,Created 2002; under Papua before 2003
+9105,Manokwari,PAPUA BARAT,91,Kabupaten,current,Under Papua before 2003
+9106,Sorong Selatan,PAPUA BARAT,91,Kabupaten,current,Created 2002; under Papua before 2003
+9107,Sorong,PAPUA BARAT,91,Kabupaten,current,Under Papua before 2003
+9108,Raja Ampat,PAPUA BARAT,91,Kabupaten,current,Created 2002; under Papua before 2003
+9109,Tambrauw,PAPUA BARAT,91,Kabupaten,current,Created 2008 (not in panel)
+9110,Maybrat,PAPUA BARAT,91,Kabupaten,current,Created 2008 (not in panel)
+9111,Manokwari Selatan,PAPUA BARAT,91,Kabupaten,current,Created 2012 (not in panel)
+9112,Pegunungan Arfak,PAPUA BARAT,91,Kabupaten,current,Created 2012 (not in panel)
+9171,Sorong,PAPUA BARAT,91,Kota,current,Created 1999; under Papua before 2003
+9401,Merauke,PAPUA,94,Kabupaten,current,Province code was 81/irian jaya pre-2000 renumber; see notes
+9402,Jayawijaya,PAPUA,94,Kabupaten,current,
+9403,Jayapura,PAPUA,94,Kabupaten,current,
+9404,Nabire,PAPUA,94,Kabupaten,current,
+9408,Kepulauan Yapen,PAPUA,94,Kabupaten,current,2000 name YAPEN WAROPEN; renamed Kepulauan Yapen 2008
+9409,Biak Numfor,PAPUA,94,Kabupaten,current,panel BIAK NUMPOR is a typo
+9410,Paniai,PAPUA,94,Kabupaten,current,
+9411,Puncak Jaya,PAPUA,94,Kabupaten,current,
+9412,Mimika,PAPUA,94,Kabupaten,current,Created 1999
+9413,Boven Digoel,PAPUA,94,Kabupaten,current,panel BOVEN DIGOEL; created 2002
+9414,Mappi,PAPUA,94,Kabupaten,current,Created 2002
+9415,Asmat,PAPUA,94,Kabupaten,current,Created 2002
+9416,Yahukimo,PAPUA,94,Kabupaten,current,Created 2002
+9417,Pegunungan Bintang,PAPUA,94,Kabupaten,current,Created 2002
+9418,Tolikara,PAPUA,94,Kabupaten,current,Created 2002
+9419,Sarmi,PAPUA,94,Kabupaten,current,Created 2002
+9420,Keerom,PAPUA,94,Kabupaten,current,Created 2002
+9421,Waropen,PAPUA,94,Kabupaten,current,Created 2002
+9426,Supiori,PAPUA,94,Kabupaten,current,Created 2003 (not in panel)
+9471,Jayapura,PAPUA,94,Kota,current,

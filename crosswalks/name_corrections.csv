@@ -1,0 +1,123 @@
+region_name_base_raw,region_name_base_corrected,correction_type,source_files,notes
+PARE-PARE,PAREPARE,spelling_variant,PDRB_1996-1999_long.csv,Kota Parepare — hyphenated variant; deduplication in build_district_reference.py kept PAREPARE as more frequent form
+PIDIE JAYA#) -.,PIDIE JAYA,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+PASAMAN BARAT#) -,PASAMAN BARAT,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+BATU BARA#) - .,BATU BARA,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+EMPAT LAWANG#) - - .,EMPAT LAWANG,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+MAMBERAMO RAYA#) - - .,MAMBERAMO RAYA,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+PALOPO#),PALOPO,ocr_artifact,PDRB_2003_2007_long.csv,Trailing OCR garbage from #) footnote marker
+BENGKALIS1),BENGKALIS,ocr_artifact,PDRB_2003_2007_long.csv,Footnote superscript 1) contaminating name
+MUSI BANYUASIN1),MUSI BANYUASIN,ocr_artifact,PDRB_2003_2007_long.csv,Footnote superscript 1) contaminating name
+INDRAMAYU1),INDRAMAYU,ocr_artifact,PDRB_2003_2007_long.csv,Footnote superscript 1) contaminating name
+KAB.INDRAMAYU,INDRAMAYU,formatting,,KAB. prefix fused to name without space
+KAB.INDRAGIRI HILIR,INDRAGIRI HILIR,formatting,,KAB. prefix fused to name without space
+KAB.INDRAGIRI HULU,INDRAGIRI HULU,formatting,,KAB. prefix fused to name without space
+KAB.INTAN JAYA,INTAN JAYA,formatting,,KAB. prefix fused to name without space
+MUKO-MUKO,MUKOMUKO,spelling_variant,PDRB_2000-2003_long.csv|PDRB_capita_2000-2003_long.csv,Hyphenated variant; MUKOMUKO is canonical BPS form
+TOLI TOLI,TOLI-TOLI,spelling_variant,PDRB_2000-2003_long.csv,Space variant from 2000-2003 file; TOLI-TOLI is canonical
+BAU-BAU,BAUBAU,spelling_variant,PDRB_2000-2003_long.csv|PDRB_capita_2000-2003_long.csv,Hyphenated variant; BAUBAU is canonical BPS form
+BIREUN,BIREUEN,spelling_variant,PDRB_2003_2007_long.csv|PDRB_2008-2012_long.csv|PDRB_2013_2017_long.csv|PDRB_2018-2022_long.csv|PDRB_capita_2003-2007_long.csv|PDRB_capita_2008_2012_long.csv|PDRB_capita_2013-2017_long.csv|PDRB_capita_2018_2022_long.csv,OCR/typo variant; BIREUEN is canonical
+LHOK SEUMAWE,LHOKSEUMAWE,spelling_variant,PDRB_2000-2003_long.csv|PDRB_capita_2000-2003_long.csv,Space is OCR artifact; LHOKSEUMAWE is canonical
+SUBUSSALAM,SUBULUSSALAM,spelling_variant,PDRB_2003_2007_long.csv|PDRB_capita_2003-2007_long.csv,OCR error; SUBULUSSALAM is canonical
+GUNUNG SITOLI,GUNUNGSITOLI,spelling_variant,PDRB_2008-2012_long.csv|PDRB_capita_2008_2012_long.csv,Space variant from 2008-2012 file; GUNUNGSITOLI is canonical
+KEP. SIAU TAGOLANDANG BIARO,KEP. SIAU TAGULANDANG BIARO,spelling_variant,PDRB_2003_2007_long.csv|PDRB_capita_2003-2007_long.csv,TAGOLANDANG is OCR error; TAGULANDANG is canonical
+SIAU TAGULANDANG BIARO,KEP. SIAU TAGULANDANG BIARO,spelling_variant,PDRB_2013_2017_long.csv|PDRB_2018-2022_long.csv|PDRB_capita_2013-2017_long.csv|PDRB_capita_2018_2022_long.csv,2013+ publications drop KEP. prefix; restored to match concordance child_base
+KARANG ASEM,KARANGASEM,spelling_variant,PDRB_2003_2007_long.csv|PDRB_2008-2012_long.csv,Space variant; KARANGASEM is canonical (used in 1996-1999 and 2013-2022 publications and in all capita files)
+LIMA PULUH KOTO,LIMA PULUH KOTA,spelling_variant,PDRB_1996-1999_long.csv|PDRB_2000-2003_long.csv|PDRB_2003_2007_long.csv|PDRB_2008-2012_long.csv|PDRB_capita_2000-2003_long.csv|PDRB_capita_2003-2007_long.csv|PDRB_capita_2008_2012_long.csv,KOTO is local dialect variant; KOTA is the official BPS name (used in 2013+ publications)
+OGAN KOMERING HILIR,OGAN KOMERING ILIR,spelling_variant,PDRB_1996-1999_long.csv,HILIR variant appears only in 1996-1999 total; all other publications use ILIR
+PALANGKARAYA,PALANGKA RAYA,spelling_variant,PDRB_1996-1999_long.csv|PDRB_2000-2003_long.csv|PDRB_capita_1996-1999_long.csv|PDRB_capita_2000-2003_long.csv,No-space variant in 1996-2003 publications; PALANGKA RAYA is canonical BPS form
+KOTA BARU,KOTABARU,spelling_variant,PDRB_2008-2012_long.csv|PDRB_2013_2017_long.csv|PDRB_2018-2022_long.csv|PDRB_capita_2008_2012_long.csv|PDRB_capita_2013-2017_long.csv|PDRB_capita_2018_2022_long.csv,DEAD in current pipeline — "Kota Baru" extracts admin_type=kota first leaving base=BARU; see BARU entry below
+BARU,KOTABARU,spelling_variant,PDRB_1996-1999.csv|PDRB_2000-2001.csv|PDRB_2002-2004.csv|PDRB_2005-2007.csv|PDRB_2008-2010.csv|PDRB_2011-2013.csv|PDRB_2014-2016.csv|PDRB_2017-2019.csv|PDRB_2020-2022.csv|PDRB_2021-2023.csv|PDRB-capita_1996-1999.csv|PDRB-capita_2000-2001.csv|PDRB-capita_2002-2004.csv|PDRB-capita_2005-2007.csv|PDRB-capita_2008-2010.csv|PDRB-capita_2011-2013.csv|PDRB-capita_2014-2016.csv|PDRB-capita_2017-2019.csv|PDRB-capita_2020-2022.csv|PDRB-capita_2021-2023.csv,Kabupaten Kotabaru (Kalimantan Selatan): both "Kota Baru" and "Kab. Kota Baru" strip admin_type prefixes leaving base=BARU; only BARU entry fires in practice
+ACEH TAINIANG,ACEH TAMIANG,ocr_garble,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",
+ACEH ]AYA,ACEH JAYA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading ] garbled J
+BANG LI,BANGLI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+IQUNGKUNG,KLUNGKUNG,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+MUKO-HUKO,MUKOMUKO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Corrects directly to canonical MUKOMUKO
+BANTU!,BANTUL,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KEPULAUAN SENBU,KEPULAUAN SERIBU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BATANGHAN,BATANG HARI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KENNA,KERINCI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KENNCI,KERINCI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KENND,KERINCI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+CIROBON,CIREBON,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+MAJALENGICA,MAJALENGKA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BANJAMEGARA,BANJARNEGARA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PAB,PATI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Uncertain; most plausible 3-char OCR for Jawa Tengah district
+PURBALMGGA,PURBALINGGA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SALABGA,SALATIGA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SUKOHAIJO,SUKOHARJO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SUKOHAGO,SUKOHARJO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+TEMANGGUNG.,TEMANGGUNG,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Trailing period artifact
+WONOGIN,WONOGIRI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BHTAR,BLITAR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Kab/Kota Blitar; admin_type resolves ambiguity
+KEDM,KEDIRI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Kab/Kota Kediri; admin_type resolves ambiguity
+]EMBER,JEMBER,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading ] garbled J
+PAATAN,PACITAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SIDOAIJO,SIDOARJO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PONBANAK,PONTIANAK,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Kab. Pontianak
+BANTO KUALA,BARITO KUALA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BANTO TIMUR,BARITO TIMUR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KABNGAN,KATINGAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KOTAWANNGM BARAT,KOTAWARINGIN BARAT,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KOTAWANNGIN TIMUR,KOTAWARINGIN TIMUR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SERIIYAN,SERUYAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SAMANNDA,SAMARINDA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BEHTUNG TIMUR,BELITUNG TIMUR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+BELITUNG TLMUR,BELITUNG TIMUR,ocr_garble,"PDRB_2000-2001.csv,PDRB_2005-2007.csv",
+WAY ICANAN,WAY KANAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KEPULAUAN TANIMBAR,MALUKU TENGGARA BARAT,rename,"PDRB_2020-2022.csv,PDRB-capita_2020-2022.csv,PDRB_2021-2023.csv,PDRB-capita_2021-2023.csv",Renamed from Maluku Tenggara Barat in 2019 (UU 6/2019); 2000-vintage canonical is MALUKU TENGGARA BARAT
+IVMBON,AMBON,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+/VMBON,AMBON,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+TEMATE,TERNATE,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+DOM PU,DOMPU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+LOMTRAK TIMUR,LOMBOK TIMUR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+LOMBOK TTAUR,LOMBOK TIMUR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+SUM BAWA,SUMBAWA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+AIOR,ALOR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+ELIDE,ENDE,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+MANOLCWARI,MANOKWARI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+MANOKWAN,MANOKWARI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+RAJA /VMPAT,RAJA AMPAT,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+INDRAGIN HILIR,INDRAGIRI HILIR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+INDRAGIN HULU,INDRAGIRI HULU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KANMUN,KARIMUN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KUANTAN SMGMGI,KUANTAN SINGINGI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+3ENEPONTO,JENEPONTO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading 3 garbled J
+BAMI,BARRU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Uncertain; most plausible short-name Sulawesi Selatan district
+MANNIJU,MAMUJU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Listed under Sulawesi Selatan pre-2004; resolves via province fallback to Sulawesi Barat
+PANGLCAJENE KEPULAUAN,PANGKAJENE DAN KEPULAUAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Updated target to canonical DAN KEPULAUAN form
+PANGKAJENE KEPULAUAN,PANGKAJENE DAN KEPULAUAN,rename,"PDRB_2002-2004.csv,PDRB-capita_2002-2004.csv,PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv,PDRB_2008-2010.csv,PDRB-capita_2008-2010.csv",Official name extended to include DAN; 2000-vintage canonical is PANGKAJENE DAN KEPULAUAN (id 351)
+MORAWALI,MOROWALI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PARIGI MOUTUNG,PARIGI MOUTONG,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+TOLL TOH,TOLI-TOLI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+KENDAN,KENDARI,ocr_garble,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv","Garble of Kendari (kabupaten row in capita file, kota row in total file); after correction admin_type routes kab rows to SULAWESI_TENGGARA_KONAWE via the KENDARI kab/kota pair in district_reference"
+PADANG PANAMAN,PADANG PARIAMAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Kab. Padang Pariaman
+PANAMAN,PARIAMAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Kota Pariaman
+SAWAH LUNTO /,SAWAH LUNTO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Trailing slash OCR artifact
+SAWAHLUNTO/SIJUNJ'UNG,SAWAHLUNTO/SIJUNJUNG,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Apostrophe OCR artifact
+LUBUK UNGGAU,LUBUK LINGGAU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+OGAN KOMENNG ILIR,OGAN KOMERING ILIR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+OGAN KOMENNG LIIR,OGAN KOMERING ILIR,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+OGAN KOMENNG ULU,OGAN KOMERING ULU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PRABUMULLH,PRABUMULIH,ocr_garble,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",
+/VSAHAN,ASAHAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading /V garbled A
+DAIN,DAIRI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+DELL SERDANG,DELI SERDANG,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PADANG SIDEMPUATN,PADANG SIDEMPUAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
+PADANG SLDEMPUAN,PADANG SIDEMPUAN,ocr_garble,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",
+DAM,DAIRI,ocr_garble,PDRB-capita_2000-2001.csv,Regency code 10 in Sumatera Utara (between SIMALUNGUN and KARO) = BPS 1210 DAIRI
+MEMPAWAH,PONTIANAK,rename,"PDRB_2011-2013.csv,PDRB-capita_2011-2013.csv,PDRB_2014-2016.csv,PDRB-capita_2014-2016.csv,PDRB_2017-2019.csv,PDRB-capita_2017-2019.csv,PDRB_2020-2022.csv,PDRB-capita_2020-2022.csv,PDRB_2021-2023.csv,PDRB-capita_2021-2023.csv",Renamed from Kab. Pontianak in 2012 (UU 24/2012); 2000-vintage canonical is PONTIANAK (kabupaten)
+BATANGHARI,BATANG HARI,spelling_variant,"PDRB_1996-1999.csv,PDRB_2000-2001.csv,PDRB_2011-2013.csv,PDRB-capita_2000-2001.csv,PDRB-capita_2011-2013.csv",One-word variant of Batang Hari (Jambi); BATANG HARI is canonical (2002+ BPS form)
+BUKIT TINGGI,BUKITTINGGI,spelling_variant,"PDRB_1996-1999.csv,PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",Two-word variant of Bukittinggi (Sumatera Barat); BUKITTINGGI is canonical (2002+ BPS form)
+SAWAHLUNTO,SAWAH LUNTO,spelling_variant,"PDRB_1996-1999.csv,PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",One-word variant of Kota Sawah Lunto (Sumatera Barat); SAWAH LUNTO is canonical. Note: SAWAHLUNTO/SIJUNJUNG (kabupaten) is a different district — exact-match safe.
+BANJARBARU,BANJAR BARU,spelling_variant,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",One-word variant of Banjarbaru (Kalimantan Selatan); BANJAR BARU is canonical (2002+ BPS form)
+BOLAANG MENGONDOW,BOLAANG MONGONDOW,spelling_variant,PDRB_2002-2004.csv|PDRB-capita_2002-2004.csv,MENGONDOW variant appears only in 2002-2004 publication; MONGONDOW is canonical BPS form (Sulawesi Utara)
+ADM. KEP. SERIBU,KEPULAUAN SERIBU,spelling_variant,PDRB_2002-2004.csv|PDRB-capita_2002-2004.csv,Formal administrative name in 2002-2004 publication; KEPULAUAN SERIBU is canonical BPS form (DKI Jakarta)
+BULONGAN,BULUNGAN,spelling_variant,PDRB_2002-2004.csv|PDRB-capita_2002-2004.csv|PDRB_2005-2007.csv|PDRB-capita_2005-2007.csv,BULONGAN variant in 2002-2007 publications; BULUNGAN is canonical BPS form (Kalimantan Timur)
+KUTAI KERTANEGARA,KUTAI KARTANEGARA,spelling_variant,PDRB_2002-2004.csv|PDRB-capita_2002-2004.csv|PDRB_2005-2007.csv|PDRB-capita_2005-2007.csv,KERTANEGARA variant in 2002-2007 publications; KARTANEGARA is canonical BPS form (Kalimantan Timur)
+PASIR,PASER,rename,"PDRB_1996-1999.csv,PDRB-capita_1996-1999.csv,PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv,PDRB_2002-2004.csv,PDRB-capita_2002-2004.csv,PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv,PDRB_2008-2010.csv,PDRB-capita_2008-2010.csv",Kabupaten Pasir (Kalimantan Timur) renamed to Paser by regional decree; 2000-vintage canonical is PASER (id 227)
+BIAK NUMPOR,BIAK NUMFOR,spelling_variant,PDRB_1996-1999_long.csv,Typo in 1996-1999 publication; BIAK NUMFOR is canonical BPS form (Papua); bps_code 9409
+KEPULAUAN SELAYAR,SELAYAR,rename,"PDRB_2008-2010.csv,PDRB-capita_2008-2010.csv,PDRB_2011-2013.csv,PDRB-capita_2011-2013.csv,PDRB_2014-2016.csv,PDRB-capita_2014-2016.csv,PDRB_2017-2019.csv,PDRB-capita_2017-2019.csv,PDRB_2020-2022.csv,PDRB-capita_2020-2022.csv,PDRB_2021-2023.csv,PDRB-capita_2021-2023.csv",Renamed from Selayar in 2008 (PP 59/2008); same territory same code 7301; 2000-vintage canonical is SELAYAR
+KEPULAUAN YAPEN,YAPEN WAROPEN,rename,"PDRB_2008-2010.csv,PDRB-capita_2008-2010.csv,PDRB_2011-2013.csv,PDRB-capita_2011-2013.csv,PDRB_2014-2016.csv,PDRB-capita_2014-2016.csv,PDRB_2017-2019.csv,PDRB-capita_2017-2019.csv,PDRB_2020-2022.csv,PDRB-capita_2020-2022.csv,PDRB_2021-2023.csv,PDRB-capita_2021-2023.csv",Post-2002-split remainder of Yapen Waropen renamed Kepulauan Yapen 2008; same code 9408; 2000-vintage canonical is YAPEN WAROPEN
+DAM,DAIRI,ocr_artifact,PDRB-capita_2000-2001.csv,OCR garble of DAIRI (Sumatera Utara); value 4573929.49 matches DAIRI exactly in the 2000-bounds panel
+LUBUK UNGGAU,LUBUK LINGGAU,ocr_artifact,PDRB-capita_2000-2001.csv,OCR garble of LUBUK LINGGAU (Sumatera Selatan; kota); LINGGAU misread as UNGGAU

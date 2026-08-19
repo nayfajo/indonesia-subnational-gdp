@@ -1,0 +1,613 @@
+id,nama_daerah_otonom_hasil_pemekaran,ibukota_hasil_pemekaran,uu_pembentukan,tentang,tggl_berlaku_uu,daerah_induk,wilayah_provinsi,luas_wilayah_induk,luas_wilayah_hasil_pemekaran,segmen_batas_daerah_otonom_hasil_pemekaran,jumlah_pddk_daerah_induk,jumlah_pddk_daerah_hasil_pemekaran,jumlah_kecamatan_daerah_otonom_hasil_pemekaran,jumlah_kelurahan_otonom_hasil_pemekaran,jumlah_desa_daerah_otonom_hasil_pemekaran,status_pembentukan,keterangan
+1,KABUPATEN BANGKA BARAT,MUNTOK,NO. 5 TAHUN 2003,"Pembentukan Kabupaten Bangka Selatan, Kabupaten Bangka Tengah, Kabupaten Bangka Barat, dan Kabupaten Belitung Timur",25 Februari 2003,KABUPATEN BANGKA,PROVINSI BANGKA BELITUNG,2950.68,2820.61,Kab. Bangka ,317052,197066,6,4,60,INISIATIF DPR-RI,-
+2,KABUPATEN BANGKA SELATAN,KOTA TOBOALI,NO. 5 TAHUN 2003,"Pembentukan Kabupaten Bangka Selatan, Kabupaten Bangka Tengah, Kabupaten Bangka Barat, dan Kabupaten Belitung Timur",25 Februari 2003,KABUPATEN BANGKA,PROVINSI BANGKA BELITUNG,2950.68,3607.08,Kab. Bangka Tengah,317052,176658,8,3,50,INISIATIF DPR-RI,-
+3,KABUPATEN BANGKA TENGAH,KOBA,NO. 5 TAHUN 2003,"Pembentukan Kabupaten Bangka Selatan, Kabupaten Bangka Tengah, Kabupaten Bangka Barat, dan Kabupaten Belitung Timur",25 Februari 2003,KABUPATEN BANGKA,PROVINSI BANGKA BELITUNG,2950.68,2155.77,"Kab. Bangka Selatan
+Kab. Bangka 
+Kota Pangkal Pinang",317052,182286,6,7,56,INISIATIF DPR-RI,-
+4,KABUPATEN PIDIE JAYA,MEUREUDU,NO. 7 TAHUN 2007,Pembentukan Kabupaten Pidie Jaya di Provinsi Nanggroe Aceh Darussalam,02 Januari 2007,KABUPATEN PIDIE,PROVINSI ACEH,3086.95,1073.6,"Kab. Bireun
+Kab. Pidie",440231,160115,8,-,222,INISIATIF DPR-RI,-
+5,KOTA LHOKSEUMAWE,-,NO. 2 TAHUN 2001,Pembentukan Kota Lhokseumawe,21 Juni 2001,KABUPATEN ACEH UTARA,PROVINSI ACEH,3236.86,181.06,Kab. Aceh Utara,583350,193395,4,-,68,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+6,KOTA LANGSA,-,NO. 3 TAHUN 2001,Pembentukan Kota Langsa,21 Juni 2001,KABUPATEN ACEH TIMUR,PROVINSI ACEH,6286.01,262.41,"Kab. Aceh Timur
+Kab. Aceh Tamiang
+",429006,186432,5,-,66,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+7,KABUPATEN ACEH TAMIANG,KARANG BARU,NO. 4 TAHUN 2002,"Pembentukan Kabupaten Aceh Barat Daya, Kabupaten Gayo Lues, Kabupaten Aceh Jaya, Kabupaten Nagan Raya, dan Kabupaten Aceh Tamiang, Di Provinsi Nanggroe Aceh Darussalam",10 April 2002,KABUPATEN ACEH TIMUR,PROVINSI ACEH,6286.01,1956.72,Kab. Gayo LuesKab. Langkat (Prov. Sumatera Utara)Kab. Aceh TimurKota Langsa,429006,294350,12,0,213,-,-
+8,KABUPATEN BENER MERIAH,SIMPANG TIGA REDELONG,NO. 41 TAHUN 2003,Pembentukan Kabupaten Bener Meriah di Provinsi Nanggroe Aceh Darussalam,18 Desember 2003,KABUPATEN ACEH TENGAH,PROVINSI ACEH,4318.39,1454.09,"Kab. Aceh Utara
+Kab. Bireun
+Kab. Aceh Timur
+Kab. Aceh Tengah",213056,159636,10,-,232,-,-
+9,KOTA SUBULUSSALAM,-,NO. 8 TAHUN 2007,Pembentukan Kota Subulussalam di Provinsi Nanggroe Aceh Darussalam,02 Januari 2007,KABUPATEN ACEH SINGKIL,PROVINSI ACEH,2185,1391,"Kab. Aceh Selatan
+Kab. Aceh Tenggara
+Kab. Aceh Singkil
+Kab. Dairi (Prov. Sumatera Utara)
+Kab. Pakpak Bharat  (Prov.  Sumatera Utara)",126768,85731,5,-,82,INISIATIF DPR-RI,-
+10,KABUPATEN ACEH BARAT DAYA,BLANGPIDIE,NO. 4 TAHUN 2002,"Pembentukan Kabupaten Aceh Barat Daya, Kabupaten Gayo Lues, Kabupaten Aceh Jaya, Kabupaten Nagan Raya, dan Kabupaten Aceh Tamiang, Di Provinsi Nanggroe Aceh Darussalam",10 April 2002,KABUPATEN ACEH SELATAN,PROVINSI ACEH,3841.6,1490.6,Kab. Gayo LuesKab. Nagan RayaKab. Aceh Selatan,234761,151474,9,0,152,-,-
+11,KABUPATEN ACEH SINGKIL,SINGKIL,NO. 14 TAHUN 1999,Pembentukan Kabupaten Daerah Tingkat II Aceh Singkil,20 April 1999,KABUPATEN ACEH SELATAN,PROVINSI ACEH,3841.6,2185,Kab. Pakpak Bharat  (Prov.  Sumatera Utara)Kab. Tapanuli Tengah  (Prov.  Sumatera Utara)Kab. Aceh Selatan,234761,126768,11,0,116,-,-
+12,KABUPATEN SIMEULUE,SINABANG,NO. 48 TAHUN 1999,Pembentukan Kabupaten Bireuen Dan Kabupaten Simeulue,4 Oktober 1999,KABUPATEN ACEH BARAT,PROVINSI ACEH,2927.95,2051.48,Tidak ada batas darat,194712,92977,10,-,138,PENINGKATAN STATUS DARI KABUPATEN ADMINISTRATIF MENJADI KABUPATEN OTONOM,-
+13,KABUPATEN BIREUEN,KOTA BIREUEN,NO. 48 TAHUN 1999,Pembentukan Kabupaten Bireuen Dan Kabupaten Simeulue,4 Oktober 1999,KABUPATEN ACEH BARAT,PROVINSI ACEH,2927.95,1901.2,"Kab. Pidie Jaya
+Kab. Aceh Utara
+Kab. Bener Meriah
+Kab. Pidie",194712,438615,17,-,609,-,-
+14,KABUPATEN ACEH JAYA,CALANG,NO. 4 TAHUN 2002,"Pembentukan Kabupaten Aceh Barat Daya, Kabupaten Gayo Lues, Kabupaten Aceh Jaya, Kabupaten Nagan Raya, dan Kabupaten Aceh Tamiang, Di Provinsi Nanggroe Aceh Darussalam",10 April 2002,KABUPATEN ACEH BARAT,PROVINSI ACEH,2927.95,3812.99,Kab. Aceh BesarKab. PidieKab. Aceh Barat,194712,90624,9,0,172,-,-
+15,KOTA SUNGAI PENUH,-,NO. 25 TAHUN 2008,Pembentukan Kota Sungai Penuh Di Provinsi Jambi,21 Juli 2008,KABUPATEN KERINCI,PROVINSI JAMBI,3355.27,391.5,"Kab. Kerinci
+Kab. Pesisir Selatan (Prov. Sumetera Barat)",240361,100934,8,4,65,INISIATIF DPR-RI,-
+16,KABUPATEN SUPIORI,SORENDIWERI,NO. 35 TAHUN 2003,Pembentukan Kabupaten Supiori Di Provinsi Papua,18 Desember 2003,KABUPATEN BIAK NUMFOR,PROVINSI PAPUA,2602,678.32,Kab. Biak Numfor,143821,23700,5,-,38,-,-
+17,KOTA BANJARBARU,-,NO. 9 TAHUN 1999,Pembentukan Kotamadya Daerah Tingkat II Banjarbaru,20 April 1999,KABUPATEN BANJAR,PROVINSI KALIMANTAN SELATAN,4668,371,Kab. Banjar Kab. Tanah Laut,549170,234748,5,20,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+18,KABUPATEN TEBO,MUARA TEBO,NO. 54 TAHUN 1999,"Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur",04 Oktober 1999,KABUPATEN BUNGO TEBO,PROVINSI JAMBI,4659,6461,"Kab. Indragiri Hulu (Prov. Riau)
+Kab. Kuantan Singingi  (Prov. Riau)
+Kab. Indragiri Hilir (Prov. Riau)
+Kab. Tanjung Jabung Barat
+Kab. Merangin
+Kab. Sorolangun
+Kab. Dhamasraya (Prov. Sumatera Barat)]
+Kab. Batanghari
+Kab. Bungo",337834,324619,12,5,107,-,"Dengan dibentuknya Kabupaten Tebo berdasarkan UU No. 54 Tahun 1999, Kabupaten Bungo Tebo diubah namanya menjadi Kabupaten Bungo "
+19,KABUPATEN MUARO JAMBI,SENGETI,NO. 54 TAHUN 1999,"Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur",04 Oktober 1999,KABUPATEN BATANGHARI,PROVINSI JAMBI,5804,5326,"Kota Jambi
+Kab. Musi Banyuasin
+Kab.  Banyuasin
+Kab. Tanjung Jabung Barat
+Kab. Tanjung Jabung Timur
+Kab. Batanghari",304162,363832,11,5,150,-,-
+20,KABUPATEN BONE BOLANGO,SUWAWA,NO. 6 TAHUN 2003,Pembentukan Kabupaten Bone bolango dan Kabupaten Pohuwato di Provinsi Gorontalo,25 Februari 2003,KABUPATEN GORONTALO,PROVINSI GORONTALO,1750.83,1984.31,"Kab. Bolaang Mongondow Utara
+Kab. Gorontalo Utara
+Kab. Gorontalo
+Kota Gorontalo
+Kab. Bolaang Mongondow Selatan
+Kab. Buol",397206,162970,18,5,160,INISIATIF DPR-RI,-
+21,KABUPATEN BOALEMO,KOTA TILAMUTA,NO. 50 TAHUN 1999,Pembentukan Kabupaten Boalemo,4 Oktober 1999,KABUPATEN GORONTALO,PROVINSI GORONTALO,1750.83,1521.88,"Kab. Gorontalo Utara
+Kab. Pahuwato
+Kab. Gorontalo
+",397206,146640,7,-,82,-,-
+22,KABUPATEN GORONTALO UTARA,KWANDANG,NO. 11 TAHUN 2007,Pembentukan Kabupaten Gorontalo Utara di Provinsi Gorontalo,2 Januari 2007,KABUPATEN GORONTALO,PROVINSI GORONTALO,1750.83,1676.15,"Kab. Buol
+Kab. Bolaang Mongondow Utara
+Kab. Pahuwato,
+Kab. Boalemo
+Kab. Gorontalo,
+Kab. Bone Bolango",397206,128599,11,-,123,INISIATIF DPR-RI,-
+23,KABUPATEN POHUWATO,MARISA,NO. 6 TAHUN 2003,Pembentukan Kabupaten Bone bolango dan Kabupaten Pohuwato di Provinsi Gorontalo,25 Februari 2003,KABUPATEN BOALEMO,PROVINSI GORONTALO,1521.88,4244.31,"Kab. Buol
+Kab Gorontalo Utara
+Kab. Parigi Moutong
+Kab. Boalemo",146640,145469,13,3,101,-,-
+24,KABUPATEN LEBONG,TUBEI,NO. 39 TAHUN 2003,Pembentukan Kabupaten Lebong dan Kabupaten Kepahiang di Provinsi Bengkulu,18 Desember 2003,KABUPATEN REJANG LEBONG,PROVINSI BENGKULU,1639.98,1921.82,"Kab. Merangin (Prov. Jambi)
+Kab. Rejang Lebong
+Kab. Bengkulu Utara
+Kab. Musi Rawas",278865,112900,12,11,93,-,-
+25,KABUPATEN KEPAHIANG,KEPAHIANG,NO. 39 TAHUN 2003,Pembentukan Kabupaten Lebong dan Kabupaten Kepahiang di Provinsi Bengkulu,18 Desember 2003,KABUPATEN REJANG LEBONG,PROVINSI BENGKULU,1639.98,665,"Kab. Empat Lawang (Prov. Sumatera Selatan)
+Kab. Bengkulu Tengah
+Kab. Rejang Lebong",278865,151019,8,12,105,-,-
+26,KABUPATEN MUKO MUKO,MUKOMUKO,NO. 3 TAHUN 2003,"Pembentukan Kabupaten Mukomuko, Kabupaten Seluma, dan Kabupaten Kaur di Provinsi Bengkulu",25 Februari 2003,KABUPATEN BENGKULU UTARA,PROVINSI BENGKULU,4324.6,4036.7,"Kab. Kerinci (Prov. Jambi)
+Kab. Merangin (Prov. Jambi)
+Kab. Bengkulu Utara
+Kab. Pesisir Selatan",284505,180951,15,3,148,-,-
+27,KABUPATEN BENGKULU TENGAH,KARANG TINGGI,NO. 24 TAHUN 2008,Pembentukan Kabupaten Bengkulu Tengah Di Provinsi Bengkulu,21 Juli 2008,KABUPATEN BENGKULU UTARA,PROVINSI BENGKULU,4324.6,1223.94,"Kota Bengkulu
+Kab. Seluma
+Kab. Bengkulu Utara
+Kab. Kepahiang
+Kab. Rejanglebong",284505,113056,11,1,142,INISIATIF DPR-RI,-
+28,KABUPATEN SELUMA,TAIS,NO. 3 TAHUN 2003,"Pembentukan Kabupaten Mukomuko, Kabupaten Seluma, dan Kabupaten Kaur di Provinsi Bengkulu",25 Februari 2003,KABUPATEN BENGKULU SELATAN,PROVINSI BENGKULU,1186.1,2400.44,"Kab. Bengkulu Tengah
+Kab. Empat Lawang (Prov. Sumatera Selatan)
+Kab. Lahat (Prov. Sumatera Selatan)
+Kota Bengkulu
+Kab. Bengkulu Selatan",167997,211619,40,20,182,-,-
+29,KABUPATEN KAUR,BINTUHAN,NO. 3 TAHUN 2003,"Pembentukan Kabupaten Mukomuko, Kabupaten Seluma, dan Kabupaten Kaur di Provinsi Bengkulu",25 Februari 2003,KABUPATEN BENGKULU SELATAN,PROVINSI BENGKULU,1186.1,2369.05,"Kab. Lampung Barat
+Kota Pagar Alam
+Kab. Muara Enim
+Kab. Oku Selatan
+Kab. Bengkulu Selatan",167997,129843,15,3,192,-,-
+30,KOTA SERANG,-,NO. 32 TAHUN 2007,Pembentukan Kota Serang Di Provinsi Banten,10 Agustus 2007,KABUPATEN SERANG,PROVINSI BANTEN,1734.28,266.71,Kab. Serang,1464291,642586,6,66,-,INISIATIF DPR-RI,-
+31,KABUPATEN TANAH BUMBU,BATULICIN,NO. 2 TAHUN 2003,Pembentukan Kabupaten Tanah Bumbu dan Kabupaten Balangan di Provinsi Kalimantan Selatan,25 Maret 2003,KABUPATEN KOTABARU,PROVINSI KALIMANTAN SELATAN,9482.73,5006.96,"Kab. Banjar 
+Kab. Tanah Laut 
+Kab. Kotabaru 
+",322658,318143,10,5,144,-,-
+32,KABUPATEN BALANGAN,PARINGIN,NO. 2 TAHUN 2003,Pembentukan Kabupaten Tanah Bumbu dan Kabupaten Balangan di Provinsi Kalimantan Selatan,25 Maret 2003,KABUPATEN HULU SUNGAI UTARA,PROVINSI KALIMANTAN SELATAN,892.7,1878.3,"Kab. Paser Prov. Kalimantan Timur 
+Kab. Hulu Sungai Tengah 
+Kab. Hulu Sungai Utara 
+Kab. Tabalong
+Kab. Kotabaru ",228006,129956,8,3,154,-,-
+33,KABUPATEN MELAWI,NANGA PINOH,NO. 34 TAHUN 2003,Pembentukan Kabupaten Melawi Dan Kabupaten Sekadau Di Provinsi Kalimantan Barat,18 Desember 2003,KABUPATEN SINTANG,PROVINSI KALIMANTAN BARAT,21638.2,10640.8,"Kab. Lamandau
+Kab. Katingan
+Kab. Seruyan
+Kab. Ketapang
+Kab. Sintang
+",408841,232536,11,-,169,-,-
+34,KOTA SINGKAWANG,-,NO. 12 TAHUN 2001,Pembentukan Kota Singkawang,21 Juni 2001,KABUPATEN BENGKAYANG,PROVINSI KALIMANTAN BARAT,5075.48,504,"Kab. Sambas
+Kab. Bengkayang",287121,236395,5,26,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+35,KABUPATEN SEKADAU,SEKADAU,NO. 34 TAHUN 2003,Pembentukan Kabupaten Melawi Dan Kabupaten Sekadau Di Provinsi Kalimantan Barat,18 Desember 2003,KABUPATEN SANGGAU,PROVINSI KALIMANTAN BARAT,12857.8,5444.2,"Kab. Sintang
+Kab. Sanggau
+Kab. Ketapang",486129,212202,7,-,87,-,-
+36,KABUPATEN BENGKAYANG,KOTA BENGKAYANG,NO. 10 TAHUN 1999,Pembentukan Kabupaten Daerah Tingkat II Bengkayang,20 April 1999,KABUPATEN SAMBAS,PROVINSI KALIMANTAN BARAT,6716.52,5075.48,Kab. MempawahKota Singkawang Kab. Sanggau Kab. Sambas Kab. Landak,635379,287121,17,2,122,-,-
+37,KABUPATEN KUBU RAYA,SUNGAI RAYA,NO. 35 TAHUN 2007,Pembentukan Kabupaten Kubu Raya Di Provinsi Kalimantan Barat,10 Agustus 2007,KABUPATEN PONTIANAK,PROVINSI KALIMANTAN BARAT,2797.88,6958.22,"Kab. Kayong Utara 
+Kab. Ketapang 
+Kab. Mempawah 
+Kab. Sanggau 
+Kota Pontianak
+Kab. Landak",304795,604563,9,-,117,INISIATIF DPR-RI,Perubahan Nama Daerah Induk berdasarkan PP No. 58 Tahun 2014 tentang Perubahan Nama Kabupaten Pontianak menjadi Kabupaten Mempawah di Provinsi Kalimantan Barat
+38,KABUPATEN KAYONG UTARA,SUKADANA,NO. 6 TAHUN 2007,Pembentukan Kabupaten Kayong Utara di Provinsi Kalimantan Barat,02 Januari 2007,KABUPATEN KETAPANG,PROVINSI KALIMANTAN BARAT,31240.74,4568.26,"Kab. Kubu Raya 
+Kab. Ketapang",581594,125974,6,-,43,INISIATIF DPR-RI,-
+39,KOTA BATU,-,NO. 11 TAHUN 2001,Pembentukan Kota Batu,21 Juni 2001,KABUPATEN MALANG,PROVINSI JAWA TIMUR,3530.65,136.74,"Kab. Malang
+Kab. Pasuruan",2494625,210523,3,5,19,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+40,KOTA TASIKMALAYA,-,NO. 10 TAHUN 2001,Pembentukan Kota Tasikmalaya,21 Juni 2001,KABUPATEN TASIKMALAYA,PROVINSI JAWA BARAT,2551.19,171.61,Kab. Tasikmalaya,1762622,713545,10,69,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+41,KOTA BANJAR,-,NO. 27 TAHUN 2002,Pembentukan Kota Banjar Di Provinsi Jawa Barat,11 Desember 2002,KABUPATEN CIAMIS,PROVINSI JAWA BARAT,1414.71,113.49,"Kab. Ciamis
+",1240285,204100,4,9,16,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+42,KABUPATEN PANGANDARAN,PARIGI,NO. 21 TAHUN 2012,Pembentukan Kabupaten Pangandaran di Provinsi Jawa Barat,17 November 2012,KABUPATEN CIAMIS,PROVINSI JAWA BARAT,1414.71,1010,Kab. TasikmalayaKab. Ciamis,1240285,420512,10,0,93,INISIATIF DPR-RI,-
+43,KOTA CIMAHI,-,NO. 9 TAHUN 2001, Pembentukan Kota Cimahi,21 Juni 2001,KABUPATEN BANDUNG,PROVINSI JAWA BARAT,1767.96,39.27,"Kab. Bandung
+Kota Bandung",3535992,548373,3,15,-,INISIATIF DPR-RI,-
+44,KABUPATEN BANDUNG BARAT,NGAMPRAH,NO. 12 TAHUN 2007,Pembentukan Kabupaten Bandung Barat Di Provinsi Jawa Barat,2 Januari 2007,KABUPATEN BANDUNG,PROVINSI JAWA BARAT,1767.96,1305.77,"Kab. Subang
+Kab. Cianjur
+Kab. Purwakarta
+Kota Cimahi
+Kab. Bandung
+Kota Bandung",3535992,1649811,16,-,165,INISIATIF DPR-RI,-
+45,KABUPATEN PENAJAM PASER UTARA,PENAJAM,NO. 7 TAHUN 2002,Pembentukan Kabupaten Penajam Paser Utara Di Provinsi Kalimantan Timur,10 April 2002,KABUPATEN PASIR,PROVINSI KALIMANTAN TIMUR,7730.88,3333.06,Kota BalikpapanKab. Kutai Kartanegara Kab. Paser Kab. Kutai Barat ,259417,170475,4,24,30,-,Perubahan Nama Daerah Induk berdasarkan PP No. 49 Tahun 2007 tentang Perubahan Nama Kabupaten Pasir menjadi Kabupaten Paser Provinsi Kalimantan Timur
+46,KABUPATEN MAHAKAM ULU,DESA UJOH BILANG,NO. 2 TAHUN 2013,Pembentukan Kabupaten Mahakam Ulu di Provinsi Kalimantan Timur,11 Januari 2013,KABUPATEN KUTAI BARAT,PROVINSI KALIMANTAN TIMUR,20381.59,15315,"Kab. Kutai Kapuas Hulu Prov. Kalimantan Barat 
+Kab. Malinau Prov. Kalimantan Utara 
+Kab. Kutai Kartanegara 
+Kab. Barito Utara Prov. Kalimantan Tengah 
+Kab. Murung Raya Prov. Kalimantan Tengah 
+Kab. Kutai Barat ",162200,28833,5,-,50,INISIATIF DPR-RI,-
+47,KABUPATEN SUMBA TENGAH,WAIBAKUL,NO. 3 TAHUN 2007,Pembentukan Kabupaten Sumba Tengah di Provinsi Nusa Tenggara Timur,2 Januari 2007,KABUPATEN SUMBA BARAT,PROVINSI NUSA TENGGARA TIMUR,2183.18,1868.74,"Kab. Sumba Barat
+Kab. Sumba Timur",148420,87644,5,-,65,INISIATIF DPR-RI,-
+48,KOTA BONTANG,-,NO. 47 TAHUN 1999,"Pembentukan Kabupaten Nunukan, Kabupaten Malinau, Kabupaten Kutai Barat, Kabupaten Kutai Timur, dan Kota Bontang",04 Oktober 1999,KABUPATEN KUTAI,PROVINSI KALIMANTAN TIMUR,23601.91,406.7,"Kab. Kutai Timur
+Kab. Kutai Kartanegara",677755,179408,3,15,-,-,Perubahan Nama Daerah Induk berdasarkan PP No. 8 Tahun 2002 tentang Perubahan Nama Kabupaten Kutai menjadi Kabupaten Kutai Kartanegara
+49,KABUPATEN KUTAI TIMUR,SANGATTA,NO. 47 TAHUN 1999,"Pembentukan Kabupaten Nunukan, Kabupaten Malinau, Kabupaten Kutai Barat, Kabupaten Kutai Timur, dan Kota Bontang",04 Oktober 1999,KABUPATEN KUTAI,PROVINSI KALIMANTAN TIMUR,23601.91,35747.5,"Kab. Malinau 
+Kota Bontang 
+Kab. Kutai Kartanegara
+Kab. Berau",677755,420760,18,2,139,-,Perubahan Nama Daerah Induk berdasarkan PP No. 8 Tahun 2002 tentang Perubahan Nama Kabupaten Kutai menjadi Kabupaten Kutai Kartanegara
+50,KABUPATEN SERUYAN,KUALA PEMBUANG,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KOTAWARINGIN TIMUR,PROVINSI KALIMANTAN TENGAH,16796,16404,Kab. Kotawaringin Timur Kab. Lamandau Kab. Katingan Kab. Melawi Prov. Kalimantan Barat Kab. Kotawaringin Barat ,411852,147140,10,3,97,-,-
+51,KABUPATEN KATINGAN,KASONGAN,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KOTAWARINGIN TIMUR,PROVINSI KALIMANTAN TENGAH,16796,17500,Kab. Kotawaringin Timur Kab. Seruyan Kab. Gunung Mas Kota Palangkaraya Kab. Pulang Pisau Kab. Sintang Prov. Kalimantan Barat Kab. Melawi Prov Kalimantan Barat ,411852,155503,13,7,154,-,-
+52,KABUPATEN SUKAMARA,SUKAMARA,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KOTAWARINGIN BARAT,PROVINSI KALIMANTAN TENGAH,10759,3827,Kab. Lamandau Kab. Kotawaringin Kab. Ketapang Prov. Kalimantan Barat ,250041,61431,5,3,29,-,-
+53,KABUPATEN PULANG PISAU,PULANG PISAU,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KAPUAS,PROVINSI KALIMANTAN TENGAH,14999,8997,Kab. KatinganKab. KapuasKota PalangkarayaKab. Gunung Mas ,413929,131682,8,4,95,-,-
+54,KABUPATEN GUNUNG MAS,KUALA KURUN,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KAPUAS,PROVINSI KALIMANTAN TENGAH,14999,10805,Kab. Murung RayaKab. KatinganKota PalangkarayaKab. KapuasKab. Sintang Prov. Kalimantan BaratKab. Pulang Pisau ,413929,140949,12,13,114,-,-
+55,KABUPATEN MURUNG RAYA,PURUK CAHU,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN BARITO UTARA,PROVINSI KALIMANTAN TENGAH,8300,23700,Kab. Gunung Mas Kab. Kapuas Kab. Kapuas Hulu Kab. Sintang Prov. Kalimantan Barat Kab. Barito Utara Kab. Mahakam Ulu Prov. Kalimantan Timur ,155501,108754,10,9,116,-,-
+56,KABUPATEN BURU SELATAN,NAMROLE,NO. 32 TAHUN 2008,Pembentukan Kabupaten Buru Selatan di Provinsi Maluku,21 Juli 2008,KABUPATEN BURU,PROVINSI MALUKU,4932.32,3780.56,Kab. Buru ,134618,76179,6,-,79,INISIATIF DPR-RI,-
+57,KABUPATEN WAY KANAN,BLAMBANGAN UMPU,NO. 12 TAHUN 1999,"Pembentukan Kabupaten Daerah Tingkat II Way Kanan, Kabupaten Daerah Tingkat II Lampung Timur, dan Kotamadya Daerah Tingkat II Metro",20 April 1999,KABUPATEN LAMPUNG UTARA,PROVINSI LAMPUNG,2725.87,3921.63,Kab. Ogan Komering IlirKab. Ogan Komering Ulu TimurKab. Ogan Komering Ulu SelatanKab. Lampung UtaraKab. Lampung BaratKab. Tulang Bawang Barat,616744,478604,14,6,221,-,-
+58,KABUPATEN MESUJI,SIDOMULYO,NO. 49 TAHUN 2008,Pembentukan Kabupaten Mesuji di Provinsi Lampung,26 November 2008,KABUPATEN TULANG BAWANG,PROVINSI LAMPUNG,3466.32,2184,Kab. Ogan Komering Ilir (Prov. Sumatera Selatan) Kab. Tulang BawangKab. Tulang Bawang Barat,423401,231816,7,0,105,INISIATIF DPR-RI,-
+59,KOTA METRO,-,NO. 12 TAHUN 1999,"Pembentukan Kabupaten Daerah Tingkat II Way Kanan, Kabupaten Daerah Tingkat II Lampung Timur, dan Kotamadya Daerah Tingkat II Metro",20 April 1999,KABUPATEN LAMPUNG TENGAH,PROVINSI LAMPUNG,3802.68,61.79,Kab. Lampung TimurKab. Lampung Tengah,1474704,169013,5,22,0,-,-
+60,KABUPATEN PESISIR BARAT,KRUI,NO. 22 TAHUN 2012,Pembentukan Kabupaten Pesisir Barat di Provinsi Lampung,17 November 2012,KABUPATEN LAMPUNG BARAT,PROVINSI LAMPUNG,2142.78,2907.23,Kab. Ogan Komering Ulu Selatan (Prov. Sumatera Selatan)Kab. Lampung BaratKab. Tanggamus,304197,159544,11,2,116,INISIATIF DPR-RI,-
+61,KABUPATEN PESAWARAN,GEDONG TATAAN,NO. 33 TAHUN 2007,Pembentukan Kabupaten Pesawaran Di Provinsi Lampung,10 Agustus 2007,KABUPATEN LAMPUNG SELATAN,PROVINSI LAMPUNG,700.32,2243.51,"Kab. Lampung Selatan
+Kab. Tanggamus
+Kab. Pringsewu
+Kota Bandar Lampung
+Kab. Lampung Tengah",1042754,550272,11,-,144,-,-
+62,KABUPATEN PRINGSEWU,PRINGSEWU,NO. 48 TAHUN 2008,Pembentukan Kabupaten Pringsewu di Provinsi Lampung,26 November 2008,KABUPATEN TANGGAMUS,PROVINSI LAMPUNG,3020.64,625,Kab. TanggamusKab. PesawaranKab. Lampung Tengah,645679,423257,9,5,126,INISIATIF DPR-RI,-
+63,KABUPATEN KEPULAUAN ANAMBAS,SIANTAN,NO. 33 TAHUN 2008,Pembentukan Kabupaten Kepulauan Anambas di Provinsi Kepulauan Riau,21 Juli 2008,KABUPATEN NATUNA,PROVINSI KEPULAUAN RIAU,2009.04,590.14,Tidak ada batas darat,81542,45845,9,2,52,INISIATIF DPR-RI,-
+64,KOTA BATAM,-,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN BINTAN,PROVINSI KEPULAUAN RIAU,1318.21,960.25,Tidak ada batas darat,154964,1081466,12,64,-,-,-
+65,KOTA TANJUNG PINANG,-,NO. 5 TAHUN 2001,Pembentukan Kota Tanjung Pinang,21 Juni 2001,KABUPATEN BINTAN,PROVINSI KEPULAUAN RIAU,1318.21,144.56,Kab. Bintan,154964,217284,4,18,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+66,KABUPATEN NATUNA,RANAI,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN BINTAN,PROVINSI KEPULAUAN RIAU,1318.21,2009.04,Tidak ada batas darat,154964,81542,15,7,70,-,-
+67,KABUPATEN LINGGA,DAIK,NO. 31 TAHUN 2003,Pembentukan Kabupaten Lingga di Provinsi Kepulauan Riau,18 Desember 2003,KABUPATEN BINTAN,PROVINSI KEPULAUAN RIAU,1318.21,2266.77,"Kab. Rejang Lebong
+Kab. Musi Rawas",154964,100403,13,7,75,-,-
+68,KABUPATEN MALINAU,MALINAU KOTA,NO. 47 TAHUN 1999,"Pembentukan Kabupaten Nunukan, Kabupaten Malinau, Kabupaten Kutai Barat, Kabupaten Kutai Timur, dan Kota Bontang",04 Oktober 1999,KABUPATEN BULUNGAN,PROVINSI KALIMANTAN UTARA,13925.72,13925.72,"Kab. Berau Prov. Kalimantan Timur 
+Kab. Kutai Timur Prov. Kalimantan Timur 
+Kab. Kutai Kartanegara Prov. Kalimantan Timur 
+Kab. Mahakam Ulu Prov. Kalimantan Timur 
+Kab. Nunukan 
+Kab. Bulungan 
+Kab. Tana Tidung ",136619,136619,15,-,109,-,-
+69,KABUPATEN NUNUKAN,KOTA NUNUKAN,NO. 47 TAHUN 1999,"Pembentukan Kabupaten Nunukan, Kabupaten Malinau, Kabupaten Kutai Barat, Kabupaten Kutai Timur, dan Kota Bontang",04 Oktober 1999,KABUPATEN BULUNGAN,PROVINSI KALIMANTAN UTARA,13925.72,13841.9,"Kab. Malinau 
+Kab. Tana Tidung ",136619,178975,19,8,232,-,-
+70,KABUPATEN LOMBOK UTARA,TANJUNG,NO. 26 TAHUN 2008,Pembentukan Kabupaten Lombok Utara Di Provinsi Nusa Tenggara Barat,21 Juli 2008,KABUPATEN LOMBOK BARAT,PROVINSI NUSA TENGGARA BARAT,896.56,776.25,"Kab Lombok Timur
+Kab. Lombok Tengah
+Kab. Lombok Barat",718648,239332,5,-,33,INISIATIF DPR-RI,-
+71,KABUPATEN PULAU TALIABU,BOBONG,NO. 6 TAHUN 2013,Pembentukan Kabupaten Pulau Taliabu di Provinsi Maluku Utara,11 Januari 2013,KABUPATEN KEPULAUAN SULA,PROVINSI MALUKU UTARA,3304.32,1469.93,Garis Pantai,111716,58725,8,-,71,INISIATIF DPR-RI,-
+72,KABUPATEN PULAU MOROTAI,MOROTAI SELATAN,NO. 53 TAHUN 2008,Pembentukan Kabupaten Pulau Morotai di Provinsi Maluku Utara, 26 November 2008,KABUPATEN HALMAHERA UTARA,PROVINSI MALUKU UTARA,3896.9,2476,Garis Pantai,197791,73659,5,-,88,INISIATIF DPR-RI,-
+73,KOTA TIDORE KEPULAUAN,-,NO. 1 TAHUN 2003,"Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur, dan Kota Tidore Kepulauan Di Provinsi Maluku Utara",25 Maret 2003,KABUPATEN HALMAHERA TENGAH,PROVINSI MALUKU UTARA,2653.76,1645.73,"Kab. Halmahera Barat
+Kab. Halmahera Timur
+ Kab.Halmahera Tengah
+Kab. Halmahera Selatan",54457,113485,8,40,49,INISIATIF DPR-RI,-
+74,KABUPATEN KEPULAUAN SULA,SANANA,NO. 1 TAHUN 2003,"Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur, dan Kota Tidore Kepulauan Di Provinsi Maluku Utara",25 Maret 2003,KABUPATEN HALMAHERA TENGAH,PROVINSI MALUKU UTARA,2653.76,3304.32,Garis Pantai,54457,111716,12,-,78,INISIATIF DPR-RI,-
+75,KABUPATEN SUMBA BARAT DAYA,TAMBOLAKA,NO. 16 TAHUN 2007,Pembentukan Kabupaten Sumba Barat Daya di Provinsi Nusa Tenggara Timur,02 Januari 2007,KABUPATEN SUMBA BARAT,PROVINSI NUSA TENGGARA TIMUR,2183.18,1480.46,Kab. Sumba Barat,148420,311376,11,2,173,INISIATIF DPR-RI,-
+76,KABUPATEN HALMAHERA TIMUR,KOTA MABA,NO. 1 TAHUN 2003,"Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur, dan Kota Tidore Kepulauan Di Provinsi Maluku Utara",25 Maret 2003,KABUPATEN HALMAHERA TENGAH,PROVINSI MALUKU UTARA,2653.76,6571.37,"Kab. Halmahera Barat
+ Kota Tidore Kepulauan
+Kab. Halmahera Tengah",54457,94937,10,-,102,INISIATIF DPR-RI,-
+77,KABUPATEN HALMAHERA UTARA,KOTA TOBELO,NO. 1 TAHUN 2003,"Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur, dan Kota Tidore Kepulauan Di Provinsi Maluku Utara",25 Maret 2003,KABUPATEN HALMAHERA BARAT,PROVINSI MALUKU UTARA,1704.2,3896.9,Kab Halmahera Barat,134741,197791,17,-,186,INISIATIF DPR-RI,-
+78,KABUPATEN HALMAHERA SELATAN,KOTA LABUHA,NO. 1 TAHUN 2003,"Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur, dan Kota Tidore Kepulauan Di Provinsi Maluku Utara",25 Maret 2003,KABUPATEN HALMAHERA BARAT,PROVINSI MALUKU UTARA,1704.2,8148.9,"Kota Tidore Kepulauan
+Kab. Halmahera Tengah",134741,250773,30,-,249,INISIATIF DPR-RI,-
+79,KABUPATEN MALUKU BARAT DAYA,TIAKUR,NO. 31 TAHUN 2008,Pembentukan Kabupaten Maluku Barat Daya di Provinsi Maluku,21 Juli 2008,KABUPATEN MALUKU TENGGARA BARAT,PROVINSI MALUKU,4465.79,4581.06,Garis Pantai,125736,72857,17,1,117,INISIATIF DPR-RI,Perubahan Nama Daerah Induk berdasarkan PP No. 2 Tahun 2019 tentang Perubahan Nama Kabupaten Maluku Tenggara Barat menjadi Kabupaten Kepulauan Tanimbar di Provinsi Maluku
+80,KOTA TUAL,-,NO. 31 TAHUN 2007,Pembentukan Kota Tual di Provinsi Maluku,10 Agustus 2007,KABUPATEN MALUKU TENGGARA,PROVINSI MALUKU,1031.81,254.39,Garis Pantai,126610,88269,5,3,27,INISIATIF DPR-RI,-
+81,KABUPATEN KEPULAUAN TANIMBAR,SAUMLAKI,NO. 46 TAHUN 1999,"Pembentukan Propinsi Maluku Utara, Kabupaten Buru, dan Kabupaten Maluku Tenggara Barat",4 Oktober 1999,KABUPATEN MALUKU TENGGARA,PROVINSI MALUKU,1031.81,4465.79,Garis Pantai,126610,125736,10,2,80,-,KABUPATEN MALUKU TENGGARA BARAT GANTI NAMA KABUPATEN KEPULAUAN TANIMBAR
+82,KABUPATEN KEPULAUAN ARU,DOBO,NO. 40 TAHUN 2003,"Pembentukan Kabupaten Seram Bagian Timur, Kabupaten Seram Bagian Barat, dan Kabupaten Kepulauan Aru di Provinsi Maluku",18 Desember 2003,KABUPATEN MALUKU TENGGARA,PROVINSI MALUKU,1031.81,8152.42,Garis Pantai,126610,104762,10,2,117,INISIATIF DPR-RI,-
+83,KABUPATEN BURU,NAMLEA,NO. 46 TAHUN 1999,"Pembentukan Propinsi Maluku Utara, Kabupaten Buru, dan Kabupaten Maluku Tenggara Barat",4 Oktober 1999,KABUPATEN MALUKU TENGAH,PROVINSI MALUKU,7953.81,4932.32,Kab. Buru Selatan,424952,134618,10,-,82,-,-
+84,KABUPATEN SERAM BAGIAN BARAT,"DATARAN HUNIPOPU (DE JURE), PIRU (DE FACTO)",NO. 40 TAHUN 2003,"Pembentukan Kabupaten Seram Bagian Timur, Kabupaten Seram Bagian Barat, dan Kabupaten Kepulauan Aru di Provinsi Maluku",18 Desember 2003,KABUPATEN MALUKU TENGAH,PROVINSI MALUKU,7953.81,5033.38,Kab. Maluku Tengah,424952,210167,11,-,92,INISIATIF DPR-RI,-
+85,KABUPATEN PEGUNUNGAN BINTANG,OKSIBIL,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,15682,"Kab Keerom
+ Kab. Jayapura
+Kab. Yahukimo
+Kab. Boven Digoel",271341,110180,34,-,277,-,-
+86,KABUPATEN KEEROM,WARIS,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN JAYAPURA,PROVINSI PAPUA,11157.15,8390,"Kota Jayapura
+Kab. Jayapura
+Kab. Pegunungan Bintang",168624,62936,11,-,91,-,-
+87,KABUPATEN SARMI,KOTA SARMI,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN JAYAPURA,PROVINSI PAPUA,11157.15,17742,"Kab. Mamberamo Raya
+Kab. Jayapura
+Kab. Mamberamo Tengah,
+Kab. Yalimo",168624,40668,10,2,92,-,-
+88,KABUPATEN TOLIKARA,KARUBAGA,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN JAYAPURA,PROVINSI PAPUA,11157.15,5588.13,"Kab. Mamberamo Raya
+Kab. Puncak Jaya
+Kab. Maberamo Tengah
+Kab. Lanny Jaya
+Kab. Jayawijaya",168624,249182,46,4,541,-,-
+89,KABUPATEN MIMIKA,TIMIKA,NO. 45 TAHUN 1999,"Pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Dan Kota Sorong",4 Oktober 1999,KABUPATEN FAK FAK,PROVINSI PAPUA,14320,21633,"Kab. Dogiyai
+Kab. Deiyai
+Kab. Paniai
+Kab. Puncak
+Kab. Intan Jaya
+Kab. Kaimana
+Kab. Nduga
+Kab Asmat",87024,309099,18,9,133,PENINGKATAN STATUS DARI KABUPATEN ADMINISTRATIF MENJADI KABUPATEN OTONOM,-
+90,KABUPATEN NAGEKEO,MBAY,NO. 2 TAHUN 2007,Pembentukan Kabupaten Nagekeo di Provinsi Nusa Tenggara Timur,02 Januari 2007,KABUPATEN NGADA,PROVINSI NUSA TENGGARA TIMUR,1645.88,1416.96,"Kab. Ngada
+Kab. Ende",167878,163284,7,16,97,-,-
+91,KABUPATEN MANGGARAI BARAT,LABUAN BAJO,NO. 8 TAHUN 2003,Pembentukan Kabupaten Manggarai Barat di Provinsi Nusa Tenggara Timur,25 Februari 2003,KABUPATEN MANGGARAI,PROVINSI NUSA TENGGARA TIMUR,2096.44,2397.03,Kab. Manggarai,321408,260398,12,5,164,-,-
+92,KABUPATEN MANGGARAI TIMUR,BORONG,NO. 36 TAHUN 2007,Pembentukan Kabupaten Manggarai Timur Di Provinsi Nusa Tenggara Timur,10 Agustus 2007,KABUPATEN MANGGARAI,PROVINSI NUSA TENGGARA TIMUR,2096.44,2642.93,"Kab. Manggarai
+Kab. Ngada",321408,267310,9,17,159,INISIATIF DPR-RI,-
+93,KABUPATEN ROTE NDAO,BAA,NO. 9 TAHUN 2002,Pembentukan Kabupaten Rote-Ndao Di Provinsi Nusa Tenggara Timur,10 April 2002,KABUPATEN KUPANG,PROVINSI NUSA TENGGARA TIMUR,5434.76,1280,Garis Pantai,379368,146961,10,7,112,-,-
+94,KABUPATEN LEMBATA,LEWOLEBA,NO. 52 TAHUN 1999,Pembentukan Kabupaten Lembata,04 Oktober 1999,KABUPATEN FLORES TIMUR,PROVINSI NUSA TENGGARA TIMUR,1813.2,1266,Garis Pantai,283082,137920,9,7,144,-,-
+95,KABUPATEN MALAKA,BETUN,NO. 3 TAHUN 2013,Pembentukan Kabupaten Malaka di Provinsi Nusa Tenggara Timur,11 Januari 2013,KABUPATEN BELU,PROVINSI NUSA TENGGARA TIMUR,1284.97,1160.63,"Kab Belu
+Kab Timor Tengah Utara",224409,193430,12,-,127,-,-
+96,KABUPATEN WAROPEN,BOTAWA,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN YAPEN WAROPEN,PROVINSI PAPUA,2050,10977.09,"Kab. Nabire
+Kab. Mamberamo Raya
+Kab. Intan Jaya,
+Kab. Puncak",111837,35475,11,-,100,-,Perubahan Nama Daerah Induk berdasarkan PP No. 40 Tahun 2008 tentang Perubahan Nama Kabupaten Yapen Waropen menjadi Kabupaten Kepulauan Yapen Provinsi Papua
+97,KABUPATEN MAMBERAMO RAYA,BARUMO,NO. 19 TAHUN 2007,Pembentukan Kabupaten Mamberamo Raya Di Provinsi Papua,15 Maret 2007,KABUPATEN SARMI,PROVINSI PAPUA,17742,23813.91,"Kab. Waropen
+Kab. Sarmi
+Kab. Puncak
+Kab. Puncak Jaya
+Kab. Tolikara
+Kab. Mamberamo Tengah",40668,37529,8,-,60,INISIATIF DPR-RI,-
+98,KABUPATEN DEIYAI,WAGHETE,NO. 55. TAHUN 2008,Pembentukan Kabupaten Deiyai di Provinsi Papua,26 November 2008,KABUPATEN PANIAI,PROVINSI PAPUA,6525.25,537.39,Kab. PaniaiKab. DogiyaiKab Mimika,120409,90020,5,0,67,INISIATIF DPR-RI,-
+99,KABUPATEN DOGIYAI,KIGAMANI,NO. 8 TAHUN 2008,Pembentukan Kabupaten Dogiyai Di Provinsi Papua,04 Januari 2008,KABUPATEN NABIRE,PROVINSI PAPUA,11112.61,4237.4,"Kab. Nabire
+Kab. Kaimana
+Kab. Paniai
+Kab. Deiyai
+Kab. Mimika",170319,114225,10,-,79,INISIATIF DPR-RI,-
+100,KABUPATEN PANIAI,ENAROTALI,NO. 45 TAHUN 1999,"Pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Dan Kota Sorong",4 Oktober 1999,KABUPATEN NABIRE,PROVINSI PAPUA,11112.61,6525.25,"Kab. Intan Jaya
+Kab Nabire,
+Kab. Dogiyai
+Kab. Mimika
+Kab Deiyai",170319,120409,23,5,216,PENINGKATAN STATUS DARI KABUPATEN ADMINISTRATIF MENJADI KABUPATEN OTONOM,-
+101,KABUPATEN MAPPI,KEPI,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN MERAUKE,PROVINSI PAPUA,44071,24118,"Kab. Asmat
+Kab. Boven Digoel
+Kab. Marauke",225098,105930,15,2,162,-,-
+102,KABUPATEN ASMAT,AGATS,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN MERAUKE,PROVINSI PAPUA,44071,31983.69,"Kab. Nduga
+ Kab. Yahukimo
+Kab. Mimika
+Kab. Boven Digoel
+Kab. Mappi",225098,106136,19,-,221,-,-
+103,KABUPATEN PUNCAK,IILAGA,NO. 7 TAHUN 2008,Pembentukan Kabupaten Puncak Di Provinsi Papua,04 Januari 2008,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,8055,"Kab. Waropen
+Kab. Mamberamo Raya
+Kab Intan Jaya
+Kab. Puncak Jaya
+Kab. Lanny Jaya
+Kab. Mimika
+Kab. Nduga",271341,174851,25,-,206,INISIATIF DPR-RI,-
+104,KABUPATEN NDUGA,KENYAM,NO. 6 TAHUN 2008,Pembentukan Kabupaten Nduga Di Provinsi Papua,04 Januari 2008,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,2168,"Kab. Lanny Jaya
+Kab. Puncak
+Kab. Mimika
+Kab Jaya Wijaya
+Kab. Yahukimo
+Kab. Asmat",271341,108941,32,-,248,INISIATIF DPR-RI,-
+105,KABUPATEN LANNY JAYA,TIOM,NO. 5 TAHUN 2008,Pembentukan Kabupaten Lanny Jaya Di Provinsi Papua,04 Januari 2008,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,2248,"Kab. Tolikara
+Kab. Puncak Jaya
+Kab. Mamberamo Tengah
+Kab. Puncak
+Kab. Jayawijaya
+Kab. Nduga",271341,199917,39,1,354,INISIATIF DPR-RI,-
+106,KABUPATEN PUNCAK JAYA,MULIA,NO. 45 TAHUN 1999,"Pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Dan Kota Sorong",4 Oktober 1999,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,4989.51,"Kab. Mamberamo Raya
+Kab. Puncak
+Kab Tolikara
+Kab. Lanny Jaya",271341,217429,26,3,302,PENINGKATAN STATUS DARI KABUPATEN ADMINISTRATIF MENJADI KABUPATEN OTONOM,-
+107,KABUPATEN YALIMO,ELELIM,NO. 4 TAHUN 2008,Pembentukan Kabupaten Yalimo Di Provinsi Papua,04 Januari 2008,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,1253,"Kab. Jayapura
+ Kab. Sarmi
+Kab. Mamberamo Tengah
+Kab. Yahukimo
+ Kab. Jayawijaya",271341,120650,5,-,300,INISIATIF DPR-RI,-
+108,KABUPATEN INTAN JAYA,YOKATAPA,NO. 54. TAHUN 2008,Pembentukan Kabupaten Intan Jaya di Provinsi Papua,26 November 2008,KABUPATEN PANIAI,PROVINSI PAPUA,6525.25,3922.02,Kab. WaropenKab. Nabire Kab.PaniaiKab. PuncakKab. Mimika,120409,137408,8,0,97,INISIATIF DPR-RI,-
+109,KABUPATEN KUANTAN SINGINGI,TELUK KUANTAN,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN INDRAGIRI HULU,PROVINSI RIAU,7723.8,5259.36,"Kab. Kampar
+Kab. Pelalawan
+Kab. Indragiri Hulu
+Kab. Tebo (Prov. Jambi)
+Kab. Sijunjung (Prov. Sumatera Barat)
+Kab. Dharmasraya (Prov. Sumatera Barat)",427771,330966,15,11,218,-,-
+110,KABUPATEN PEGUNUNGAN ARFAK,ANGGI,NO. 24 TAHUN 2012,Pembentukan Kabupaten Pegunungan Arfak di Provinsi Papua Barat,17 November 2012,KABUPATEN MANOKWARI,PROVINSI PAPUA BARAT,3186.28,2773.74,Kab. ManokwariKab. TambrauwKab. Manokwari SelatanKab. Teluk Bintuni,188806,38426,10,0,166,INISIATIF DPR-RI,-
+111,KABUPATEN SIAK,KOTA SIAK SRI INDERAPURA,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN BENGKALIS,PROVINSI RIAU,6975.41,8275.18,"Kota Pekanbaru
+Kab. Bangkalis
+Kab. Pelalawan
+Kab. Kampar
+Kab. Rokan Hulu",544144,422869,14,9,122,-,-
+112,KABUPATEN ROKAN HILIR,BAGANSIAPIAPI,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN BENGKALIS,PROVINSI RIAU,6975.41,8881.59,"Kota Pekanbaru
+Kab. Bangkalis
+Kab. Pelalawan
+Kab. Kampar
+Kab. Rokan Hulu",544144,638679,18,25,159,-,-
+113,KABUPATEN KEPULAUAN MERANTI,SELAT PANJANG,NO. 12 TAHUN 2009,Pembentukan Kabupaten Kepulauan Meranti Di Provinsi Riau,16 Januari 2009,KABUPATEN BENGKALIS,PROVINSI RIAU,6975.41,3707.84,"Tidak ada batas darat
+",544144,208580,9,5,96,-,-
+114,KOTA SORONG,-,NO. 45 TAHUN 1999,"Pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Dan Kota Sorong",4 Oktober 1999,KABUPATEN SORONG,PROVINSI PAPUA BARAT,6544.23,656.64,Kab. Sorong,122431,279307,10,41,-,-,-
+115,KABUPATEN MANOKWARI SELATAN,RANSIKI,NO. 23 TAHUN 2012,Pembentukan Kabupaten Manokwari Selatan di Provinsi Papua Barat,17 November 2012,KABUPATEN MANOKWARI,PROVINSI PAPUA BARAT,3186.28,2812.44,Kab. ManokwariKab. Pegunungan ArfakKab. Teluk BintuniKab. Teluk Wondama,188806,36467,6,0,57,INISIATIF DPR-RI,-
+116,KABUPATEN SORONG SELATAN,TEMINABUAN,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN SORONG,PROVINSI PAPUA BARAT,6544.23,6594.31,"Kab. Maybrat
+Kab. Sorong
+Kab. Teluk Bintuni",122431,60357,15,2,121,-,-
+117,KABUPATEN MAYBRAT,KUMURKEK,NO. 13 TAHUN 2009,Pembentukan Kabupaten Maybrat di Provinsi Papua Barat,16 Januari 2009,KABUPATEN SORONG,PROVINSI PAPUA BARAT,6544.23,5461.69,"Kab. Tambrauw
+Kab. Sorong
+Kab. Teluk Bintuni
+Kab. Sorong Selatan",122431,43687,24,1,259,INISIATIF DPR-RI,-
+118,KABUPATEN TELUK WONDAMA,RASIEY,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN MANOKWARI,PROVINSI PAPUA BARAT,3186.28,3959.53,"Kab. Manokwari Selatan
+Kab. Teluk Bintuni
+Kab. Nabire - Prov. Papua
+Kab. Kaimana",188806,43986,13,1,75,-,-
+119,KABUPATEN ROKAN HULU,PASIR PENGARAIAN,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN KAMPAR,PROVINSI RIAU,10983.47,7588.13,"Kab. Pasaman (Prov. Sumatera Barat)
+Kab. Lima Puluh Koto (Prov. Sumatera Barat)
+Kab. Rokan Hilir
+Kab. Bengkalis
+Kab. Siak
+Kab. Kampar",748956,556199,16,6,139,-,-
+120,KABUPATEN TELUK BINTUNI,BINTUNI,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN MANOKWARI,PROVINSI PAPUA BARAT,3186.28,20840.83,"Kab. Tambrauw
+Kab. Pegunungan Arfak
+Kab. Maybrat
+Kab. Sorong Selatan
+Kab. Fak-Fak
+Kab. Teluk Wondama
+Kab. Manokwari Selatan
+Kab. Kaimana",188806,79501,24,2,115,-,-
+121,KOTA DUMAI,-,NO. 16 TAHUN 1999,Pembentukan Kotamadya Daerah Tingkat II Dumai,20 April 1999,KABUPATEN BENGKALIS,PROVINSI RIAU,6975.41,1623.38,Kab. Rokan HilirKab. Bengkalis,544144,288741,7,33,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+122,KABUPATEN MOROWALI UTARA,KOLONODALE,NO. 12 TAHUN 2013,Pembentukan Kabupaten Morowali Utara di Provinsi Sulawesi Tengah,15 Mei 2013,KABUPATEN MOROWALI,PROVINSI SULAWESI TENGAH,3037.04,10004.28,"Kab. Tojo Una-Una
+Kab. Poso
+Kab. Banggai
+Kab. Marowali
+SULAWESI SELATAN (Luwu Timur)",142194,121249,10,3,122,INISIATIF DPR-RI,-
+123,KABUPATEN SIGI,SIGI BIROMARU,NO. 27 TAHUN 2008,Pembentukan Kabupaten Sigi Di Provinsi Sulawesi Tengah,21 Juli 2008,KABUPATEN DONGGALA,PROVINSI SULAWESI TENGAH,4275.08,5196.02,"Kota Palu
+Kab. Parigi Moutong
+Kab. Donggala
+Kab. Poso
+SULAWESI BARAT(Pasangkayu)
+SULAWESI BARAT (Pasangkayu)
+SULAWESI SELATAN (Luwu Utara)",301978,251479,15,-,176,-,-
+124,KABUPATEN PARIGI MOUTONG,PARIGI,NO. 10 TAHUN 2002,Pembentukan Kabupaten Parigi Moutong Di Provinsi Sulawesi Tengah,10 April 2002,KABUPATEN DONGGALA,PROVINSI SULAWESI TENGAH,4275.08,5089.91,"Kab. Toli-ToliKab. BuolKota PaluKab. DonggalaKab. PahuwatoKab. Poso,Kab. Sigi",301978,447652,23,5,278,-,-
+125,KABUPATEN BANGGAI LAUT,BANGGAI,NO. 5 TAHUN 2013,Pembentukan Kabupaten Banggai Laut di Provinsi Sulawesi Tengah,11 Januari 2013,KABUPATEN BANGGAI KEPULAUAN,PROVINSI SULAWESI TENGAH,2488.79,725.67,Garis Pantai,121661,67245,7,3,63,INISIATIF DPR-RI,-
+126,KABUPATEN BANGGAI KEPULAUAN,SALAKAN,NO. 51 TAHUN 1999,"Pembentukan Kabupaten Buol, Kabupaten Morowali, dan Kabupaten Banggai Kepulauan",4 Oktober 1999,KABUPATEN BANGGAI,PROVINSI SULAWESI TENGAH,9672.7,2488.79,Garis Pantai,366173,121661,12,3,141,-,-
+127,KABUPATEN TORAJA UTARA,RANTEPAO,NO. 28 TAHUN 2008,Pembentukan Kabupaten Toraja Utara Di Provinsi Sulawesi Selatan,21 Juli 2008,KABUPATEN TANA TORAJA,PROVINSI SULAWESI SELATAN,1990.22,1215.55,"Kab. Mamuju Prov. Sulawesi Barat 
+Kab. Luwu Utara Prov. Sulawesi Selatan 
+Kab. Luwu Prov. Sulawesi Selatan 
+Kab. Tana Toraja Prov. Sulawesi Selatan ",285687,245490,21,40,111,INISIATIF DPR-RI,-
+128,KABUPATEN LUWU TIMUR,MALILI,NO. 7 TAHUN 2003,Pembentukan Kabupaten Luwu Timur dan Kabupaten Mamuju Utara di Provinsi Sulawesi Selatan,25 Februari 2003,KABUPATEN LUWU UTARA,PROVINSI SULAWESI SELATAN,7502.58,6944.88,"Kab. Konawe Prov. Sulawesi Tenggara
+Kab. Kolaka Utara Prov. Sulawesi Tenggara 
+Kab. Poso Prov. Sulawesi Tengah 
+Kab. Morowali Utara Prov. Sulawesi Tengah 
+Kab. Morowali Prov. Sulawesi Tengah 
+Kab. Luwu Utara Prov. Sulawesi Selatan ",368801,299975,11,3,124,INISIATIF DPR-RI,-
+129,KOTA PALOPO,-,NO. 11 TAHUN 2002,Pembentukan Kabupaten Mamasa Dan Kota Palopo Di Provinsi Sulawesi Selatan,10 April 2002,KABUPATEN LUWU,PROVINSI SULAWESI SELATAN,3343.97,252.99,Kab. Luwu Prov. Sulawesi Selatan Kab. Tana Toraja Prov. Sulawesi Selatan ,378987,187236,9,48,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+130,KABUPATEN MAMASA,MAMASA,NO. 11 TAHUN 2002,Pembentukan Kabupaten Mamasa Dan Kota Palopo Di Provinsi Sulawesi Selatan,10 April 2002,KABUPATEN POLEWALI MAMASA,PROVINSI SULAWESI BARAT,1775.65,3005.88,Kab. Pinrang Prov. Sulawesi SelatanKab. Tana Toraja Prov. Sulawesi SelatanKab. Polewali Mandar Prov. Sulawesi Barat Kab. Majene Prov. Sulawesi Barat Kab. Mamuju Prov. Sulawesi Barat ,521691,206145,17,13,168,-,Perubahan Nama Daerah Induk berdasarkan PP No. 74 Tahun 2005 tentang Perubahan Nama Kabupaten Polewali Mamasa menjadi Kabupaten Polewali Mandar
+131,KABUPATEN PASANGKAYU,PASANGKAYU,NO. 7 TAHUN 2003,Pembentukan Kabupaten Luwu Timur dan Kabupaten Mamuju Utara di Provinsi Sulawesi Selatan,25 Februari 2003,KABUPATEN MAMUJU,PROVINSI SULAWESI BARAT,4999.69,3043.75,Kab. Mamuju Tengah Prov. Sulawesi Barat,302155,211934,12,4,59,INISIATIF DPR-RI,Perubahan nama daerah otonom hasil pemelkaran berdasarkan PP No. 61 Tahun 2017 tentang Perubahan nama Kabupaten Mamuju Utara menjadi Kabupaten Pasangkayu di Provinsi Sulawesi Barat
+132,KABUPATEN MAMUJU TENGAH,TOBADAK,NO. 4 TAHUN 2013,Pembentukan Kabupaten Mamuju Tengah di Provinsi Sulawesi Barat,11 Januari 2013,KABUPATEN MAMUJU,PROVINSI SULAWESI BARAT,4999.69,3014.37,"Kab. Luwu Utara Prov. Sulawesi Selatan 
+Kab. Pasangkayu Prov. Sulawesi Barat 
+Kab. Mamuju Prov. Sulawesi Barat ",302155,145764,5,-,54,INISIATIF DPR-RI,-
+133,KOTA KOTAMOBAGU,-,NO. 4 TAHUN 2007,Pembentukan Kota Kotamobagu di Provinsi Sulawesi Utara,2 Januari 2007,KABUPATEN BOLAANG MONGONDOW,PROVINSI SULAWESI UTARA,2871.65,108.89,"Kab. Bolaang Mongondow Timur
+Kab Bolaang Mongondow",249803,124173,4,18,15,-,-
+134,KABUPATEN BOLAANG MONGONDOW TIMUR,TUTUYAN,NO. 29 TAHUN 2008,Pembentukan Kabupaten Bolaang Mongondow Timur Di Provinsi Sulawesi Utara,21 Juli 2008,KABUPATEN BOLAANG MONGONDOW,PROVINSI SULAWESI UTARA,2871.65,910.18,"Kab Minahasa Selatan
+Kab Minahasa Tenggara
+Kota Kotamobagu,
+Kab. Bolaang Mongondow
+Kab Bolaang Mongondow Selatan",249803,88063,7,-,81,INISIATIF DPR-RI,-
+135,KABUPATEN BOLAANG MONGONDOW UTARA,BOROKO,NO. 10 TAHUN 2007,Pembentukan Kabupaten Bolaang Mongondow Utara di Provinsi Sulawesi Utara,2 Januari 2007,KABUPATEN BOLAANG MONGONDOW,PROVINSI SULAWESI UTARA,2871.65,1680,"Kab. Gotontalo Utara
+Kab Bolaang Mongondow
+""Kab.Bone Bolango, 
+Kab Bolaang Mongondow Selatan""",249803,84468,6,1,106,INISIATIF DPR-RI,-
+136,KABUPATEN MUNA BARAT,LAWORO,NO. 14 TAHUN 2014, Pembentukan Kabupaten Muna Barat di Provinsi Sulawesi Tenggara,23 Juli 2014,KABUPATEN MUNA,PROVINSI SULAWESI TENGGARA,1922.16,1022.89,Kab. Muna Prov. Sulawesi Tenggara ,231548,83108,11,5,81,INISIATIF DPR-RI,-
+137,KABUPATEN BUTON UTARA,BURANGA,NO. 14 TAHUN 2007,Pembentukan Kabupaten Buton Utara di Provinsi Sulawesi Tenggara,02 Januari 2007,KABUPATEN MUNA,PROVINSI SULAWESI TENGGARA,1922.16,1864.91,"Kab. Buton  Prov. Sulawesi Tenggara
+Kab. Muna  Prov. Sulawesi Tenggara ",231548,65961,6,12,78,INISIATIF DPR-RI,-
+138,KABUPATEN KONAWE SELATAN,ANDOLO,NO. 4 TAHUN 2003, Pembentukan Kabupaten Konawe Selatan di Provinsi Sulawesi Tenggara,25 Februari 2003,KABUPATEN KONAWE,PROVINSI SULAWESI TENGGARA,4435.28,5779.47,Kab. Kolaka Timur Prov. Sulawesi Tenggara,257180,310988,25,15,336,INISIATIF DPR-RI,-
+139,KABUPATEN KONAWE KEPULAUAN,LANGARA,NO. 13 TAHUN 2013,Pembentukan Kabupaten Konawe Kepulauan di Provinsi Sulawesi Tenggara,15 Mei 2013,KABUPATEN KONAWE,PROVINSI SULAWESI TENGGARA,4435.28,867.58,Tidak ada batas darat,257180,37126,7,7,89,INISIATIF DPR-RI,-
+140,KABUPATEN KONAWE UTARA,WANGGUDU,NO. 13 TAHUN 2007,Pembentukan Kabupaten Konawe Utara di Provinsi Sulawesi Tenggara,2 Januari 2007,KABUPATEN KONAWE,PROVINSI SULAWESI TENGGARA,4435.28,5101.76,Kab. Konawe Prov. Sulawesi Tenggara ,257180,68565,13,11,159,INISIATIF DPR-RI,-
+141,KABUPATEN KOLAKA UTARA,LASUSUA,NO. 29 TAHUN 2003,"Pembentukan Kabupaten Bombana, Kabupaten Wakatobi, dan Kabupaten Kolaka Utara di Provinsi Sulawesi Tenggara",18 Desember 2003,KABUPATEN KOLAKA,PROVINSI SULAWESI TENGGARA,3283.59,3391.67,"Kab. Luwu Timur Prov. Sulawesi Selatan 
+Kab. Kolaka Prov. Sulawesi Tenggara 
+Kab. Kolaka Timur Prov. Sulawesi Tenggara 
+Kab. Konawe Prov. Sulawesi Tenggara ",233161,138313,15,6,127,INISIATIF DPR-RI,-
+142,KOTA BAU BAU,-,NO. 13 TAHUN 2001,Pembentukan Kota Bau-Bau,21 Juni 2001,KABUPATEN BUTON,PROVINSI SULAWESI TENGGARA,1212.99,221,Kab.Mamuju Prov. Sulawesi Tenggara ,118013,157549,8,43,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+143,KABUPATEN WAKATOBI,WANGI-WANGI,NO. 29 TAHUN 2003,"Pembentukan Kabupaten Bombana, Kabupaten Wakatobi, dan Kabupaten Kolaka Utara di Provinsi Sulawesi Tenggara",18 Desember 2003,KABUPATEN BUTON,PROVINSI SULAWESI TENGGARA,1212.99,559.54,Tidak ada batas darat,118013,114362,8,26,75,INISIATIF DPR-RI,-
+144,KABUPATEN BOMBANA,RUMBIA,NO. 29 TAHUN 2003,"Pembentukan Kabupaten Bombana, Kabupaten Wakatobi, dan Kabupaten Kolaka Utara di Provinsi Sulawesi Tenggara",18 Desember 2003,KABUPATEN BUTON,PROVINSI SULAWESI TENGGARA,1212.99,3001,"Kab. Kolaka Timur Prov. Sulawesi Tenggara
+Kab. Buton Prov. Sulawesi Tenggara 
+Kab. Kolaka Prov. Sulawesi Tenggara 
+Kab. Konawe Selatan Prov. Sulawesi Tenggara ",118013,140558,22,22,121,INISIATIF DPR-RI,-
+145,KABUPATEN BUTON SELATAN,BATAUGA,NO. 16 TAHUN 2014,Pembentukan Kabupaten Buton Selatan di Provinsi Sulawesi Tenggara,23 Juli 2014,KABUPATEN BUTON,PROVINSI SULAWESI TENGGARA,1212.99,509.92,"Kab. Buton  Prov. Sulawesi Tenggara 
+Kota Bau-Bau  Prov. Sulawesi Tenggara",118013,98070,7,10,60,INISIATIF DPR-RI,-
+146,KABUPATEN BUTON TENGAH,LABUNGKARI,NO. 15 TAHUN 2014,Pembentukan Kabupaten Buton Tengah di Provinsi Sulawesi Tenggara,23 Juli 2014,KABUPATEN BUTON,PROVINSI SULAWESI TENGGARA,1212.99,958.31,"Kab. Muna  Prov. Sulawesi Tenggara 
+Kab. Bombana  Prov. Sulawesi Tenggara ",118013,117815,7,10,67,INISIATIF DPR-RI,-
+147,KABUPATEN MOROWALI,BUNGKU,NO. 51 TAHUN 1999,"Pembentukan Kabupaten Buol, Kabupaten Morowali, dan Kabupaten Banggai Kepulauan",4 Oktober 1999,KABUPATEN POSO,PROVINSI SULAWESI TENGAH,7112.25,3037.04,"Kab. Morowali Utara
+SULAWESI TENGGARA (Konawe, Konawe Utara)
+SULAWESI TENGAH (Luwu Timur)",246270,142194,9,7,126,-,-
+148,KABUPATEN KEPULAUAN TALAUD,MELONGUANE,NO. 8 TAHUN 2002,Pembentukan Kabupaten Kepulauan Talaud Di Provinsi Sulawesi Utara,10 April 2002,KABUPATEN SANGIHE TALAUD,PROVINSI SULAWESI UTARA,461.11,1240.4,Garis Pantai,143400,96161,19,11,142,-,-
+149,KOTA PRABUMULIH,-,NO. 6 TAHUN 2001,Pembentukan Kota Prabumulih,21 Juni 2001,KABUPATEN MUARA ENIM,PROVINSI SUMATERA SELATAN,7383.9,251.94,"Kab. Penukal Abab Lematang Ilir
+Kabuapten Muara Enim
+Kab. Ogan Ilir",576105,197069,6,25,12,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+150,KOTA PAGAR ALAM,-,NO. 8 TAHUN 2001,Pembentukan Kota Pagar Alam,21 Juni 2001,KABUPATEN LAHAT,PROVINSI SUMATERA SELATAN,5311.74,633.66,"Kab. Bengkulu Selatan
+Kab. Kaur
+Kab. Muara Enim
+Kab. Lahat",432957,145549,5,35,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+151,KABUPATEN EMPAT LAWANG,TEBING TINGGI,NO. 1 TAHUN 2007,Pembentukan Kabupaten Empat Lawang Di Provinsi Sumatera Selatan,2 Januari 2007,KABUPATEN LAHAT,PROVINSI SUMATERA SELATAN,5311.74,2256.44,"Kab. Rejanglebong (Prov. Bengkulu)
+Kab. Kepahiang (Prov. Bengkulu)
+Kab. Seluma (Prov. Bengkulu)
+Kab. Musi Rawas (Prov. Sumatera Selatan)
+Kab. Lahat (Prov. Sumatera Selatan)",432957,332515,10,9,147,-,-
+152,KABUPATEN SOLOK SELATAN,PADANG ARO,NO. 38 TAHUN 2003,"Pembentukan Kabupaten Dharmasraya, Kabupaten Solok Selatan, dan Kabupaten Pasaman Barat di Provinsi Sumatera Barat",18 Desember 2003,KABUPATEN SOLOK,PROVINSI SUMATERA BARAT,3738,3346.2,"Kab. Solok
+Kab. Kerinci
+Kab. Pesisir Selatan
+Kab. Dharmasraya ",384091,180905,7,-,39,-,-
+153,KABUPATEN DHARMASRAYA,PULAU PUNJUNG,NO. 38 TAHUN 2003,"Pembentukan Kabupaten Dharmasraya, Kabupaten Solok Selatan, dan Kabupaten Pasaman Barat di Provinsi Sumatera Barat",18 Desember 2003,KABUPATEN SAWAH LUNTO SIJUNJUNG,PROVINSI SUMATERA BARAT,3130.4,2961.13,"Kab. Kuantan Singingi
+Kab. Kerinci
+Kab. Bungo
+Kab. Tebo (Prov. Jambi)
+Kab. Solok
+Kab. Sijunjung (Prov. Sumatera Barat)
+Kab. Solok Selatan",236910,212653,11,-,52,INISIATIF DPR-RI,Perubahan Nama Daerah Induk berdasarkan PP No. 25 Tahun 2008 tentang Perubahan Nama Kabupaten Sawahlunto Sijunjung menjadi Kabupaten Sijunjung Provinsi Sumatera Barat
+154,KABUPATEN PASAMAN BARAT,SIMPANG AMPEK,NO. 38 TAHUN 2003,"Pembentukan Kabupaten Dharmasraya, Kabupaten Solok Selatan, dan Kabupaten Pasaman Barat di Provinsi Sumatera Barat",18 Desember 2003,KABUPATEN PASAMAN,PROVINSI SUMATERA BARAT,3947.63,3887.77,"Kab. Mandailing Natal
+Kab. Agam
+Kab. Pasaman",318379,431575,11,-,19,-,-
+155,KABUPATEN KEPULAUAN MENTAWAI,SELAT PANJANG,NO. 49 TAHUN 1999,Pembentukan Kabupaten Kepulauan Mentawai,4 Oktober 1999,KABUPATEN PADANG PARIAMAN,PROVINSI SUMATERA BARAT,1332.51,6011.35,Garis Pantai,427919,87517,10,-,43,-,-
+156,KABUPATEN BANYUASIN,PANGKALAN BALAI,NO. 6 TAHUN 2002,Pembentukan Kabupaten Banyuasin Di Provinsi Sumatera Selatan,10 April 2002,KABUPATEN MUSI BANYUASIN,PROVINSI SUMATERA SELATAN,14266.26,11832.99,Kab. Muaro JambiKab. Tanjung Jabung TimurKab. Penungkal Abab Lematang IlirKab. Musi BanyuasinKab. Ogan IlirKota PalembangKab. Muara EnimKab. Ogan Komering Ilir,574415,810222,21,17,288,-,-
+157,KABUPATEN KEPULAUAN SIAU TAGULANDANG BIARO,ONDONG SIAU,NO. 15 TAHUN 2007,Pembentukan Kabupaten Kepulauan Siau Tagulandang Biaro di Provinsi Sulawesi Utara,2 Januari 2007,KABUPATEN SANGIHE TALAUD,PROVINSI SULAWESI UTARA,461.11,275.86,Garis Pantai,143400,73496,10,10,83,INISIATIF DPR-RI,Perubahan Nama Daerah Induk berdasarkan PP No. 59 Tahun 2014 tentang Perubahan Nama Kabupaten Kepulauan Sangihe dan  Talaud menjadi Kabupaten Kepulauan Sangihe
+158,KABUPATEN MINAHASA TENGGARA,RATAHAN,NO. 9 TAHUN 2007,Pembentukan Kabupaten Minahasa Tenggara di Provinsi Sulawesi Utara,02 Januari 2007,KABUPATEN MINAHASA SELATAN,PROVINSI SULAWESI UTARA,1409.97,710.83,"Kab Minahasa
+Kab. Minahasa Selatan
+Kab. Bolaang Mongondow Timur",237962,116978,12,9,135,INISIATIF DPR-RI,-
+159,KOTA TOMOHON,-,NO. 10 TAHUN 2003,Pembentukan Kabupaten Minahasa Selatan dan Kota Tomohon di Provinsi Sulawesi Utara,25 Februari 2003,KABUPATEN MINAHASA,PROVINSI SULAWESI UTARA,1114.87,114.2,Kab. Minahasa,340392,99379,5,44,-,-,-
+160,KABUPATEN MINAHASA UTARA,KOTA AIRMADIDI,NO. 33 TAHUN 2003,Pembentukan Kabupaten Minahasa Utara di Provinsi Sulawesi Utara,18 Desember 2003,KABUPATEN MINAHASA,PROVINSI SULAWESI UTARA,1114.87,918.49,"Garis Pantai
+Kota Manado
+Kota Bitung
+Kab. Minahasa",340392,220856,10,6,125,INISIATIF DPR-RI,-
+161,KOTA PARIAMAN,-,NO. 12 TAHUN 2002,Pembentukan Kota Pariaman Di Provinsi Sumatera Barat,10 April 2002,KABUPATEN PADANG PARIAMAN,PROVINSI SUMATERA BARAT,1332.51,66.13,Kab. Padang Pariaman,427919,92758,4,16,55,-,-
+162,KOTA PADANG SIDEMPUAN,-,NO. 4 TAHUN 2001,Pembentukan Kota Padang Sidempuan,21 Juni 2001,KABUPATEN TAPANULI SELATAN,PROVINSI SUMATERA UTARA,6030.47,114.66,Kab. Tapanuli Selatan,310274,225535,6,37,42,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+163,KABUPATEN PADANG LAWAS,SIBUHUAN,NO. 38 TAHUN 2007,Pembentukan Kabupaten Padang Lawas di Provinsi Sumatera Utara,10 Agustus 2007,KABUPATEN TAPANULI SELATAN,PROVINSI SUMATERA UTARA,6030.47,3892.74,"Kab. Pasaman (Prov Sumatera Barat)
+Kab. Rokan Hulu (Prov. Riau)
+Kab. Mandailing Natal
+Kab. Padang Lawas Utara 
+Kab. Tapanuli Selatan",310274,260406,12,1,303,INISIATIF DPR-RI,-
+164,KABUPATEN PADANG LAWAS UTARA,GUNUNG TUA,NO. 37 TAHUN 2007,Pembentukan Kabupaten Padang Lawas Utara di Provinsi Sumatera Utara,10 Agustus 2007,KABUPATEN TAPANULI SELATAN,PROVINSI SUMATERA UTARA,6030.47,3918.05,"Kab. Rokan Hilir (Prov. Riau)
+Kab. Rokan Hulu (Prov. Riau)
+Kab. Tapanuli Selatan
+Kab. Padang Lawas
+Kab. Labuhanbatu Utara
+Kab. Labuhanbatu 
+Kab. Labuhanbatu Selatan",310274,266864,12,2,386,INISIATIF DPR-RI,-
+165,KABUPATEN NIAS SELATAN,TELUK DALAM,NO. 9 TAHUN 2003,"Pembentukan Kabupaten Nias Selatan, Kabupaten Pakpak Bharat, dan Kabupaten Humbang Hasundutan di Provinsi Sumatera Utara",25 Februari 2003,KABUPATEN NIAS,PROVINSI SUMATERA UTARA,1842.51,1825.2,"Kab. Nias Barat
+Kab. Nias",153417,364606,35,2,459,-,-
+166,KOTA GUNUNGSITOLI,LAHOMI,NO. 47 TAHUN 2008,Pembentukan Kota Gunungsitoli di Provinsi Sumatera Utara,26 November 2008,KABUPATEN NIAS,PROVINSI SUMATERA UTARA,1842.51,280.78,Kab. NiasKab. Nias Utara,153417,139545,6,3,98,INISIATIF DPR-RI,-
+167,KABUPATEN LABUHANBATU UTARA,AEK KANOPAN,NO. 23 TAHUN 2008, Pembentukan Kabupaten Labuhanbatu Utara Di Provinsi Sumatera Utara,21 Juli 2008,KABUPATEN LABUHANBATU,PROVINSI SUMATERA UTARA,2156.02,3570.98,"Kab. Asahan
+Kab. Padang Lawas Utara 
+Kab. Labuhanbatu 
+Kab. Tapanuli Selatan
+Kab. Toba Samosir
+Kab. Tapanuli Utara",501388,391729,8,8,82,INISIATIF DPR-RI,-
+168,KABUPATEN LABUHANBATU SELATAN,KOTA PINANG,NO. 22 TAHUN 2008,Pembentukan Kabupaten Labuhanbatu Selatan di Provinsi Sumatera Utara,21 Juli 2008,KABUPATEN LABUHANBATU,PROVINSI SUMATERA UTARA,2156.02,3596,"Kab. Rokan Hilir (Prov. Riau)
+Kab. Labuhanbatu 
+Kab. Padang Lawas Utara ",501388,321374,5,2,52,INISIATIF DPR-RI,-
+169,KABUPATEN PAKPAK BHARAT,SALAK,NO. 9 TAHUN 2003,"Pembentukan Kabupaten Nias Selatan, Kabupaten Pakpak Bharat, dan Kabupaten Humbang Hasundutan di Provinsi Sumatera Utara",25 Februari 2003,KABUPATEN DAIRI,PROVINSI SUMATERA UTARA,1927.8,1218.3,"Kota Subulussalam
+Kab. Aceh Singkil
+Kab. Humbang Hasundutan
+Kab. Tapanuli Tengah
+Kab. Dari
+Kab. Samosir",315330,53832,8,-,52,INISIATIF DPR-RI,-
+170,KABUPATEN BATU BARA,LIMA PULUH,NO. 5 TAHUN 2007, Pembentukan Kabupaten Batu Bara di Provinsi Sumatera Utara,2 Januari 2007,KABUPATEN ASAHAN,PROVINSI SUMATERA UTARA,3702.21,922.2,"Kab. Simalungun
+Kab. Serdang Bedagai
+Kab. Simalungun",782250,365515,12,10,141,-,-
+171,KABUPATEN OGAN KOMERING ULU SELATAN,MUARA DUA,NO. 37 TAHUN 2003,"Pembentukan Kabupaten Ogan Komering Ulu Timur, Kabupaten Ogan Komering Ulu Selatan, Dan Kabupaten Ogan Ilir Di Provinsi Sumatera Selatan",8 Desember 2003,KABUPATEN OGAN KOMERING ULU,PROVINSI SUMATERA SELATAN,4797.06,5493.94,"Kab. Way Kanan (Prov. Lampung)
+Kab. Lampung Barat (Prov. Lampung)
+Kab. Pesisir Barat (Prov. Lampung)
+Kab. Ogan Komering Ulu Timur
+Kab. Ogan Komering Ulu 
+Kab. Muara Enim",363885,414252,19,7,252,INISIATIF DPR-RI,-
+172,KABUPATEN OGAN KOMERING ULU TIMUR,MARTAPURA,NO. 37 TAHUN 2003,"Pembentukan Kabupaten Ogan Komering Ulu Timur, Kabupaten Ogan Komering Ulu Selatan, Dan Kabupaten Ogan Ilir Di Provinsi Sumatera Selatan",8 Desember 2003,KABUPATEN OGAN KOMERING ULU,PROVINSI SUMATERA SELATAN,4797.06,3370,"Kab. Way Kanan (Prov. Lampung)
+Kab. Ogan Komering Ilir
+Kab. Ogan Ilir
+Kab. Ogan Komering Ulu",363885,639112,20,7,305,INISIATIF DPR-RI,-
+173,KABUPATEN OGAN ILIR,INDRALAYA,NO. 37 TAHUN 2003,"Pembentukan Kabupaten Ogan Komering Ulu Timur, Kabupaten Ogan Komering Ulu Selatan, Dan Kabupaten Ogan Ilir Di Provinsi Sumatera Selatan",8 Desember 2003,KABUPATEN OGAN KOMERING ILIR,PROVINSI SUMATERA SELATAN,18359.04,2666.09,"Kota Palembang
+Kota Prabumulih
+Kab. Banyuasin
+Kab. Ogan Komering Ulu Timur
+Kab. Muara Enim
+Kab. Ogan Komering Ulu 
+Kab. Ogan Komering ilir",727789,409310,16,14,227,INISIATIF DPR-RI,-
+174,KABUPATEN NIAS BARAT,ONOLIMBU,NO. 46 TAHUN 2008,Pembentukan Kabupaten Nias Barat di Provinsi Sumatera Utara,26 November 2008,KABUPATEN NIAS,PROVINSI SUMATERA UTARA,1842.51,473.73,Kab. Nias SelatanKab. NiasKab. Nias Utara,153417,95330,8,0,105,INISIATIF DPR-RI,-
+175,KABUPATEN SAMOSIR,PANGURURAN,NO. 36 TAHUN 2003,Pembentukan Kabupaten Samosir dan Kabupaten Serdang Bedagai Di Provinsi Sumatera Utara,18 Desember 2003,KABUPATEN TOBA SAMOSIR,PROVINSI SUMATERA UTARA,2328.89,2069.05,"Kab. Humbang Hasundutan
+Kab. Pakpak Bharat  
+Kab. Dairi",211042,142812,9,6,128,INISIATIF DPR-RI,-
+176,KABUPATEN HUMBANG HASUNDUTAN,DOLOK SANGGUL,NO. 9 TAHUN 2003,"Pembentukan Kabupaten Nias Selatan, Kabupaten Pakpak Bharat, dan Kabupaten Humbang Hasundutan di Provinsi Sumatera Utara",25 Februari 2003,KABUPATEN TAPANULI UTARA,PROVINSI SUMATERA UTARA,3791.64,2335.33,"Kab. Tapanuli Tengah  (Prov.  Sumatera Utara)
+Kab. Tapanuli Utara (Prov.  Sumatera Utara)
+Kab. Samosir
+Kab. Pakpak bharat",315947,199424,10,1,153,INISIATIF DPR-RI,-
+177,KABUPATEN SERDANG BEDAGAI,SEI RAMPAH,NO. 36 TAHUN 2003,Pembentukan Kabupaten Samosir dan Kabupaten Serdang Bedagai Di Provinsi Sumatera Utara,18 Desember 2003,KABUPATEN DELI SERDANG,PROVINSI SUMATERA UTARA,2241.68,1900.22,"Kab. Deli Serdang
+Kab. Batubara
+Kota Tebing Tinggi
+Kab. Simalungun",1815357,656419,17,6,237,INISIATIF DPR-RI,-
+178,KOTA LUBUK LINGGAU,-,NO. 7 TAHUN 2001,Pembentukan Kota Lubuk Linggau,21 Juni 2001,KABUPATEN MUSI RAWAS,PROVINSI SUMATERA SELATAN,6350.1,401.5,"Kab. Rejang Lebong
+Kab. Musi Rawas",408816,224032,8,72,-,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+179,KABUPATEN SUMBAWA BARAT,TALIWANG,NO. 30 TAHUN 2003,Pembentukan Kabupaten Sumbawa Barat Di Provinsi Nusa Tenggara Barat,18 Desember 2003,KABUPATEN SUMBAWA,PROVINSI NUSA TENGGARA BARAT,6643.98,1849.02,Kab Sumbawa,514063,139448,8,7,57,INISIATIF DPR-RI,-
+180,KABUPATEN MUSI RAWAS UTARA,MUARA RUPIT,NO. 16 TAHUN 2013,Pembentukan Kabupaten Musi Rawas Utara di Provinsi Sumatera Selatan,10 Juli 2013,KABUPATEN MUSI RAWAS,PROVINSI SUMATERA SELATAN,6350.1,6008.55,"Kab. Lebong (Prov. Bengkulu)
+Kab. Sorolangun dan Kab. Merangin (Prov. Jambi)
+Kab. Musi Banyuasin (Prov. Sumatera Selatan)
+Kab. Musi Rawas",408816,192164,7,7,82,INISIATIF DPR-RI,-
+181,KABUPATEN PENUKAL ABAB LEMATANG ILIR,TALANG UBI,NO. 7 TAHUN 2013,Pembentukan Kabupaten Penukal Abab Lematang Ilir di Provinsi Sumatera Selatan,11 Januari 2013,KABUPATEN MUARA ENIM,PROVINSI SUMATERA SELATAN,7383.9,1840,"Kab. Banyuasin (Prov. Sumatera Selatan)
+Kota Prabumulih (Prov. Sumatera Selatan)
+Kab. Musi Rawas (Prov. Sumatera Selatan)
+Kab. Musi Banyuasin (Prov. Sumatera Selatan)
+Kab. Muara Enim (Prov. Sumatera Selatan)",576105,177111,5,6,65,INISIATIF DPR-RI,-
+182,KABUPATEN MINAHASA SELATAN,KOTA AMURANG,NO. 10 TAHUN 2003,Pembentukan Kabupaten Minahasa Selatan dan Kota Tomohon di Provinsi Sulawesi Utara,25 Februari 2003,KABUPATEN MINAHASA,PROVINSI SULAWESI UTARA,1114.87,1409.97,"Kab. Bolaang Mongondow
+""Kab. Minahasa, 
+Kab. Minahasa Tenggara""
+Kab. Bolaang Mongondow Timur",340392,237962,17,10,167,INISIATIF DPR-RI,-
+183,KABUPATEN BOLAANG MONGONDOW SELATAN,BOLAANG UKI,NO. 30 TAHUN 2008,Pembentukan Kabupaten Bolaang Mongondow Selatan Di Provinsi Sulawesi Utara,21 Juli 2008,KABUPATEN BOLAANG MONGONDOW,PROVINSI SULAWESI UTARA,2871.65,1615.86,"Kab Bolaang Mongondow
+Kab. Bolaang Mongondow Utara
+Kab. Bone Bolango
+Kab. Bolaang Mongondow Timur",249803,70901,7,-,81,INISIATIF DPR-RI,-
+184,KABUPATEN KOLAKA TIMUR,TIRAWUTA.,NO. 8 TAHUN 2013, Pembentukan Kabupaten Kolaka Timur di Provinsi Sulawesi Tenggara,11 Januari 2013,KABUPATEN KOLAKA,PROVINSI SULAWESI TENGGARA,3283.59,3634.74,"Kab. Kolaka Utara Prov. Sulawesi Tenggara 
+Kab. Kolaka Prov. Sulawesi Tenggara 
+Kab. Bombana Prov. Sulawesi Tenggara
+Kab. Konawe Prov. Sulawesi Tenggara ",233161,123042,12,16,117,INISIATIF DPR-RI,-
+185,KABUPATEN TOJO UNA UNA,AMPANA KOTA,NO. 32 TAHUN 2003,Pembentukan Kabupaten Tojo Una-Una Di Provinsi Sulawesi Tengah,18 Desember 2003,KABUPATEN POSO,PROVINSI SULAWESI TENGAH,7112.25,5721.15,"Kab Poso
+Kab Banggai
+Kab Marowali Utara",246270,163068,12,12,134,INISIATIF DPR-RI,-
+186,KABUPATEN BUOL,KOTA BUOL,NO. 51 TAHUN 1999,"Pembentukan Kabupaten Buol, Kabupaten Morowali, dan Kabupaten Banggai Kepulauan",4 Oktober 1999,KABUPATEN BUOL TOLI-TOLI,PROVINSI SULAWESI TENGAH,4079.77,4043.57,"Kab. Toli-Toli
+Kab. Pahuwato
+Kab. Gorontalo Utara
+Kab. Parigi Moutong",217241,139743,11,7,108,-,Daerah Induk Kabupaten Buol Tolitoli dimekarkan berdasarkan UU No. 51 Tahun 1999 menjadi dua kabupaten yaitu Kabupaten Tolitoli sebagai kabupaten induk dan Kabupaten Buol sebagai kabupaten hasil pemekaran
+187,KABUPATEN PELALAWAN,PANGKALAN KERINCI,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN KAMPAR,PROVINSI RIAU,10983.47,12758.45,"Kab. Kuantan Singingi
+Kab. Indragiri Hulu
+Kab. Kampar
+Kota Pekan Baru
+Kab. Indragiri Hilir
+Kab. Siak",748956,369048,12,14,104,-,-
+188,KABUPATEN RAJA AMPAT,WAISAI,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN SORONG,PROVINSI PAPUA BARAT,6544.23,8034.44,Kab. Sorong,122431,65339,24,4,117,-,-
+189,KABUPATEN KAIMANA,KAIMANA,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN FAK FAK,PROVINSI PAPUA BARAT,14320,16241.84,"Kab. Teluk Bintuni
+Kab. Teluk Wondama
+Kab. Fak-Fak
+Kab. Dogiyai - Prov. Papua
+Kab. Nabire - Prov. Papua 
+Kab. Mimika - Prov. Papua ",87024,63843,7,2,84,-,-
+190,KABUPATEN BOVEN DIGOEL,TANAHMERAH,NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN MERAUKE,PROVINSI PAPUA,44071,27108,"Kab. Yahukimo
+Kab. Pegunungan Bintang
+Kab. Asmat
+Kab. Mappi
+Kab. Marauke",225098,62722,20,-,112,-,-
+191,KABUPATEN MAMBERAMO TENGAH,KOBAKMA,NO. 3 TAHUN 2008,Pembentukan Kabupaten Mamberamo Tengah Di Provinsi Papua,4 Januari 2008,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,1275,"Kab. Sarmi
+Kab. Tolikara
+Kab. Yalimo
+Kab. Jayawijaya
+Kab. Lanny Jaya",271341,47825,5,-,59,INISIATIF DPR-RI,-
+192,KABUPATEN YAHUKIMO,"SUMOHAI (DE JURE), DEKAI (DE FACTO)",NO. 26 TAHUN 2002,"Pembentukan Kabupaten Sarmi, Kabupaten Keerom,Kabupaten Sorong Selatan, Kabupaten Raja Ampat,Kabupaten Pegunungan Bintang, Kabupaten Yahukimo,Kabupaten Tolikara, Kabupaten Waropen,Kabupaten Kaimana, Kabupaten Boven Digoel, KabupatenMappi, Kabupaten Asmat,",11 Desember 2002,KABUPATEN JAYAWIJAYA,PROVINSI PAPUA,7030.66,17152,"Kab. Jayapura
+Kab. Yalimo
+Kab. Jayawijaya
+Kab. Nduga
+Kab. Pegunungan Bintang
+Kab. Asmat
+ Kab. Doven Digoel",271341,353112,51,1,510,-,-
+193,KABUPATEN SERAM BAGIAN TIMUR,"DATARAN HUNIMOA (DE JURE), BULA (DE FACTO)",NO. 40 TAHUN 2003,"Pembentukan Kabupaten Seram Bagian Timur, Kabupaten Seram Bagian Barat, dan Kabupaten Kepulauan Aru di Provinsi Maluku",18 Desember 2003,KABUPATEN MALUKU TENGAH,PROVINSI MALUKU,7953.81,6429.88,Kab. Maluku Tengah,424952,134410,15,-,198,INISIATIF DPR-RI,-
+194,KABUPATEN KARIMUN,TANJUNG BALAI KARIMUN,NO. 53 TAHUN 1999,"Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam",4 Oktober 1999,KABUPATEN BINTAN,PROVINSI KEPULAUAN RIAU,1318.21,912.75,Tidak ada batas darat,154964,247896,12,29,42,-,-
+195,KABUPATEN TANA TIDUNG,TIDENG PALE,NO. 34 TAHUN 2007,Pembentukan Kabupaten Tana Tidung Di Provinsi Kalimantan Timur,10 Agustus 2007,KABUPATEN BULUNGAN,PROVINSI KALIMANTAN UTARA,13925.72,4828.58,"Kab. Bulungan 
+Kab. Nunukan 
+Kab. Malinau ",136619,24190,5,-,32,INISIATIF DPR-RI,-
+196,KABUPATEN KUTAI BARAT,SENDAWAR,NO. 47 TAHUN 1999,"Pembentukan Kabupaten Nunukan, Kabupaten Malinau, Kabupaten Kutai Barat, Kabupaten Kutai Timur, dan Kota Bontang",04 Oktober 1999,KABUPATEN KUTAI,PROVINSI KALIMANTAN TIMUR,23601.91,20381.59,"Kab. Barito Utara Prov. Kalimantan Tengah 
+Kab. Paser 
+Kab. Penajam Paser Utara 
+Kab. Mahakam Ulu 
+Kab. Kutai Kartanegara ",677755,162200,16,4,190,-,Perubahan Nama Daerah Induk berdasarkan PP No. 8 Tahun 2002 tentang Perubahan Nama Kabupaten Kutai menjadi Kabupaten Kutai Kartanegara
+197,KABUPATEN LANDAK,NGABANG,NO. 55 TAHUN 1999,Pembentukan Kabupaten Landak,04 Oktober 1999,KABUPATEN PONTIANAK,PROVINSI KALIMANTAN BARAT,2797.88,8915.1,"Kab. Mempawah
+Kab. Sanggau 
+Kab. Kubu Raya
+Kab. Bengkayang ",304795,399421,13,-,156,-,Perubahan Nama Daerah Induk berdasarkan PP No. 58 Tahun 2014 tentang Perubahan Nama Kabupaten Pontianak menjadi Kabupaten Mempawah di Provinsi Kalimantan Barat
+198,KABUPATEN BARITO TIMUR,TAMIANG LAYANG,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN BARITO SELATAN,PROVINSI KALIMANTAN TENGAH,8830,3834,Kab. Barito SelatanKab. TabalongKab. Hulu Sungai Utara Prov. Kalimantan Selatan,127757,113385,10,3,100,-,-
+199,KABUPATEN TULANG BAWANG BARAT,PANARAGAN,NO. 50 TAHUN 2008,Pembentukan Kabupaten Tulang Bawang Barat di Provinsi Lampung,26 November 2008,KABUPATEN TULANG BAWANG,PROVINSI LAMPUNG,3466.32,1201,Kab. Ogan Komering Ilir (Prov. Sumatera Selatan) Kab. Way KananKab. Tulang BawangKab. MesujiKab. Lampung UtaraKab. Lampung Tengah,423401,273724,9,3,93,INISIATIF DPR-RI,-
+200,KABUPATEN TANJUNG JABUNG TIMUR,MUARA SABAK,NO. 54 TAHUN 1999,"Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur",04 Oktober 1999,KABUPATEN TANJUNG JABUNG BARAT,PROVINSI JAMBI,4649.85,5445,"Kab. Banyuasin
+Kab. Muaro Jambi
+Kab. Tanjung Jabung Barat",324332,226390,11,20,73,-,-
+201,KABUPATEN SAROLANGUN,SAROLANGUN,NO. 54 TAHUN 1999,"Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur",04 Oktober 1999,KABUPATEN SAROLANGUN BANGKO ,PROVINSI JAMBI,7679,6184,"Kab. Tebo
+Kab. Batanghari
+Kab. Musi Banyuasin
+Kab. Musi Rawas Utara
+Kab. Merangin",339247,317317,10,9,149,-,"Perubahan nama daerah induk Kabupaten Sarolangun Bangko menjadi Kabupaten Merangin berdasarkan Pasal 8 ayat (1)  UU  No. 54 Tahun 1999 tentang Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur"
+202,KABUPATEN BELITUNG TIMUR,-,NO. 5 TAHUN 2003,"Pembentukan Kabupaten Bangka Selatan, Kabupaten Bangka Tengah, Kabupaten Bangka Barat, dan Kabupaten Belitung Timur",25 Februari 2003,KABUPATEN BELITUNG,PROVINSI BANGKA BELITUNG,2293.61,2506.91,Kab. Belitung,169053,124079,7,-,39,INISIATIF DPR-RI,-
+203,KABUPATEN NAGAN RAYA,SUKA MAMUE,NO. 4 TAHUN 2002,"Pembentukan Kabupaten Aceh Barat Daya, Kabupaten Gayo Lues, Kabupaten Aceh Jaya, Kabupaten Nagan Raya, dan Kabupaten Aceh Tamiang, Di Provinsi Nanggroe Aceh Darussalam",10 April 2002,KABUPATEN ACEH BARAT,PROVINSI ACEH,2927.95,3363.72,Kab. Nagan RayaKab. Gayo LuesKab. Aceh Barat Kab. Aceh Tengah,194712,170207,10,0,222,-,-
+204,KOTA BIMA,-,NO. 13 TAHUN 2002, Pembentukan Kota Bima Di Provinsi Nusa Tenggara Barat,10 April 2002,KABUPATEN BIMA,PROVINSI NUSA TENGGARA BARAT,3405.63,222.25,Kab Bima,528993,146959,5,41,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+205,KOTA TERNATE,-,NO. 11 TAHUN 1999,Pembentukan Kotamadya Daerah Tingkat II Ternate,20 April 1999,KABUPATEN MALUKU UTARA ,PROVINSI MALUKU UTARA,1704.2,111.39,Garis Pantai,134741,217519,8,78,0,INISIATIF DPR-RI,"Perubahan nama daerah induk Kabupaten Maluku Utara menjadi Kabupaten Halmahera Barat berdasarkan Pasal 22 UU  No. 1 Tahun 2003 tentang Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halamahera Timur"
+206,KABUPATEN LAMPUNG TIMUR,SUKADANA,NO. 12 TAHUN 1999,"Pembentukan Kabupaten Daerah Tingkat II Way Kanan, Kabupaten Daerah Tingkat II Lampung Timur, dan Kotamadya Daerah Tingkat II Metro",20 April 1999,KABUPATEN LAMPUNG TENGAH,PROVINSI LAMPUNG,3802.68,5325.03,Kota MetroKab. Lampung TengahKab. Lampung SelatanKab. Tulang bawang,1474704,1120998,24,0,264,-,-
+207,KABUPATEN LAMANDAU,NANGA BULIK,NO. 5 TAHUN 2002,"Pembentukan Kabupaten Katingan, Kabupaten Seruyan, Kabupaten Sukamara, Kabupaten Lamandau, Kabupaten Gunung Mas, Kabupaten Pulang Pisau, Kabupaten Murung Raya, Dan Kabupaten Barito Timur Di Provinsi Kalimantan Tengah",10 April 2002,KABUPATEN KOTAWARINGIN BARAT,PROVINSI KALIMANTAN TENGAH,10759,6414,Kab. Seruyan Kab. Kotawaringin Barat Kab. Melawi Prov. Kalimantan Barat Kab. Sukamara Kab. Ketapang Prov. Kalimantan Barat ,250041,87683,8,3,85,-,-
+208,KOTA DEPOK,-,NO. 15 TAHUN 1999,Pembentukan Kotamadya Daerah Tingkat II Depok dan Kotamadya Daerah Tingkat II Cilegon,20 April 1999,KABUPATEN BOGOR,PROVINSI JAWA BARAT,2710.62,200.29,Kota Adm Jakarta SelatanKota Adm Jakarta TimurKota Tanggerang Selatan,4585812,1844932,11,163,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+209,KOTA TANGERANG SELATAN,-,NO. 51 TAHUN 2008,Pembentukan Kota Tangerang Selatan di Provinsi Banten,26 November 2008,KABUPATEN TANGERANG,PROVINSI BANTEN,1011.86,147.19,Kota TanggerangKab. TanggerangKota Adm Jakarta SelatanKota DepokKab. Bogor,2728654,1262284,7,54,0,INISIATIF DPR-RI,-
+210,KOTA CILEGON,-,NO. 15 TAHUN 1999,Pembentukan Kotamadya Daerah Tingkat II Depok dan Kotamadya Daerah Tingkat II Cilegon,20 April 1999,KABUPATEN SERANG,PROVINSI BANTEN,1734.28,175.5,Kab. Serang,1464291,416866,8,43,0,PENINGKATAN STATUS DARI KOTA ADMINISTRATIF MENJADI KOTA OTONOM,-
+211,KABUPATEN GAYO LUES,BLANGKEJEREN,NO. 4 TAHUN 2002,"Pembentukan Kabupaten Aceh Barat Daya, Kabupaten Gayo Lues, Kabupaten Aceh Jaya, Kabupaten Nagan Raya, dan Kabupaten Aceh Tamiang, Di Provinsi Nanggroe Aceh Darussalam",10 April 2002,KABUPATEN ACEH TENGGARA,PROVINSI ACEH,4231.43,5719.58,Kab. Aceh Barat DayaKab. Aceh TengahKab. Aceh TimurKab. Aceh SelatanKab. Nagan RayaKab. Aceh TenggaraKab. Aceh TamiangKab. Langkat (Prov. Sumatera Utara),225139,99937,11,0,136,-,-
+212,KABUPATEN SABU RAIJUA,MANIA,NO. 52 TAHUN 2008,Pembentukan Kabupaten Sabu Raijua di Provinsi Nusa Tenggara Timur,26 November 2008,KABUPATEN KUPANG,PROVINSI NUSA TENGGARA TIMUR,5434.76,460.54,Garis Pantai,379368,95711,6,5,58,INISIATIF DPR-RI,-
+213,KABUPATEN NIAS UTARA,LOLOFAOSO,NO. 45 TAHUN 2008,Pembentukan Kabupaten Nias Utara di Provinsi Sumatera Utara,26 November 2008,KABUPATEN NIAS,PROVINSI SUMATERA UTARA,1842.51,1202.78,Kab. NiasKab. Nias BaratKab. Gunungsitoli,153417,150387,11,1,112,INISIATIF DPR-RI,-
+214,KABUPATEN LUWU UTARA,MASAMBA,NO. 13 TAHUN 1999,Pembentukan Kabupaten Daerah Tingkat II Luwu Utara,20 April 1999,KABUPATEN LUWU,PROVINSI SULAWESI SELATAN,3343.97,7502.58,Kab. Mamuju Prov. Sulawesi Barat Kab. Mamuju Tengah Prov. Sulawesi Barat Kab. Sigi Prov. Sulawesi Tengah Kab. Poso Prov. Sulawesi Tengah Kab. Toraja Utara Prov. Sulawesi Selatan Kab. Luwu Timur Prov. Sulawesi Selatan Kab. Luwu Prov. Sulawesi Selatan ,378987,368801,15,7,166,-,-
+215,KABUPATEN TAMBRAUW,KEBUR,NO. 56 TAHUN 2008,Pembentukan Kabupaten Tambrauw di Provinsi Papua Barat,26 November 2008,KABUPATEN SORONG,PROVINSI PAPUA BARAT,6544.23,11529.18,Kab SorongKab. ManokwariKab. Pegunugan ArfakKab. MaybratKab. Teluk Bintuni,122431,31527,29,0,216,INISIATIF DPR-RI,-

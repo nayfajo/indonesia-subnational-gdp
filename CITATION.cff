@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Subnational GDP for Indonesia: A District-Level Panel, 1996–2025"
+type: dataset
+authors:
+  - family-names: Johan
+    given-names: Nayfa
+    affiliation: "Purdue University, Department of Economics"
+  - family-names: Hillberry
+    given-names: Russell
+    affiliation: "Purdue University, Department of Agricultural Economics"
+year: 2026
+repository-code: "https://github.com/nayfajo/indonesia-subnational-gdp"
+license: CC-BY-4.0
+keywords:
+  - Indonesia
+  - regional GDP
+  - PDRB
+  - district-level panel
+  - subnational economics
+abstract: >
+  Annual district-level (kabupaten/kota) PDRB (Produk Domestik Regional Bruto)
+  for Indonesia, 1996–2025, harmonized to 2000-vintage administrative boundaries.
+  Parsed from 21 BPS published PDFs, with 2000-boundary harmonization,
+  chain-linking across three base-year regimes, and a fully reproducible pipeline.

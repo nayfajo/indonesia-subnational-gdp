@@ -1,0 +1,167 @@
+source_file,fix_id,region_name,year,table_type,raw_text_hash
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,7c3797d25763
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,7c3797d25763
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,436ede3c9b47
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,861f8135755d
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,861f8135755d
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,fcc01ac0ae25
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,d139f0f1c47c
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,d139f0f1c47c
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,500312ec5080
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,d994d25ce625
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,d994d25ce625
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,381308d1b9e5
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,7c3797d25763
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,7c3797d25763
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1996,,436ede3c9b47
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,861f8135755d
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,861f8135755d
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1997,,fcc01ac0ae25
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,d139f0f1c47c
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,d139f0f1c47c
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1998,,500312ec5080
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,d994d25ce625
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,d994d25ce625
+PDRB_1996-1999.csv,FAKFAK_err,Fak-Fak,1999,,381308d1b9e5
+PDRB_1996-1999.csv,W3,Banjarmasin,1997,,b497f7f7e978
+PDRB_1996-1999.csv,W3d,Sumenep,1996,,b8c11a34df4d
+PDRB_1996-1999.csv,W3e,Mamuju,1999,,88fa9525a75f
+PDRB_1996-1999.csv,P5a,Barru,1998,,b75f95a33333
+PDRB_1996-1999.csv,OCR_garble,Tulang Bawang,1998,,b7a45fb36a81
+PDRB_1996-1999.csv,OCR_garble,Morowali,1998,,c35df906a6a8
+PDRB_1996-1999.csv,P_recover,Mandailing Natal,1997,,4bef85cb376e
+PDRB_1996-1999.csv,P_recover,Mandailing Natal,1997,,4bef85cb376e
+PDRB-capita_1996-1999.csv,W3c,Sambas,1996,,53c806c97786
+PDRB-capita_1996-1999.csv,W3c,Sambas,1996,,53c806c97786
+PDRB-capita_1996-1999.csv,W3c,Sambas,1997,,53328459a0e8
+PDRB-capita_1996-1999.csv,W3c,Sambas,1997,,53328459a0e8
+PDRB-capita_1996-1999.csv,W3c,Sambas,1998,,f2bcd41546a0
+PDRB-capita_1996-1999.csv,W3c,Sambas,1998,,f2bcd41546a0
+PDRB-capita_1996-1999.csv,W3c,Sambas,1999,,74e79ffd9cb1
+PDRB-capita_1996-1999.csv,W3c,Sambas,1999,,74e79ffd9cb1
+PDRB-capita_1996-1999.csv,W3f,Kapuas,1999,,34b940cb943e
+PDRB-capita_1996-1999.csv,W3f,Kapuas,1999,,34b940cb943e
+PDRB-capita_1996-1999.csv,P5a,Barru,1998,,a3d148b207d6
+PDRB-capita_1996-1999.csv,OCR_col_shift,Luwu Utara,1997,,22a16c6e5cfb
+PDRB-capita_1996-1999.csv,OCR_col_shift,Luwu Utara,1998,,0e15fb1f4016
+PDRB-capita_1996-1999.csv,OCR_col_shift,Luwu Utara,1999,,8775486d1aa6
+PDRB_2000-2001.csv,W3a,Kampar,2000,,93f284be2838
+PDRB_2000-2001.csv,W3a,Kampar,2001,,f64a4835fd08
+PDRB_2000-2001.csv,W3a,Kampar,2002,,0eea546e5ca5
+PDRB_2000-2001.csv,W3a,Kampar,2003,,480dfbe2326b
+PDRB_2000-2001.csv,W3a,Kampar,2000,,c3a50fbb4820
+PDRB_2000-2001.csv,W3a,Kampar,2001,,836f8320f54e
+PDRB_2000-2001.csv,W3a,Kampar,2002,,51bdbe920a71
+PDRB_2000-2001.csv,W3a,Kampar,2003,,350eaed4f201
+PDRB_2000-2001.csv,W3b,MUSI Rawas,2001,,3280f620e20f
+PDRB_2000-2001.csv,OCR_garble,Ende,2000,,502a61aa9936
+PDRB_2000-2001.csv,OCR_garble,Tabalong,2000,,ed62d43d6214
+PDRB_2000-2001.csv,OCR_garble,Tabalong,2000,,5df184773be7
+PDRB_2000-2001.csv,OCR_garble,Tabalong,2001,,eb2c5ff9a2b0
+PDRB_2000-2001.csv,OCR_garble,Langkat,2000,,9d9b03237a80
+PDRB_2000-2001.csv,OCR_garble,Asahan,2001,,68eab82542eb
+PDRB_2000-2001.csv,OCR_garble,Sidenreng Rappang,2001,,f9edc1963445
+PDRB_2000-2001.csv,OCR_garble,Asahan,2001,,f510f43033de
+PDRB_2000-2001.csv,OCR_garble,Kudus,2000,,1ae7a67f8517
+PDRB_2000-2001.csv,OCR_garble,Karawang,2000,,54b6124e5ead
+PDRB_2000-2001.csv,OCR_garble,Karawang,2000,,bb3a1cf321e4
+PDRB_2000-2001.csv,OCR_garble,Tuban,2000,,e6789b97716a
+PDRB-capita_2000-2001.csv,OCR_garble,Jambi,2000,,5dc9458f007b
+PDRB-capita_2000-2001.csv,OCR_garble,Lampung Timur,2003,,5c1799fe9715
+PDRB-capita_2000-2001.csv,OCR_garble,Tuban,2000,,3382291be4dc
+PDRB-capita_2000-2001.csv,W2c,Kepulauan Mentawai,2000,,a57f54866804
+PDRB-capita_2000-2001.csv,W2c,Pesisir Selatan,2000,,8bd0c0e20730
+PDRB-capita_2000-2001.csv,W2c,Solok,2000,,48c0905e4f95
+PDRB-capita_2000-2001.csv,W2c,Sawahlunto/Sijunj'ung,2000,,9899c1e1ef58
+PDRB-capita_2000-2001.csv,W2c,Tanah Datar,2000,,42a69c180ed2
+PDRB-capita_2000-2001.csv,W2c,Padang Panaman,2000,,8cdcb15b4d40
+PDRB-capita_2000-2001.csv,W2c,Agam,2000,,3e002ee933e3
+PDRB-capita_2000-2001.csv,W2c,Lima Puluh Koto,2000,,a97157d06241
+PDRB-capita_2000-2001.csv,W2c,Pasaman,2000,,5366ba38130d
+PDRB-capita_2000-2001.csv,W2c,Padang,2000,,2a812931d774
+PDRB-capita_2000-2001.csv,W2c,Solok,2000,,abf8a954bfd1
+PDRB-capita_2000-2001.csv,W2c,Sawahlunto,2000,,813d0b1c0d4f
+PDRB-capita_2000-2001.csv,W2c,Padang Panjang,2000,,010b02d61b4e
+PDRB-capita_2000-2001.csv,W2c,Bukit Tinggi,2000,,11229614f4cc
+PDRB-capita_2000-2001.csv,W2c,Payakumbuh,2000,,007859c15011
+PDRB-capita_2000-2001.csv,W2c,Kepulauan Mentawai,2001,,a0a7c381a149
+PDRB-capita_2000-2001.csv,W2c,Pesisir Selatan,2001,,f9340575e2ad
+PDRB-capita_2000-2001.csv,W2c,Solok,2001,,bdbfd6e1c825
+PDRB-capita_2000-2001.csv,W2c,Sawahlunto/Sijunj'ung,2001,,44c02402ad05
+PDRB-capita_2000-2001.csv,W2c,Tanah Datar,2001,,f3f0f8cf2f79
+PDRB-capita_2000-2001.csv,W2c,Padang Panaman,2001,,d9597da8b41e
+PDRB-capita_2000-2001.csv,W2c,Agam,2001,,02fdd7eda676
+PDRB-capita_2000-2001.csv,W2c,Lima Puluh Koto,2001,,b0e717d25e64
+PDRB-capita_2000-2001.csv,W2c,Pasaman,2001,,7d6fa0ed56a4
+PDRB-capita_2000-2001.csv,W2c,Padang,2001,,077deaa71473
+PDRB-capita_2000-2001.csv,W2c,Solok,2001,,2e9cac7266d7
+PDRB-capita_2000-2001.csv,W2c,Sawahlunto,2001,,ff669265cf41
+PDRB-capita_2000-2001.csv,W2c,Padang Panjang,2001,,6c660c05df87
+PDRB-capita_2000-2001.csv,W2c,Bukit Tinggi,2001,,cdef97a6a2e4
+PDRB-capita_2000-2001.csv,W2c,Payakumbuh,2001,,c75b486a218e
+PDRB_2002-2004.csv,OCR_garble,Balikpapan,2003,,abbef03849d7
+PDRB_2002-2004.csv,P7_real,Bogor,2002,real,575f096b5e8d
+PDRB_2002-2004.csv,P7_real,Bogor,2003,real,b69fff165efa
+PDRB_2002-2004.csv,P7_real,Bogor,2004,real,328e1f197805
+PDRB_2002-2004.csv,P7_recover,Bogor,2002,nominal,9eea6d13b095
+PDRB_2002-2004.csv,P7_recover,Bogor,2003,nominal,05b903f98001
+PDRB_2002-2004.csv,P7_recover,Bogor,2004,nominal,9aab9c193b56
+PDRB_2002-2004.csv,P7_garble,Bogor,2005,nominal,9a40d6b7e599
+PDRB_2002-2004.csv,P7_garble,Bogor,2006,nominal,1832cd2b3ca0
+PDRB-capita_2005-2007.csv,P6,Kab. Sumba Barat,2005,,59b2a15f7735
+PDRB-capita_2005-2007.csv,P6,Kab. Sumba Barat,2006,,56481b7fd388
+PDRB-capita_2005-2007.csv,P6_recover,Kab. Sumba Barat,2007,,5f8671ca40e8
+PDRB-capita_2017-2019.csv,W2b,Kab. Mesuji,2017,,8817efc1c4d9
+PDRB-capita_2017-2019.csv,W2b,Kab. Mesuji,2018,,6bdce5980415
+PDRB-capita_2017-2019.csv,W2b,Kab. Mesuji,2019,,23cf8ce9fddc
+PDRB-capita_2017-2019.csv,W2b,Kab. Tulang Bawang Barat,2017,,53dfe835d033
+PDRB-capita_2017-2019.csv,W2b,Kab. Tulang Bawang Barat,2018,,e3fa94457234
+PDRB-capita_2017-2019.csv,W2b,Kab. Tulang Bawang Barat,2019,,c0d7605edc24
+PDRB-capita_2017-2019.csv,W2b,Kab. Pesisir Barat,2017,,9364426774bd
+PDRB-capita_2017-2019.csv,W2b,Kab. Pesisir Barat,2018,,1144832523a4
+PDRB-capita_2017-2019.csv,W2b,Kab. Pesisir Barat,2019,,3d91afe1de81
+PDRB-capita_2017-2019.csv,W2b,Kota Bandar Lampung,2017,,f6ab7055c264
+PDRB-capita_2017-2019.csv,W2b,Kota Bandar Lampung,2018,,9c0b9632b7b6
+PDRB-capita_2017-2019.csv,W2b,Kota Bandar Lampung,2019,,1b8bec872553
+PDRB-capita_2017-2019.csv,W2,Kota Bandar Lampung,2020,,a1bc19963c2a
+PDRB-capita_2017-2019.csv,W2,Kota Bandar Lampung,2021,,f0cf87a86ad1
+PDRB-capita_2017-2019.csv,W2b,Kota Metro,2017,,a0bf7b69e2ad
+PDRB-capita_2017-2019.csv,W2b,Kota Metro,2018,,1b5092d6aef8
+PDRB-capita_2017-2019.csv,W2b,Kota Metro,2019,,add0227eea33
+PDRB-capita_2017-2019.csv,W2,Kota Metro,2020,,68a3a26ba587
+PDRB-capita_2017-2019.csv,W2,Kota Metro,2021,,99d488aded98
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Malinau,2012,,3262d429d044
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Malinau,2013,,759a8169706f
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Malinau,2014,,20c7ff32e012
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Malinau,2015,,af79149bef96
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Bulungan,2012,,773d95b83958
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Bulungan,2013,,c1ef4cc5562c
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Bulungan,2014,,b54164b715f4
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Bulungan,2015,,53c23f718d9f
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Tana Tidung,2012,,5d4d2ae5f43b
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Tana Tidung,2013,,dbf6f85ef206
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Tana Tidung,2014,,13a8bbd29a1c
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Tana Tidung,2015,,22695aec19e5
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Nunukan,2012,,168544d8a49a
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Nunukan,2013,,63d150869b6f
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Nunukan,2014,,f024e13d70b8
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Nunukan,2015,,2ab53cea0790
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kota Tarakan,2012,,5ce89018c3ed
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kota Tarakan,2013,,62930826235c
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kota Tarakan,2014,,0460705b2c8d
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kota Tarakan,2015,,cd452f72ef18
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Malinau,2015,,e717e23e198e
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Bulungan,2015,,614234162c15
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Tana Tidung,2015,,232e35030a4a
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kab. Nunukan,2015,,bf34944dfda9
+PDRB-capita_2011-2013.csv,KALTARA_shift,Kota Tarakan,2015,,aff38576df6f
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Indragiri Hulu,2008,,3c4e4504b488
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Pelalawan,2008,,d2669700f93d
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Indragiri Hulu,2009,,87a0561395a5
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Pelalawan,2009,,b0d14b028194
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Indragiri Hulu,2010,,a284753e629f
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Pelalawan,2010,,c716f26edbdc
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Indragiri Hulu,2011,,dfe6f782b2f5
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Pelalawan,2011,,ae12e2be116d
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Indragiri Hulu,2012,,999ff36349cc
+PDRB-capita_2008-2010.csv,BUG_E,Kab. Pelalawan,2012,,505a477da93b
