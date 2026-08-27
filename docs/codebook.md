@@ -43,7 +43,7 @@ nom = df[
 ]
 ```
 
-Values in `value_standardized` are in bare IDR. Divide by `1e6` to match the DAPOER convention (IDR million). Always drop `is_pre_split_aggregate == True` rows before any aggregation; they repeat a child district's value inside its parent and double-count on summation (§7.9).
+Values in `value_standardized` are in rupiah. Divide by `1e6` to match the DAPOER convention (IDR million). Always drop `is_pre_split_aggregate == True` rows before any aggregation; they repeat a child district's value inside its parent and double-count on summation (§7.9).
 
 The three real GDP series are not comparable across base years: `real/1993` (1996–2003), `real/2000` (2002–2012), and `real/2010` (2011–2025) use different price bases and SNA vintages. Jumps at 2003 or 2013 are methodological breaks, not economic signals. Use nominal for a continuous series, or the chained panel for cross-regime growth (§7.1).
 
@@ -218,7 +218,7 @@ Columns are defined for the primary panels (`panel_pdrb_total_2000bounds.csv`, `
 | `bps_code` | string | Official BPS 4-digit Kode Wilayah (e.g., `1107` for Aceh Barat). Standard cross-dataset join key for BPS administrative data. Two caveats: (1) roughly 15 pre-split parent/successor pairs share the same code (e.g., `BUNGOTEBO` and `BUNGO` both map to `1509`), so `bps_code` alone is not a unique key; always join on `district_id`; (2) the province prefix of `bps_code` does not match `province_canonical` for three province-migrated districts (POLEWALIMAMASA, PASANGKAYU, KEPULAUAN_RIAU). |
 | `province_canonical` | string | Harmonized province name, all-caps. |
 | `district_name_2000` | string | Canonical district name at 2000-vintage boundary, all-caps. |
-| `admin_type` **(chained only)** | string | `kabupaten` (regency) or `kota` (city). Assigned from the BPS regency code where the publication did not label it: `kota` if `(regency_code mod 100) ≥ 71`, else `kabupaten`. Used internally during harmonization for all panels to disambiguate kab/kota pairs; retained as an output column only in the chained panel. |
+| `admin_type` **(chained only)** | string | `kabupaten` (regency) or `kota` (city). Assigned from the BPS regency code where the publication did not label it: `kota` if `(bps_code mod 100) ≥ 71`, else `kabupaten`. Used internally during harmonization for all panels to disambiguate kab/kota pairs; retained as an output column only in the chained panel. |
 
 ### Series key
 
@@ -234,9 +234,9 @@ Together with `district_id` and `year`, `(table_type, base_year, oil_excluded)` 
 
 | Column | Type | Definition |
 | --- | --- | --- |
-| `value_standardized` | float | PDRB value in bare rupiah (total panel) or rupiah per person (per-capita panel). BPS reported in mixed units (jutaan/miliar/ribu rupiah); all have been converted to bare rupiah by applying `unit_multiplier`. No further multiplier is needed at read time. |
+| `value_standardized` | float | PDRB value in rupiah (total panel) or rupiah per person (per-capita panel). BPS reported in mixed units (jutaan/miliar/ribu rupiah); all have been converted to rupiah by applying `unit_multiplier`. No further multiplier is needed at read time. |
 | `unit` | string | Original BPS unit string (e.g., `juta rupiah`, `miliar rupiah`, `ribu rupiah`, `rupiah`). |
-| `unit_multiplier` | float | Factor applied to reach bare rupiah: `1e6` (juta), `1e9` (miliar), `1e3` (ribu), `1.0` (rupiah). |
+| `unit_multiplier` | float | Factor applied to reach rupiah: `1e6` (juta), `1e9` (miliar), `1e3` (ribu), `1.0` (rupiah). |
 
 ### Provenance
 
@@ -245,6 +245,7 @@ Together with `district_id` and `year`, `(table_type, base_year, oil_excluded)` 
 | `source_file` | string | BPS publication CSV filename (e.g., `PDRB_2021-2023.csv`, `PDRB-capita_1996-1999.csv`). |
 | `source_priority` | integer (0–10) | Publication rank; higher = later. On a key collision, the higher-priority row wins ("later wins"), reflecting BPS field-coverage revisions. |
 | `match_status` | string | Harmonization outcome (Stage 4). Enumerated values below. |
+| `correction_id` | string / NaN | Fix identifier linking this row to the correction sidecar (§9). Present on `_native` and chained panels; `NaN` if the row was not corrected. Not present on `_2000bounds` panels (child summation collapses multiple source rows into one). |
 
 The `match_status` values are:
 
@@ -290,7 +291,7 @@ df = pd.read_csv("panel_pdrb_total_2000bounds.csv")
 
 Section 5 defines every column; the notes below flag the most common sources of silent errors.
 
-**Unit.** `value_standardized` is in bare IDR — the `unit_multiplier` column has already been applied. Do not multiply again. To convert to IDR millions (the DAPOER convention), divide by 1,000,000.
+**Unit.** `value_standardized` is in rupiah — the `unit_multiplier` column has already been applied. Do not multiply again. To convert to IDR millions (the DAPOER convention), divide by 1,000,000.
 
 **Booleans.** `is_provisional`, `is_pre_split_aggregate`, and `is_child_aggregate` are stored as `True`/`False` text in the CSV (primary panels); `is_backcast` follows the same convention in the chained panel. pandas and R auto-convert these to native logical types on read, so `== False` / `== FALSE` works directly. Stata loaded with `stringcols(_all)` keeps them as strings, so filter with `keep if is_pre_split_aggregate == "False"` (quoted).
 
