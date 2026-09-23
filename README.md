@@ -34,7 +34,7 @@ nom = df[
 ]
 ```
 
-Values in `value_standardized` are in bare IDR. Divide by `1e6` to match the DAPOER convention (IDR million).
+Values in `value_standardized` are in rupiah. Divide by `1e6` to match the DAPOER convention (IDR million).
 
 ## Documentation
 
