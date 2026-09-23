@@ -56,4 +56,4 @@ This runs the pipeline and writes SHA-256 checksums of the five output files. PD
 
 > Johan, Nayfa and Russell Hillberry (2026). *Subnational GDP for Indonesia: A District-Level Panel, 1996–2025.* Purdue University Research Repository (PURR). https://doi.org/10.4231/FWEQ-VE94
 
-Licensing terms are set on the PURR deposit record.
+Licensed under CC BY 4.0 — see `LICENSE`, matching the license set on the PURR deposit record above.
