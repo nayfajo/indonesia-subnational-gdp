@@ -16,11 +16,11 @@ detection (has_doubled_text routes 1996-1999 scans to vision automatically), --r
 parse_pdfs_text.py is the script for all non-Group-A PDFs.
 
 Applies to:
-    PDRB_1996-1999.pdf, PDRB-capita_1996-1999.pdf (and their counterparts in new full set)
+    PDRB_1996-1999.pdf, PDRB-capita_1996-1999.pdf (and their counterparts in raw/pdf/sources/split/)
 
 Usage:
     .venv/bin/python3.14 scripts/parse_pdfs_scan.py \\
-        --input raw/pdf/PDRB_1996-1999.pdf \\
+        --input raw/pdf/sources/split/PDRB_1996-1999.pdf \\
         --output pipeline_out/full_runs/csvs/
 
 Env:

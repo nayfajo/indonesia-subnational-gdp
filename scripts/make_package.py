@@ -3,14 +3,14 @@
 make_package.py — assemble a self-contained replication/ folder.
 
 Collects everything a third party needs to reproduce the PDRB panel from the
-parsed stage-1 CSVs: the final panels, the codebook, the crosswalks, the
+parsed stage-1 CSVs: the final panels, the data guide, the crosswalks, the
 correction sidecar, the 21 parsed CSVs (reproducibility anchor), the active
 scripts, the raw PDFs, run_all.sh, and a generated README with run order.
 
 Package layout (flattened from the working tree):
     replication/
       outputs/        — the five canonical panels (+ checksums after a run)
-      docs/           — codebook.md (full reference, includes Quick Start)
+      docs/           — data_guide.md + data_guide.pdf (full reference, includes Quick Start)
       crosswalks/     — reference / concordance tables
       corrections/    — corrections_applied.csv sidecar
       parsed_csvs/    — the 21 parsed stage-1 CSVs (reproducibility anchor)
@@ -39,12 +39,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DEST = ROOT / "replication"
 
-# Working-tree location of the raw PDFs.
-PDF_SRC = ROOT / "raw" / "pdf" / "new full set"
-
-# The one national originals PDF that lives OUTSIDE the Raw/ subfolder but
-# belongs with the originals rather than the manually split pipeline inputs.
-ORIGINALS_OUTSIDE_RAW = "PDRB_1998-2001.pdf"
+# Working-tree location of the raw PDFs. Physically split into split/ and
+# originals/ to mirror the package layout exactly (renamed from the old
+# "new full set/" + "new full set/Raw/" 2026-09-23, which also moved the one
+# national PDRB_1998-2001.pdf — previously special-cased as living outside
+# Raw/ but belonging with the originals — into originals/ directly).
+PDF_SRC = ROOT / "raw" / "pdf" / "sources"
 
 # ---------------------------------------------------------------------------
 # What goes in.
@@ -57,8 +57,8 @@ FILES = [
     ("outputs/panel_pdrb_chained_2000bounds.csv",     "outputs/panel_pdrb_chained_2000bounds.csv"),
     ("outputs/panel_pdrb_total_native.csv",  "outputs/panel_pdrb_total_native.csv"),
     ("outputs/panel_pdrb_capita_native.csv", "outputs/panel_pdrb_capita_native.csv"),
-    ("docs/codebook.md", "docs/codebook.md"),
-    ("LICENSE", "LICENSE"),
+    ("docs/data_guide.md",  "docs/data_guide.md"),
+    ("docs/data_guide.pdf", "docs/data_guide.pdf"),
     ("corrections/corrections_applied.csv",
      "corrections/corrections_applied.csv"),
     # run_all.sh is handled specially (path references rewritten) below.
@@ -69,7 +69,7 @@ DIRS = [
     ("crosswalks", "crosswalks"),
     # The 21 parsed stage-1 CSVs, flattened to the top level.
     ("pipeline_out/full_runs/csvs", "parsed_csvs"),
-    # DAPOER extract used by scripts/dapoer_crosscheck.py (codebook Section 8).
+    # DAPOER extract used by scripts/dapoer_crosscheck.py (data guide Section 8).
     ("dapoer_extract", "dapoer_extract"),
 ]
 
@@ -82,10 +82,15 @@ SCRIPTS_DEST = DEST / "scripts"
 # scripts/archive/ and are not part of the reproducible pipeline.
 SCRIPTS_EXCLUDE = {
     "validate_province_sums.py",
+    # Post-processes docs/data_guide.pdf's accessibility tagging after a
+    # `typst compile` (see CONTRIBUTING.md). Real, current, and tracked on
+    # GitHub, but it's about maintaining the data guide itself, not about
+    # reproducing the panel -- doesn't belong in a data-reproduction package.
+    "fix_footnote_reference_tags.py",
 }
 
 # Junk we never want to carry along.
-IGNORE = shutil.ignore_patterns(".DS_Store", "__pycache__", "*.pyc")
+IGNORE = shutil.ignore_patterns(".DS_Store", "__pycache__", "*.pyc", "~$*")
 
 
 # ---------------------------------------------------------------------------
@@ -117,10 +122,10 @@ def _human(nbytes: int) -> str:
 
 
 def _copy_pdfs(missing: list[str]) -> tuple[int, int]:
-    """Split the raw PDFs into originals/ and split/ in the package.
+    """Copy the raw PDFs into originals/ and split/ in the package.
 
-    originals/ = the 10 files under 'new full set/Raw/' plus PDRB_1998-2001.pdf.
-    split/     = every other PDF directly under 'new full set/'.
+    Both are physical subfolders of PDF_SRC (raw/pdf/sources/), a 1:1 mirror
+    of the package's own raw/pdf/originals/ and raw/pdf/split/.
 
     Returns (n_originals, n_split).
     """
@@ -135,24 +140,21 @@ def _copy_pdfs(missing: list[str]) -> tuple[int, int]:
 
     n_orig = n_split = 0
 
-    # Originals from the Raw/ subfolder.
-    raw_sub = PDF_SRC / "Raw"
-    if raw_sub.exists():
-        for pdf in sorted(raw_sub.glob("*.pdf")):
+    orig_sub = PDF_SRC / "originals"
+    if orig_sub.exists():
+        for pdf in sorted(orig_sub.glob("*.pdf")):
             shutil.copy2(pdf, orig_dest / pdf.name)
             n_orig += 1
     else:
-        missing.append(str(raw_sub.relative_to(ROOT)) + "/")
+        missing.append(str(orig_sub.relative_to(ROOT)) + "/")
 
-    # Everything directly under 'new full set/': the national 1998-2001 PDF
-    # goes with the originals; the rest are the manually split pipeline inputs.
-    for pdf in sorted(PDF_SRC.glob("*.pdf")):
-        if pdf.name == ORIGINALS_OUTSIDE_RAW:
-            shutil.copy2(pdf, orig_dest / pdf.name)
-            n_orig += 1
-        else:
+    split_sub = PDF_SRC / "split"
+    if split_sub.exists():
+        for pdf in sorted(split_sub.glob("*.pdf")):
             shutil.copy2(pdf, split_dest / pdf.name)
             n_split += 1
+    else:
+        missing.append(str(split_sub.relative_to(ROOT)) + "/")
 
     return n_orig, n_split
 
@@ -216,6 +218,10 @@ A district-level (subnational) GDP panel for Indonesia, 1996–2025, assembled
 from BPS regional GDP (PDRB) publications. This package reproduces the panel
 from the parsed stage-1 CSVs.
 
+## Requirements
+
+Python 3.11+. See `requirements.txt` for package versions.
+
 ## Contents
 
 - `outputs/` — the five canonical panel files:
@@ -225,39 +231,49 @@ from the parsed stage-1 CSVs.
   - `panel_pdrb_total_native.csv`  — total PDRB, full (all overlaps retained)
   - `panel_pdrb_capita_native.csv` — per-capita PDRB, full
   - `checksums.sha256`           — written by run_all.sh after a successful run
-- `docs/codebook.md` — the codebook: Quick Start, column definitions, all pipeline stages,
+- `docs/data_guide.md` — the data guide: Quick Start, column definitions, all pipeline stages,
   limitations, correction categories, and the detailed DAPOER validation. Start here.
-- `crosswalks/` — district reference, name corrections, split concordance,
-  province crosswalk, and supporting pemekaran (administrative-split) tables.
+- `crosswalks/` — 8 files: `district_reference.csv` (canonical district
+  list), `province_crosswalk.csv`, `name_corrections.csv`,
+  `split_concordance.csv` (pemekaran parent/child map), `bps_code_reference.csv`,
+  and three external cross-check references on administrative splits (a
+  RISED CSV, a Kemendagri registry CSV, and a compiled .docx table).
+  See the data guide's "Crosswalk file reference" for a column-by-column
+  breakdown of every file.
+- `dapoer_extract/` — the World Bank INDO-DAPOER extract used for the
+  cross-validation in data guide Section 8 (two files: indicator values and
+  indicator metadata). See the data guide's "DAPOER extract file reference".
 - `corrections/corrections_applied.csv` — sidecar log of hand-verified
   corrections applied to the parsed CSVs.
 - `parsed_csvs/` — the 21 parsed stage-1 CSVs (all 143 hand-verified
   corrections already applied in place). These are the
   reproducibility anchor: output of the (paid, vision-API) PDF parsing stage
-  and the input to `run_all.sh`.
+  and the input to `run_all.sh`. See the data guide's "Parsed CSV schema" for
+  column definitions and two known, documented data-quality notes (an inert
+  header-text typo and duplicate rows from resumed parsing runs).
 - `scripts/` — the pipeline and helper scripts (archive/ excluded), including
   `dapoer_crosscheck.py`, which reproduces the DAPOER cross-validation in
-  codebook Section 8 from the World Bank extract shipped in `dapoer_extract/`.
+  data guide Section 8 from the World Bank extract shipped in `dapoer_extract/`.
 - `raw/pdf/` — the source BPS PDF publications (see Provenance below).
 - `run_all.sh` — chains the pipeline stages and writes output checksums.
 
-## License and citation
-
-Data and documentation are licensed CC BY 4.0; code is MIT-licensed (see
-`LICENSE`). If you use this dataset, please cite:
+## Citation
 
 > Johan, Nayfa and Russell Hillberry (2026). *Subnational GDP for Indonesia:
 > A District-Level Panel, 1996–2025.* Purdue University Research Repository
-> (PURR). DOI: [to be assigned on deposit]
+> (PURR). https://doi.org/10.4231/FWEQ-VE94
+
+Licensing terms are set on the PURR deposit record.
 
 ## Provenance of the raw PDFs
 
-### `raw/pdf/originals/` — 11 original BPS publications
+### `raw/pdf/originals/` — 11 curated BPS publication extracts + 1 provenance document
 
-These are the original publications downloaded from Statistics Indonesia
-(Badan Pusat Statistik, **bps.go.id**). Ten are the district/municipality PDRB
-publication series; the eleventh (`PDRB_1998-2001.pdf`) is the national
-1998–2001 PDRB publication.
+Each BPS publication in this series runs to several hundred pages covering many
+statistical topics; these 11 files are the PDRB-relevant pages selected out of
+each one (exported page-range PDFs, not the full multi-topic volumes). Ten
+cover the district/municipality PDRB series; the eleventh (`PDRB_1998-2001.pdf`)
+is from the national 1998–2001 PDRB publication.
 
 The ten series files carry a `NN-NN_` filename prefix. That prefix records the
 **non-provisional year coverage** actually extracted from each publication —
@@ -281,6 +297,28 @@ Note: the `08-10` publication is the **BPS English edition**, titled
 "Gross Regional Domestic Product of Regencies/Municipalities in Indonesia
 2008-2012". All other originals are the Indonesian-language editions.
 
+**Republication permission.** `originals/` also includes `Term of Use -
+BPS-Statistics Indonesia.pdf`, a saved copy of BPS's Terms of Use page
+(bps.go.id/en/term-of-use, accessed September 2026), kept here as dated
+documentary evidence rather than a link that could change or disappear.
+Clause 13 grants content "free of charge, worldwide, on a continuous and
+non-exclusive basis" for, among other purposes, "using the data for both
+commercial and non-commercial purposes" and "copying, distributing, and/or
+transmitting the content," conditional on lawful use, proper citation (title,
+access date, and a link to the original — provided in the table above and
+footnote 1 of the data guide), and accepting that BPS content may change or
+be withdrawn. These pages are republished on that basis for reproducibility.
+
+**On the raw PDFs' form.** These are the extracted pages, not touched-up
+copies — no re-typesetting, no OCR cleanup, no accessibility remediation.
+Most were produced as page-range exports (macOS Preview's PDF export; several
+carry a "Quartz PDFContext" producer tag as a result), so they are not
+byte-identical copies of BPS's own files, but they are visually and textually
+faithful to the pages as BPS printed them — what verifying a panel figure
+against source actually requires. Accessibility and general usability live
+in the derived data instead: `outputs/` and `parsed_csvs/` are plain,
+machine-readable text.
+
 ### `raw/pdf/split/` — 21 manually extracted pipeline-input PDFs
 
 These are the PDRB and PDRB-per-capita tables manually extracted from the
@@ -294,7 +332,7 @@ The 21 CSVs in `parsed_csvs/` are the pipeline's stage-1 outputs, parsed from
 the split PDFs in `raw/pdf/split/`. They are the **reproducibility anchor**: the
 PDF parsing step relies on a paid vision API and is therefore **not re-run by
 `run_all.sh`**. The parsed CSVs are shipped directly and are the input to the
-reproducible pipeline. See `docs/codebook.md` for the parsing methodology.
+reproducible pipeline. See `docs/data_guide.md` for the parsing methodology.
 
 All 143 hand-verified corrections are already applied in-place to the shipped
 CSVs. `apply_corrections.py` re-verifies every correction with 3-state logic —
@@ -332,7 +370,7 @@ The pipeline is designed so that a new BPS publication (typically released each 
 2. **Register the new source file.** Add it to `SOURCE_PRIORITY`, `TOTAL_FILES` or `CAPITA_FILES` in `scripts/build_panel.py` with the next integer priority rank (higher = later publication wins). See `CONTRIBUTING.md` for details.
 3. **Update the crosswalks.** If BPS created new districts or provinces since the last update, add rows to `crosswalks/split_concordance.csv` and `crosswalks/district_reference.csv`. This is a live issue: the 2022 Papua *pemekaran* created several new provinces not reflected in the current concordance.
 
-Steps 2–3 require familiarity with the pipeline conventions described in `docs/codebook.md`. Questions and contributions welcome via the project repository: https://github.com/nayfajo/indonesia-subnational-gdp.
+Steps 2–3 require familiarity with the pipeline conventions described in `docs/data_guide.md`. Questions and contributions welcome via the project repository: https://github.com/nayfajo/indonesia-subnational-gdp.
 """
 
 

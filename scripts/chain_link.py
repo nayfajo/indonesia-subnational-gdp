@@ -26,7 +26,7 @@ Scope
 - table_type="real_chained", base_year="2010.0"
 - Extra columns: link_year, link_ratio, is_backcast, ratio_drift_flag
 
-Caveats (document in codebook)
+Caveats (document in data guide)
 -------------------------------
 - Pre-2011 values are synthetic: they preserve real/2000 growth rates but
   levels do not correspond to any BPS publication.

@@ -8,7 +8,7 @@
 # It does NOT re-run the PDF parsing stage (parse_pdfs_text.py, parse_pdfs_scan.py). Those
 # scripts require a paid vision API and their output — the 21 CSVs in
 # pipeline_out/full_runs/csvs/ — is shipped as the reproducibility anchor.
-# See docs/codebook.md for the parsing methodology.
+# See docs/data_guide.md for the parsing methodology.
 #
 # Usage:
 #   bash run_all.sh

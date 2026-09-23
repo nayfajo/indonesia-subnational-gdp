@@ -31,6 +31,10 @@ PDRB_1996-1999.csv,OCR_garble,Tulang Bawang,1998,,b7a45fb36a81
 PDRB_1996-1999.csv,OCR_garble,Morowali,1998,,c35df906a6a8
 PDRB_1996-1999.csv,P_recover,Mandailing Natal,1997,,4bef85cb376e
 PDRB_1996-1999.csv,P_recover,Mandailing Natal,1997,,4bef85cb376e
+PDRB_1996-1999.csv,P_MN96_dup,Mandailing Natal,1996,,73e2b149abd7
+PDRB_1996-1999.csv,P_MN96_dup,Mandailing Natal,1996,,73e2b149abd7
+PDRB_1996-1999.csv,P9_recover,Bojonegoro,1999,,aa9f0ba5b56f
+PDRB_1996-1999.csv,P9_recover,Bojonegoro,1999,,9a1b172b3936
 PDRB-capita_1996-1999.csv,W3c,Sambas,1996,,53c806c97786
 PDRB-capita_1996-1999.csv,W3c,Sambas,1996,,53c806c97786
 PDRB-capita_1996-1999.csv,W3c,Sambas,1997,,53328459a0e8
@@ -54,6 +58,7 @@ PDRB_2000-2001.csv,W3a,Kampar,2001,,836f8320f54e
 PDRB_2000-2001.csv,W3a,Kampar,2002,,51bdbe920a71
 PDRB_2000-2001.csv,W3a,Kampar,2003,,350eaed4f201
 PDRB_2000-2001.csv,W3b,MUSI Rawas,2001,,3280f620e20f
+PDRB_2000-2001.csv,W3g,Bengkulu Selatan,2003,,27e5be13a46d
 PDRB_2000-2001.csv,OCR_garble,Ende,2000,,502a61aa9936
 PDRB_2000-2001.csv,OCR_garble,Tabalong,2000,,ed62d43d6214
 PDRB_2000-2001.csv,OCR_garble,Tabalong,2000,,5df184773be7

@@ -7,7 +7,7 @@ This guide covers how the repository is organized, how to reproduce or extend th
 ```
 indonesia-subnational-gdp/
   outputs/                — five canonical panel CSVs (the deliverables)
-  docs/                   — codebook.md, research_log.md
+  docs/                   — data_guide.md, research_log.md
   crosswalks/             — district_reference.csv, province_crosswalk.csv,
                             split_concordance.csv, name_corrections.csv
   scripts/                — the full pipeline
@@ -49,6 +49,33 @@ Running `bash run_all.sh` chains all post-parse stages in order:
 
 Stage 1 (PDF parse: `parse_pdfs_text.py`, `parse_pdfs_scan.py`, `reparse_pages_vision.py`) is not included in `run_all.sh` because it requires a paid vision API. The parsed CSVs are pre-shipped.
 
+## Building the data guide PDF
+
+`docs/data_guide.pdf` is compiled from `docs/data_guide.typ` (a separately
+hand-maintained Typst source — editing `docs/data_guide.md` does not touch
+it, and vice versa; every substantive content change needs to be made in
+both). Two steps, both required, in this order:
+
+```bash
+typst compile --pdf-standard ua-1 docs/data_guide.typ docs/data_guide.pdf
+python scripts/fix_footnote_reference_tags.py docs/data_guide.pdf
+```
+
+The `--pdf-standard ua-1` flag is required on every compile, not just the
+first time — it declares PDF/UA-1 conformance in the file's XMP metadata
+and fixes the document-title and tab-order accessibility items.
+
+The second step is **not optional and does not survive a recompile**:
+Typst's `#footnote[...]` tags the in-text footnote marker as PDF structure
+type `/Lbl`; PDF/UA and Adobe Acrobat's accessibility checker want
+`/Reference` for that role instead (see the script's own docstring for the
+full rationale and what it deliberately leaves untouched). Running
+`typst compile` again regenerates the PDF with the original `/Lbl` tagging,
+silently undoing this fix — always re-run the Python script immediately
+after any recompile. Verified 2026-09-23 via veraPDF's PDF/UA-1 validator
+(`brew install verapdf`) that this fix introduces no regressions: 106/106
+rules and 207,156/207,156 checks still pass after retagging.
+
 ## Adding a new BPS publication
 
 When BPS releases a new rolling window (e.g., a 2023–2025 volume that supersedes the current provisional data), the steps are:
@@ -61,7 +88,7 @@ When BPS releases a new rolling window (e.g., a 2023–2025 volume that supersed
 
 4. **Run the pipeline.** `bash run_all.sh`. Check `pipeline_out/audits/` for QA flags. Expect the validate stage to flag any unmatched districts.
 
-5. **Update documentation.** In `docs/codebook.md`, extend the source table (Table 1 or 2) to include the new publication and update the year ranges in Table 3.
+5. **Update documentation.** In `docs/data_guide.md`, extend the source table (Table 1 or 2) to include the new publication and update the year ranges in Table 3.
 
 ## Adding or correcting a correction
 

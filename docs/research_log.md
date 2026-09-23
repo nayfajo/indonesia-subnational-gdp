@@ -2,7 +2,7 @@
 
 This file is an internal record of design decisions, key findings, and non-obvious choices made
 during construction of the panel. It is not a user guide; the user-facing reference is
-`docs/codebook.md`. It replaces several large raw session logs that have been archived to
+`docs/data_guide.md`. It replaces several large raw session logs that have been archived to
 `archive/superseded_docs/`. Dates are formatted YYYY-MM-DD and refer to the working session in
 which a decision was made or a finding was confirmed.
 
@@ -265,6 +265,20 @@ rupiah. Two pre-split `#)` rows (Kota Pariaman) were left null as they do not re
 district-level data. The source CSV is stored in
 `pipeline_out/full_runs/correction_sources/`.
 
+**W3e (Mamuju 1999 real spike, nulled)**: The flagged value is a 232% single-year spike in the
+*real* (constant-price) series, which reverts the following year — a classic OCR/transcription
+signature, not a plausible output pattern. Considered and rejected: a genuine economic driver.
+The 1997–99 Asian Financial Crisis did produce a real "cocoa boom" in export-commodity regions
+like Mamuju — as the Rupiah collapsed against the USD, cocoa and palm-oil prices spiked in
+Rupiah terms, and rural producing areas saw incomes multiply while urban Java suffered
+industrial collapse. This is a well-documented mechanism, but it operates on *nominal* prices,
+not real output. Real series are constructed specifically to strip out price effects; a genuine
+232% real-terms spike would require Mamuju to roughly triple its actual physical cocoa/palm-oil
+production in a single year, which planting and harvest cycles do not allow even under a strong
+price incentive. The nominal series plausibly did jump that year for real economic reasons; the
+real series should not have, which is consistent with treating the flagged value as a source
+error rather than genuine growth.
+
 ### Boundary between corrections and standardization
 
 A mechanical test distinguishes work that belongs in `apply_corrections.py` from work that
@@ -283,7 +297,7 @@ falsify the verbatim-PDF property of Stage 1 output.
 
 ### bps_code addition (2026-08-19)
 
-`bps_code` (BPS 4-digit Kode Wilayah) was added to all five panel outputs as the third column, after `district_id` and `district_num`. Source: the `bps_code` column in `crosswalks/district_reference.csv`, which was populated during construction via `fill_bps_codes.py` (no longer retained) — 405 rows auto-matched against `crosswalks/bps_code_reference.csv`, 17 filled manually. The column is read with `dtype=str` to preserve formatting; `bps_code` is not a unique key for ~14–15 parent/successor pairs. See codebook §5 (`bps_code`).
+`bps_code` (BPS 4-digit Kode Wilayah) was added to all five panel outputs as the third column, after `district_id` and `district_num`. Source: the `bps_code` column in `crosswalks/district_reference.csv`, which was populated during construction via `fill_bps_codes.py` (no longer retained) — 405 rows auto-matched against `crosswalks/bps_code_reference.csv`, 17 filled manually. The column is read with `dtype=str` to preserve formatting; `bps_code` is not a unique key for ~14–15 parent/successor pairs. See data guide §5 (`bps_code`).
 
 ### Sidecar and correction_id provenance
 
@@ -451,7 +465,7 @@ The fix, applied 2026-08-15: KENDARI is now a kab/kota pair in district_referenc
 `district_id=SULAWESI_TENGGARA_KONAWE` (district_num 376, BPS code 7402). The alias row is
 placed before the canonical KONAWE row because the panel build's reference map is last-wins:
 the canonical KONAWE row is the one that supplies `district_name_2000=KONAWE` in the final
-panel. The reference now has 422 rows for 421 unique district IDs, and the codebook states this
+panel. The reference now has 422 rows for 421 unique district IDs, and the data guide states this
 exception explicitly.
 
 After the fix: kabupaten rows 1996–2003 route to SULAWESI_TENGGARA_KONAWE via
@@ -584,10 +598,10 @@ panel for PAPUA_BARAT_SORONG_KAB in 2013–2016 and SULAWESI_SELATAN_TAKALAR in 
 (ratio 99.98–100.01, confirmed by smooth surrounding panel trajectories). These are DAPOER-side
 data-entry errors; the panel is correct in both cases.
 
-The Final Pre-Publication Review (2026-08-16) found that the codebook §8 twice described these
+The Final Pre-Publication Review (2026-08-16) found that the data guide §8 twice described these
 as "Sorong Kota" rather than "Sorong Kab." The district in question is the kabupaten; both Kota
 Sorong and Kab. Sorong exist as district IDs in the panel. This was finding E2 in that review's
-three-error list (all documentation; no data or pipeline errors were found). The codebook was
+three-error list (all documentation; no data or pipeline errors were found). The data guide was
 corrected before the PURR deposit.
 
 ### webchat_parser_1996-1999.txt and archiving
@@ -674,7 +688,7 @@ BUKIT_TINGGI → BUKITTINGGI, SAWAHLUNTO → SAWAH_LUNTO (disentangled from SAWA
 the kabupaten), and BANJARBARU → BANJAR_BARU. The Bulungan and Kutai Kartanegara 2004–2007 gaps
 (previously deferred as OCR misses) are also resolved in the final build. The 3 remaining gaps
 are Mamuju real/1993 1999 and Barru nominal 1998 (both panels), which are the deliberate nulls
-for confirmed BPS source errors (codebook §9) rather than pipeline artifacts.
+for confirmed BPS source errors (data guide §9) rather than pipeline artifacts.
 
 Check 3 (growth anomalies) reports 28 anomalies in the final build, down from 81 before B1 and
 W3 corrections. The three largest jumps — +316% to +353% nominal at 2011 for Pasuruan Kab,
@@ -710,7 +724,7 @@ carry unambiguous tanpa-migas values identified by the consistent tanpa/dengan r
 anchored to the 2010 reference case.
 
 Check 9 (implied population) reports 137 flags; 116 are at known split parents (expected rump-
-territory drops, codebook §7.14). Of the 21 not at a known split, most sit at the year-2000 seam
+territory drops, data guide §7.14). Of the 21 not at a known split, most sit at the year-2000 seam
 (Census-2000 denominator revisions) and Banda Aceh 2005 (tsunami). Two annotation misses inflate
 the count: SANGIHE TALAUD does not string-match parent "KEPULAUAN SANGIHE," and Kepulauan Riau
 similarly, so they appear unexplained but are not genuine anomalies.
@@ -759,7 +773,7 @@ the verified 2026-08-15 pipeline run. The Final Pre-Publication Fable Review (20
 verified all quantitative claims in both documentation files against the shipped panels. Three
 documentation errors were found (E1: wrong source publication stated for Aceh 2000–2001, E2:
 "Sorong Kota" should be "Sorong Kab" in §8 twice, E3: capita_native year range stated as
-2000–2025, actual span 1996–2025) and no data or pipeline errors. The correction inventory has 166 sidecar rows, 22 fix families, 9 source files (143 corrections total, as documented in codebook §9).
+2000–2025, actual span 1996–2025) and no data or pipeline errors. The correction inventory has 166 sidecar rows, 22 fix families, 9 source files (144 corrections total, as documented in data guide §9).
 The zero-tag fix set is exactly {W3a, W3e, P5a, P6, FAKFAK_err} (nulled, rows dropped before
 panel) plus {P7_garble, W2} (superseded by higher-priority publications). Five SCM units are
 confirmed gap-free 2000–2023 in both the total and capita panels.

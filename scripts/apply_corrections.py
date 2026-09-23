@@ -173,7 +173,7 @@ CORRECTIONS_BY_FILE = {
         # FAKFAK_err: Fak-Fak 1996-1999 nominal and real/1993 — BPS Irian Jaya table error.
         # PDF confirms these ARE the printed values; 1999 nominal 11.4T → 2000 nominal 0.45T
         # (DAPOER-confirmed) is a ×25 drop — BPS source error, not parser error.
-        # Treat Fakfak pre-2000 as unusable (codebook note).
+        # Treat Fakfak pre-2000 as unusable (data guide note).
         {"fix_id": "FAKFAK_err", "province": "IRIAN JAYA", "district": "Fak-Fak", "year": 1996, "bad": "4.348.830,21",  "good": None},
         {"fix_id": "FAKFAK_err", "province": "IRIAN JAYA", "district": "Fak-Fak", "year": 1997, "bad": "4.631.154,51",  "good": None},
         {"fix_id": "FAKFAK_err", "province": "IRIAN JAYA", "district": "Fak-Fak", "year": 1998, "bad": "12.545.086,18", "good": None},
@@ -195,6 +195,17 @@ CORRECTIONS_BY_FILE = {
         {"fix_id": "OCR_garble", "province": "SULAWESI TENGAH",    "district": "Morowali",       "year": 1998, "bad": "622.216;40",     "good": "622.216,40"},
         # P_recover: Mandailing Natal 1997 nominal — OCR left both duplicate rows blank; value from BPS PDF
         {"fix_id": "P_recover",  "province": "SUMATERA UTARA",     "district": "Mandailing Natal", "year": 1997, "bad": None,           "good": "675.778,17"},
+        # P_MN96_dup: Mandailing Natal 1996 nominal — the 1997 value leaked into the 1996
+        # column (both duplicate copies of the row). PDF (p.3, Table 2) shows 1996 blank for
+        # this district (its series starts 1997); the constant-1993 table (p.31) parsed 1996
+        # correctly as blank, confirming the nominal-table 1996 cell is spurious. Null it.
+        {"fix_id": "P_MN96_dup", "province": "SUMATERA UTARA",     "district": "Mandailing Natal", "year": 1996, "bad": "675.778,17",   "good": None},
+        # P9_recover: Bojonegoro 1999, nominal and real/1993 — BPS printed the 1998 value again
+        # in the 1999 column in both tables (PDRB_1996-1999.pdf p.14 and p.42; neighbouring
+        # districts grow normally that year). Recovered from PDRB_1998-2001.pdf, which prints
+        # 1999 in its own column: p.36 (current price) and p.67/Table 45 (constant 1993).
+        {"fix_id": "P9_recover", "province": "JAWA TIMUR",         "district": "Bojonegoro",       "year": 1999, "bad": "1.927.019,37", "good": "2.126.795,00"},
+        {"fix_id": "P9_recover", "province": "JAWA TIMUR",         "district": "Bojonegoro",       "year": 1999, "bad": "978.764,27",   "good": "979.059,21"},
     ],
 
     "PDRB-capita_1996-1999.csv": [
@@ -230,6 +241,12 @@ CORRECTIONS_BY_FILE = {
         # W3b: Musi Rawas 2001 nominal oil-excl — OCR multi-character garble
         {"fix_id": "W3b", "province": "SUMATERA SELATAN", "district": "MUSI Rawas", "year": 2001,
          "bad": "1 910 16o3,0.0", "good": "1.910.163,00", "name_flag": "*'"},
+        # W3g: Bengkulu Selatan 2003 real/1993 — this table (p.40, Table 38) prints values in
+        # comma-thousands/period-decimal form ("412,451.00"); the 2003 cell lost its decimal
+        # point to a space ("220,997 00"), which the standardizer read as 220.997 (a 1000x
+        # understatement). Confirmed against the PDF; the 46% YoY drop itself is genuine
+        # (Kaur and Seluma split off as separate rows that year).
+        {"fix_id": "W3g", "province": "BENGKULU", "district": "Bengkulu Selatan", "year": 2003, "bad": "220,997 00", "good": "220,997.00"},
         # OCR garbles — spurious characters in numeric strings
         {"fix_id": "OCR_garble", "province": "NUSA TENGGARA TIMUR", "district": "Ende",              "year": 2000, "bad": "192.3w69,.54",   "good": "192.369,54"},
         {"fix_id": "OCR_garble", "province": "KALIMANTAN SELATAN",  "district": "Tabalong",          "year": 2000, "bad": "1.439.0w10,.77", "good": "1.439.010,77"},

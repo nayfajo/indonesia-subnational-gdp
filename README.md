@@ -10,13 +10,13 @@ INDO-DAPOER (World Bank) covers only 2000–2020 with no per-capita series; this
 
 | File | Series | Rows | Districts | Years |
 | --- | --- | --- | --- | --- |
-| `outputs/panel_pdrb_total_2000bounds.csv` | total PDRB, harmonized | 23,743 | 361 | 1996–2025 |
+| `outputs/panel_pdrb_total_2000bounds.csv` | total PDRB, harmonized | 23,742 | 361 | 1996–2025 |
 | `outputs/panel_pdrb_capita_2000bounds.csv` | per-capita PDRB, harmonized | 10,400 | 363 | 1996–2025 |
 | `outputs/panel_pdrb_chained_2000bounds.csv` | chain-linked real (2010 base) | 8,315 | 348 | 2002–2025 |
-| `outputs/panel_pdrb_total_native.csv` | total PDRB, unharmonized | 31,035 | all incl. post-2000 children | 1996–2025 |
+| `outputs/panel_pdrb_total_native.csv` | total PDRB, unharmonized | 31,034 | all incl. post-2000 children | 1996–2025 |
 | `outputs/panel_pdrb_capita_native.csv` | per-capita PDRB, unharmonized | 13,894 | all incl. post-2000 children | 1996–2025 |
 
-See `docs/codebook.md` for panel selection and column definitions. (2024–25 provisional as of deposit, Aug 2026.)
+See `docs/data_guide.md` for panel selection and column definitions. (2024–25 provisional as of deposit, Aug 2026.)
 
 ## Quick start
 
@@ -38,10 +38,12 @@ Values in `value_standardized` are in bare IDR. Divide by `1e6` to match the DAP
 
 ## Documentation
 
-- `docs/codebook.md` — column definitions, pipeline stages, limitations, and DAPOER validation
+- `docs/data_guide.md` — column definitions, pipeline stages, limitations, and DAPOER validation
 - `docs/research_log.md` — internal methodology log: design decisions, key findings, and pipeline development history (GitHub only; not in the PURR deposit)
 
 ## Reproducing the panels
+
+Requires Python 3.11+.
 
 ```bash
 pip install -r requirements.txt
@@ -52,8 +54,6 @@ This runs the pipeline and writes SHA-256 checksums of the five output files. PD
 
 ## Citation
 
-> Johan, Nayfa and Russell Hillberry (2026). *Subnational GDP for Indonesia: A District-Level Panel, 1996–2025.* Purdue University Research Repository (PURR). DOI: [to be assigned on deposit]
+> Johan, Nayfa and Russell Hillberry (2026). *Subnational GDP for Indonesia: A District-Level Panel, 1996–2025.* Purdue University Research Repository (PURR). https://doi.org/10.4231/FWEQ-VE94
 
-## License
-
-Data and documentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Code: MIT. See `LICENSE`.
+Licensing terms are set on the PURR deposit record.

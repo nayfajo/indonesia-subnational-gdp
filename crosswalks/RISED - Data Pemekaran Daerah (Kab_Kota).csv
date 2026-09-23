@@ -1,0 +1,512 @@
+No,Kode Provinsi,Nama Provinsi,Kode Kab./Kota,Nama Daerah,Klasifikasi,Kode Induk,Daerah Induk,Tahun Mekar(UU),Tahun DAU
+1,11,Aceh,1107,"Aceh Barat, Kab.",Daerah Induk,,,,
+2,11,Aceh,1108,"Aceh Besar, Kab.",Tidak Mekar,,,,
+3,11,Aceh,1103,"Aceh Selatan, Kab.",Daerah Induk,,,,
+4,11,Aceh,1102,"Aceh Singkil, Kab.",Daerah Induk,,,,
+5,11,Aceh,1106,"Aceh Tengah, Kab.",Daerah Induk,,,,
+6,11,Aceh,1104,"Aceh Tenggara, Kab.",Daerah Induk,,,,
+7,11,Aceh,1105,"Aceh Timur, Kab.",Daerah Induk,,,,
+8,11,Aceh,1111,"Aceh Utara, Kab.",Daerah Induk,,,,
+9,11,Aceh,1110,"Bireuen, Kab.",Tidak Mekar,,,,
+10,11,Aceh,1109,"Pidie, Kab.",Daerah Induk,,,,
+11,11,Aceh,1101,"Simeulue, Kab.",Tidak Mekar,,,,
+12,11,Aceh,1171,"Banda Aceh, Kota",Tidak Mekar,,,,
+13,11,Aceh,1172,"Sabang, Kota",Tidak Mekar,,,,
+14,11,Aceh,1173,"Langsa, Kota",Daerah Anak,1105.0,"Aceh Timur, Kab.",2001.0,2002.0
+15,11,Aceh,1174,"Lhokseumawe, Kota",Daerah Anak,1111.0,"Aceh Utara, Kab.",2001.0,2003.0
+16,11,Aceh,1112,"Aceh Barat Daya, Kab.",Daerah Anak,1103.0,"Aceh Selatan, Kab.",2002.0,2003.0
+17,11,Aceh,1113,"Gayo Lues, Kab.",Daerah Anak,1104.0,"Aceh Tenggara, Kab.",2002.0,2003.0
+18,11,Aceh,1114,"Aceh Tamiang, Kab.",Daerah Anak,1105.0,"Aceh Timur, Kab.",2002.0,2003.0
+19,11,Aceh,1115,"Nagan Raya, Kab.",Daerah Anak,1107.0,"Aceh Barat, Kab.",2002.0,2004.0
+20,11,Aceh,1116,"Aceh Jaya, Kab.",Daerah Anak,1107.0,"Aceh Barat, Kab.",2002.0,2006.0
+21,11,Aceh,1117,"Bener Meriah, Kab.",Daerah Anak,1106.0,"Aceh Tengah, Kab.",2003.0,2005.0
+22,11,Aceh,1118,"Pidie Jaya, Kab.",Daerah Anak,1109.0,"Pidie, Kab.",2007.0,2008.0
+23,11,Aceh,1175,"Subulussalam, Kota",Daerah Anak,1102.0,"Aceh Singkil, Kab.",2007.0,2008.0
+24,12,Sumatera Utara,1208,"Asahan, Kab.",Daerah Induk,,,,
+25,12,Sumatera Utara,1210,"Dairi, Kab.",Daerah Induk,,,,
+26,12,Sumatera Utara,1212,"Deli Serdang, Kab.",Daerah Induk,,,,
+27,12,Sumatera Utara,1207,"Labuhan Batu, Kab.",Daerah Induk,,,,
+28,12,Sumatera Utara,1213,"Langkat, Kab.",Tidak Mekar,,,,
+29,12,Sumatera Utara,1202,"Mandailing Natal, Kab.",Tidak Mekar,,,,
+30,12,Sumatera Utara,1201,"Nias, Kab.",Daerah Induk,,,,
+31,12,Sumatera Utara,1209,"Simalungun, Kab.",Tidak Mekar,,,,
+32,12,Sumatera Utara,1211,"Tanah Karo, Kab.",Tidak Mekar,,,,
+33,12,Sumatera Utara,1203,"Tapanuli Selatan, Kab.",Daerah Induk,,,,
+34,12,Sumatera Utara,1204,"Tapanuli Tengah, Kab.",Tidak Mekar,,,,
+35,12,Sumatera Utara,1205,"Tapanuli Utara, Kab.",Daerah Induk,,,,
+36,12,Sumatera Utara,1206,"Toba Samosir, Kab.",Daerah Induk,,,,
+37,12,Sumatera Utara,1276,"Binjai, Kota",Tidak Mekar,,,,
+38,12,Sumatera Utara,1275,"Medan, Kota",Tidak Mekar,,,,
+39,12,Sumatera Utara,1273,"Pematang Siantar, Kota",Tidak Mekar,,,,
+40,12,Sumatera Utara,1271,"Sibolga, Kota",Tidak Mekar,,,,
+41,12,Sumatera Utara,1272,"Tanjung Balai, Kota",Tidak Mekar,,,,
+42,12,Sumatera Utara,1274,"Tebing Tinggi, Kota",Tidak Mekar,,,,
+43,12,Sumatera Utara,1277,"Padang Sidempuan, Kota",Daerah Anak,1203.0,"Tapanuli Selatan, Kab.",2001.0,2002.0
+44,12,Sumatera Utara,1216,"Pakpak Bharat, Kab.",Daerah Anak,1210.0,"Dairi, Kab.",2003.0,2004.0
+45,12,Sumatera Utara,1214,"Nias Selatan, Kab.",Daerah Anak,1201.0,"Nias, Kab.",2003.0,2005.0
+46,12,Sumatera Utara,1215,"Humbang Hasundutan, Kab.",Daerah Anak,1205.0,"Tapanuli Utara, Kab.",2003.0,2004.0
+47,12,Sumatera Utara,1218,"Serdang Bedagai, Kab.",Daerah Anak,1212.0,"Deli Serdang, Kab.",2003.0,2005.0
+48,12,Sumatera Utara,1217,"Samosir, Kab.",Daerah Anak,1206.0,"Toba Samosir, Kab.",2003.0,2007.0
+49,12,Sumatera Utara,1219,"Batu Bara, Kab.",Daerah Anak,1208.0,"Asahan, Kab.",2007.0,2008.0
+50,12,Sumatera Utara,1220,"Padang Lawas Utara, Kab.",Daerah Anak,1203.0,"Tapanuli Selatan, Kab.",2007.0,2009.0
+51,12,Sumatera Utara,1221,"Padang Lawas, Kab.",Daerah Anak,1203.0,"Tapanuli Selatan, Kab.",2007.0,2009.0
+52,12,Sumatera Utara,1222,"Labuhan Batu Selatan, Kab.",Daerah Anak,1207.0,"Labuhan Batu, Kab.",2008.0,2009.0
+53,12,Sumatera Utara,1223,"Labuhan Batu Utara, Kab.",Daerah Anak,1207.0,"Labuhan Batu, Kab.",2008.0,2009.0
+54,12,Sumatera Utara,1224,"Nias Utara, Kab.",Daerah Anak,1201.0,"Nias, Kab.",2008.0,2010.0
+55,12,Sumatera Utara,1225,"Nias Barat, Kab.",Daerah Anak,1201.0,"Nias, Kab.",2008.0,2010.0
+56,12,Sumatera Utara,1278,"Gunung Sitoli, Kota",Daerah Anak,1201.0,"Nias, Kab.",2008.0,2010.0
+57,13,Sumatera Barat,1307,"Agam, Kab.",Tidak Mekar,,,,
+58,13,Sumatera Barat,1308,"Limapuluh Kota, Kab.",Tidak Mekar,,,,
+59,13,Sumatera Barat,1306,"Padang Pariaman, Kab.",Daerah Induk,,,,
+60,13,Sumatera Barat,1309,"Pasaman, Kab.",Daerah Induk,,,,
+61,13,Sumatera Barat,1302,"Pesisir Selatan, Kab.",Tidak Mekar,,,,
+62,13,Sumatera Barat,1304,"Sawahlunto Sijunjung, Kab.",Daerah Induk,,,,
+63,13,Sumatera Barat,1303,"Solok, Kab.",Tidak Mekar,,,,
+64,13,Sumatera Barat,1305,"Tanah Datar, Kab.",Tidak Mekar,,,,
+65,13,Sumatera Barat,1301,"Kepulauan Mentawai, Kab.",Tidak Mekar,,,,
+66,13,Sumatera Barat,1375,"Bukittinggi, Kota",Tidak Mekar,,,,
+67,13,Sumatera Barat,1371,"Padang, Kota",Tidak Mekar,,,,
+68,13,Sumatera Barat,1374,"Padang Panjang, Kota",Tidak Mekar,,,,
+69,13,Sumatera Barat,1376,"Payakumbuh, Kota",Tidak Mekar,,,,
+70,13,Sumatera Barat,1373,"Sawahlunto, Kota",Tidak Mekar,,,,
+71,13,Sumatera Barat,1372,"Solok, Kota",Daerah Induk,,,,
+72,13,Sumatera Barat,1377,"Pariaman, Kota",Daerah Anak,1306.0,"Padang Pariaman, Kab.",2002.0,2003.0
+73,13,Sumatera Barat,1312,"Pasaman Barat, Kab.",Daerah Anak,1309.0,"Pasaman, Kab.",2003.0,2004.0
+74,13,Sumatera Barat,1311,"Dharmas Raya, Kab.",Daerah Anak,1304.0,"Sawahlunto Sijunjung, Kab.",2003.0,2006.0
+75,13,Sumatera Barat,1310,"Solok Selatan, Kab.",Daerah Anak,1372.0,"Solok, Kota",2003.0,2006.0
+76,14,Riau,1408,"Bengkalis, Kab.",Daerah Induk,,,,
+77,14,Riau,1403,"Indragiri Hilir, Kab.",Tidak Mekar,,,,
+78,14,Riau,1402,"Indragiri Hulu, Kab.",Tidak Mekar,,,,
+79,14,Riau,1406,"Kampar, Kab.",Tidak Mekar,,,,
+80,14,Riau,1401,"Kuantan Singingi, Kab.",Tidak Mekar,,,,
+81,14,Riau,1404,"Pelalawan, Kab.",Tidak Mekar,,,,
+82,14,Riau,1409,"Rokan Hilir, Kab.",Tidak Mekar,,,,
+83,14,Riau,1407,"Rokan Hulu, Kab.",Tidak Mekar,,,,
+84,14,Riau,1405,"Siak, Kab.",Tidak Mekar,,,,
+85,14,Riau,1473,"Dumai, Kota",Tidak Mekar,,,,
+86,14,Riau,1471,"Pekan Baru, Kota",Tidak Mekar,,,,
+87,14,Riau,1410,"Kepulauan Meranti, Kab.",Daerah Anak,1408.0,"Bengkalis, Kab.",2009.0,2010.0
+88,15,Jambi,1503,"Sarolangun, Kab.",Tidak Mekar,,,,
+89,15,Jambi,1505,"Muaro Jambi, Kab.",Tidak Mekar,,,,
+90,15,Jambi,1506,"Tanjung Jabung Timur, Kab.",Tidak Mekar,,,,
+91,15,Jambi,1508,"Tebo, Kab.",Tidak Mekar,,,,
+92,15,Jambi,1504,"Batanghari, Kab.",Tidak Mekar,,,,
+93,15,Jambi,1501,"Kerinci, Kab.",Daerah Induk,,,,
+94,15,Jambi,1509,"Bungo, Kab.",Tidak Mekar,,,,
+95,15,Jambi,1502,"Merangin, Kab.",Tidak Mekar,,,,
+96,15,Jambi,1507,"Tanjung Jabung Barat, Kab.",Tidak Mekar,,,,
+97,15,Jambi,1571,"Jambi, Kota",Tidak Mekar,,,,
+98,15,Jambi,1572,"Sungai Penuh, Kota",Daerah Anak,1501.0,"Kerinci, Kab.",2008.0,2009.0
+99,16,Sumatera Selatan,1604,"Lahat, Kab.",Daerah Induk,,,,
+100,16,Sumatera Selatan,1603,"Muara Enim, Kab.",Daerah Induk,,,,
+101,16,Sumatera Selatan,1606,"Musi Banyuasin, Kab.",Daerah Induk,,,,
+102,16,Sumatera Selatan,1605,"Musi Rawas, Kab.",Daerah Induk,,,,
+103,16,Sumatera Selatan,1602,"Ogan Komering Ilir, Kab.",Daerah Induk,,,,
+104,16,Sumatera Selatan,1601,"Ogan Komering Ulu, Kab.",Daerah Induk,,,,
+105,16,Sumatera Selatan,1671,"Palembang, Kota",Tidak Mekar,,,,
+106,16,Sumatera Selatan,1672,"Prabumulih, Kota",Daerah Anak,1603.0,"Muara Enim, Kab.",2001.0,2002.0
+107,16,Sumatera Selatan,1673,"Pagar Alam, Kota",Daerah Anak,1604.0,"Lahat, Kab.",2001.0,2002.0
+108,16,Sumatera Selatan,1674,"Lubuk Linggau, Kota",Daerah Anak,1605.0,"Musi Rawas, Kab.",2001.0,2002.0
+109,16,Sumatera Selatan,1607,"Banyuasin, Kab.",Daerah Anak,1606.0,"Musi Banyuasin, Kab.",2002.0,2003.0
+110,16,Sumatera Selatan,1610,"Ogan Ilir, Kab.",Daerah Anak,1602.0,"Ogan Komering Ilir, Kab.",2003.0,2006.0
+111,16,Sumatera Selatan,1609,"Ogan Komering Ulu Timur, Kab.",Daerah Anak,1601.0,"Ogan Komering Ulu, Kab.",2003.0,2006.0
+112,16,Sumatera Selatan,1608,"Ogan Komering Ulu Selatan, Kab.",Daerah Anak,1601.0,"Ogan Komering Ulu, Kab.",2003.0,2006.0
+113,16,Sumatera Selatan,1611,"Empat Lawang, Kab.",Daerah Anak,1604.0,"Lahat, Kab.",2007.0,2008.0
+114,16,Sumatera Selatan,1612,"Penukal Abab Lematang Ilir, Kab.",Daerah Anak,1603.0,"Muara Enim, Kab.",2013.0,2014.0
+115,16,Sumatera Selatan,1613,"Musi Rawas Utara, Kab.",Daerah Anak,1605.0,"Musi Rawas, Kab.",2013.0,2014.0
+116,17,Bengkulu,1701,"Bengkulu Selatan, Kab.",Daerah Induk,,,,
+117,17,Bengkulu,1703,"Bengkulu Utara, Kab.",Daerah Induk,,,,
+118,17,Bengkulu,1702,"Rejang Lebong, Kab.",Daerah Induk,,,,
+119,17,Bengkulu,1771,"Bengkulu, Kota",Tidak Mekar,,,,
+120,17,Bengkulu,1705,"Seluma, Kab.",Daerah Anak,1701.0,"Bengkulu Selatan, Kab.",2003.0,2006.0
+121,17,Bengkulu,1704,"Kaur, Kab.",Daerah Anak,1701.0,"Bengkulu Selatan, Kab.",2003.0,2004.0
+122,17,Bengkulu,1706,"Mukomuko, Kab.",Daerah Anak,1703.0,"Bengkulu Utara, Kab.",2003.0,2004.0
+123,17,Bengkulu,1707,"Lebong, Kab.",Daerah Anak,1702.0,"Rejang Lebong, Kab.",2003.0,2006.0
+124,17,Bengkulu,1708,"Kepahiang, Kab.",Daerah Anak,1702.0,"Rejang Lebong, Kab.",2003.0,2005.0
+125,17,Bengkulu,1709,"Bengkulu Tengah, Kab.",Daerah Anak,1703.0,"Bengkulu Utara, Kab.",2008.0,2009.0
+126,18,Lampung,1803,"Lampung Selatan, Kab.",Daerah Induk,,,,
+127,18,Lampung,1805,"Lampung Tengah, Kab.",Tidak Mekar,,,,
+128,18,Lampung,1806,"Lampung Utara, Kab.",Tidak Mekar,,,,
+129,18,Lampung,1801,"Lampung Barat, Kab.",Daerah Induk,,,,
+130,18,Lampung,1808,"Tulang Bawang, Kab.",Daerah Induk,,,,
+131,18,Lampung,1802,"Tanggamus, Kab.",Daerah Induk,,,,
+132,18,Lampung,1804,"Lampung Timur, Kab.",Tidak Mekar,,,,
+133,18,Lampung,1807,"Way Kanan, Kab.",Tidak Mekar,,,,
+134,18,Lampung,1871,"Bandar Lampung, Kota",Tidak Mekar,,,,
+135,18,Lampung,1872,"Metro, Kota",Tidak Mekar,,,,
+136,18,Lampung,1809,"Pesawaran, Kab.",Daerah Anak,1803.0,"Lampung Selatan, Kab.",2007.0,2009.0
+137,18,Lampung,1811,"Mesuji, Kab.",Daerah Anak,1808.0,"Tulang Bawang, Kab.",2008.0,2011.0
+138,18,Lampung,1812,"Tulang Bawang Barat, Kab.",Daerah Anak,1808.0,"Tulang Bawang, Kab.",2008.0,2010.0
+139,18,Lampung,1810,"Pringsewu, Kab.",Daerah Anak,1802.0,"Tanggamus, Kab.",2008.0,2010.0
+140,18,Lampung,1813,"Pesisir Barat, Kab.",Daerah Anak,1801.0,"Lampung Barat, Kab.",2012.0,2014.0
+141,19,Bangka Belitung,1901,"Bangka, Kab.",Daerah Induk,,,,
+142,19,Bangka Belitung,1902,"Belitung, Kab.",Daerah Induk,,,,
+143,19,Bangka Belitung,1971,"Pangkal Pinang, Kota",Tidak Mekar,,,,
+144,19,Bangka Belitung,1904,"Bangka Tengah, Kab.",Daerah Anak,1901.0,"Bangka, Kab.",2003.0,2004.0
+145,19,Bangka Belitung,1906,"Belitung Timur, Kab.",Daerah Anak,1902.0,"Belitung, Kab.",2003.0,2004.0
+146,19,Bangka Belitung,1903,"Bangka Barat, Kab.",Daerah Anak,1901.0,"Bangka, Kab.",2003.0,2004.0
+147,19,Bangka Belitung,1905,"Bangka Selatan, Kab.",Daerah Anak,1901.0,"Bangka, Kab.",2003.0,2004.0
+148,21,Kep. Riau,2102,"Bintan, Kab.",Daerah Induk,,,,
+149,21,Kep. Riau,2101,"Karimun, Kab.",Tidak Mekar,,,,
+150,21,Kep. Riau,2103,"Natuna, Kab.",Daerah Induk,,,,
+151,21,Kep. Riau,2171,"Batam, Kota",Tidak Mekar,,,,
+152,21,Kep. Riau,2172,"Tanjung Pinang, Kota",Daerah Anak,2102.0,"Bintan, Kab.",2001.0,2002.0
+153,21,Kep. Riau,2104,"Lingga, Kab.",Daerah Anak,2102.0,"Bintan, Kab.",2003.0,2006.0
+154,21,Kep. Riau,2105,"Kepulauan Anambas, Kab.",Daerah Anak,2103.0,"Natuna, Kab.",2008.0,2009.0
+155,31,DKI Jakarta,3101,"Adm. Kepulauan Seribu, Kab.",Tidak Mekar,,,,
+156,31,DKI Jakarta,3171,"Jakarta Selatan, Kota",Tidak Mekar,,,,
+157,31,DKI Jakarta,3172,"Jakarta Timur, Kota",Tidak Mekar,,,,
+158,31,DKI Jakarta,3173,"Jakarta Pusat, Kota",Tidak Mekar,,,,
+159,31,DKI Jakarta,3174,"Jakarta Barat, Kota",Tidak Mekar,,,,
+160,31,DKI Jakarta,3175,"Jakarta Utara, Kota",Tidak Mekar,,,,
+161,32,Jawa Barat,3204,"Bandung, Kab.",Daerah Induk,,,,
+162,32,Jawa Barat,3216,"Bekasi, Kab.",Tidak Mekar,,,,
+163,32,Jawa Barat,3201,"Bogor, Kab.",Tidak Mekar,,,,
+164,32,Jawa Barat,3207,"Ciamis, Kab.",Daerah Induk,,,,
+165,32,Jawa Barat,3203,"Cianjur, Kab",Tidak Mekar,,,,
+166,32,Jawa Barat,3209,"Cirebon, Kab.",Tidak Mekar,,,,
+167,32,Jawa Barat,3205,"Garut, Kab.",Tidak Mekar,,,,
+168,32,Jawa Barat,3212,"Indramayu, Kab.",Tidak Mekar,,,,
+169,32,Jawa Barat,3215,"Karawang, Kab.",Tidak Mekar,,,,
+170,32,Jawa Barat,3208,"Kuningan, Kab.",Tidak Mekar,,,,
+171,32,Jawa Barat,3210,"Majalengka, Kab.",Tidak Mekar,,,,
+172,32,Jawa Barat,3214,"Purwakarta, Kab.",Tidak Mekar,,,,
+173,32,Jawa Barat,3213,"Subang, Kab.",Tidak Mekar,,,,
+174,32,Jawa Barat,3202,"Sukabumi, Kab.",Tidak Mekar,,,,
+175,32,Jawa Barat,3211,"Sumedang, Kab.",Tidak Mekar,,,,
+176,32,Jawa Barat,3206,"Tasikmalaya, Kab.",Daerah Induk,,,,
+177,32,Jawa Barat,3273,"Bandung, Kota",Tidak Mekar,,,,
+178,32,Jawa Barat,3275,"Bekasi, Kota",Tidak Mekar,,,,
+179,32,Jawa Barat,3271,"Bogor, Kota",Tidak Mekar,,,,
+180,32,Jawa Barat,3274,"Cirebon, Kota",Tidak Mekar,,,,
+181,32,Jawa Barat,3276,"Depok, Kota",Tidak Mekar,,,,
+182,32,Jawa Barat,3272,"Sukabumi, Kota",Tidak Mekar,,,,
+183,32,Jawa Barat,3278,"Tasikmalaya, Kota",Daerah Anak,3206.0,"Tasikmalaya, Kab.",2001.0,2002.0
+184,32,Jawa Barat,3277,"Cimahi, Kota",Daerah Anak,3204.0,"Bandung, Kab.",2001.0,2002.0
+185,32,Jawa Barat,3279,"Banjar, Kota",Daerah Anak,3207.0,"Ciamis, Kab.",2002.0,2004.0
+186,32,Jawa Barat,3217,"Bandung Barat, Kab.",Daerah Anak,3204.0,"Bandung, Kab.",2007.0,2008.0
+187,32,Jawa Barat,3218,"Pangandaran, Kab.",Daerah Anak,3207.0,"Ciamis, Kab.",2012.0,2014.0
+188,33,Jawa Tengah,3304,"Banjarnegara, Kab.",Tidak Mekar,,,,
+189,33,Jawa Tengah,3302,"Banyumas, Kab.",Tidak Mekar,,,,
+190,33,Jawa Tengah,3325,"Batang, Kab.",Tidak Mekar,,,,
+191,33,Jawa Tengah,3316,"Blora, Kab.",Tidak Mekar,,,,
+192,33,Jawa Tengah,3309,"Boyolali, Kab.",Tidak Mekar,,,,
+193,33,Jawa Tengah,3329,"Brebes, Kab.",Tidak Mekar,,,,
+194,33,Jawa Tengah,3301,"Cilacap, Kab.",Tidak Mekar,,,,
+195,33,Jawa Tengah,3321,"Demak, Kab.",Tidak Mekar,,,,
+196,33,Jawa Tengah,3315,"Grobogan, Kab.",Tidak Mekar,,,,
+197,33,Jawa Tengah,3320,"Jepara, Kab.",Tidak Mekar,,,,
+198,33,Jawa Tengah,3313,"Karanganyar, Kab.",Tidak Mekar,,,,
+199,33,Jawa Tengah,3305,"Kebumen, Kab.",Tidak Mekar,,,,
+200,33,Jawa Tengah,3324,"Kendal, Kab.",Tidak Mekar,,,,
+201,33,Jawa Tengah,3310,"Klaten, Kab.",Tidak Mekar,,,,
+202,33,Jawa Tengah,3319,"Kudus, Kab.",Tidak Mekar,,,,
+203,33,Jawa Tengah,3308,"Magelang, Kab.",Tidak Mekar,,,,
+204,33,Jawa Tengah,3318,"Pati, Kab.",Tidak Mekar,,,,
+205,33,Jawa Tengah,3326,"Pekalongan, Kab.",Tidak Mekar,,,,
+206,33,Jawa Tengah,3327,"Pemalang, Kab.",Tidak Mekar,,,,
+207,33,Jawa Tengah,3303,"Purbalingga, Kab.",Tidak Mekar,,,,
+208,33,Jawa Tengah,3306,"Purworejo, Kab.",Tidak Mekar,,,,
+209,33,Jawa Tengah,3317,"Rembang, Kab.",Tidak Mekar,,,,
+210,33,Jawa Tengah,3322,"Semarang, Kab.",Tidak Mekar,,,,
+211,33,Jawa Tengah,3314,"Sragen, Kab.",Tidak Mekar,,,,
+212,33,Jawa Tengah,3311,"Sukoharjo, Kab.",Tidak Mekar,,,,
+213,33,Jawa Tengah,3328,"Tegal, Kab.",Tidak Mekar,,,,
+214,33,Jawa Tengah,3323,"Temanggung, Kab.",Tidak Mekar,,,,
+215,33,Jawa Tengah,3312,"Wonogiri, Kab.",Tidak Mekar,,,,
+216,33,Jawa Tengah,3307,"Wonosobo, Kab.",Tidak Mekar,,,,
+217,33,Jawa Tengah,3371,"Magelang, Kota",Tidak Mekar,,,,
+218,33,Jawa Tengah,3375,"Pekalongan, Kota",Tidak Mekar,,,,
+219,33,Jawa Tengah,3373,"Salatiga, Kota",Tidak Mekar,,,,
+220,33,Jawa Tengah,3374,"Semarang, Kota",Tidak Mekar,,,,
+221,33,Jawa Tengah,3372,"Surakarta, Kota",Tidak Mekar,,,,
+222,33,Jawa Tengah,3376,"Tegal, Kota",Tidak Mekar,,,,
+223,34,DI Yogyakarta,3402,"Bantul, Kab.",Tidak Mekar,,,,
+224,34,DI Yogyakarta,3403,"Gunung Kidul, Kab.",Tidak Mekar,,,,
+225,34,DI Yogyakarta,3401,"Kulon Progo, Kab.",Tidak Mekar,,,,
+226,34,DI Yogyakarta,3404,"Sleman, Kab.",Tidak Mekar,,,,
+227,34,DI Yogyakarta,3471,"Yogyakarta, Kota",Tidak Mekar,,,,
+228,35,Jawa Timur,3526,"Bangkalan, Kab.",Tidak Mekar,,,,
+229,35,Jawa Timur,3510,"Banyuwangi, Kab.",Tidak Mekar,,,,
+230,35,Jawa Timur,3505,"Blitar, Kab.",Tidak Mekar,,,,
+231,35,Jawa Timur,3522,"Bojonegoro, Kab.",Tidak Mekar,,,,
+232,35,Jawa Timur,3511,"Bondowoso, Kab.",Tidak Mekar,,,,
+233,35,Jawa Timur,3525,"Gresik, Kab.",Tidak Mekar,,,,
+234,35,Jawa Timur,3509,"Jember, Kab.",Tidak Mekar,,,,
+235,35,Jawa Timur,3517,"Jombang, Kab.",Tidak Mekar,,,,
+236,35,Jawa Timur,3506,"Kediri, Kab.",Tidak Mekar,,,,
+237,35,Jawa Timur,3524,"Lamongan, Kab.",Tidak Mekar,,,,
+238,35,Jawa Timur,3508,"Lumajang, Kab.",Tidak Mekar,,,,
+239,35,Jawa Timur,3519,"Madiun, Kab.",Tidak Mekar,,,,
+240,35,Jawa Timur,3520,"Magetan, Kab.",Tidak Mekar,,,,
+241,35,Jawa Timur,3507,"Malang, Kab.",Daerah Induk,,,,
+242,35,Jawa Timur,3516,"Mojokerto, Kab.",Tidak Mekar,,,,
+243,35,Jawa Timur,3518,"Nganjuk, Kab.",Tidak Mekar,,,,
+244,35,Jawa Timur,3521,"Ngawi, Kab.",Tidak Mekar,,,,
+245,35,Jawa Timur,3501,"Pacitan, Kab.",Tidak Mekar,,,,
+246,35,Jawa Timur,3528,"Pamekasan, Kab.",Tidak Mekar,,,,
+247,35,Jawa Timur,3514,"Pasuruan, Kab.",Tidak Mekar,,,,
+248,35,Jawa Timur,3502,"Ponorogo, Kab.",Tidak Mekar,,,,
+249,35,Jawa Timur,3513,"Probolinggo, Kab.",Tidak Mekar,,,,
+250,35,Jawa Timur,3527,"Sampang, Kab.",Tidak Mekar,,,,
+251,35,Jawa Timur,3515,"Sidoarjo, Kab.",Tidak Mekar,,,,
+252,35,Jawa Timur,3512,"Situbondo, Kab.",Tidak Mekar,,,,
+253,35,Jawa Timur,3529,"Sumenep, Kab.",Tidak Mekar,,,,
+254,35,Jawa Timur,3503,"Trenggalek, Kab.",Tidak Mekar,,,,
+255,35,Jawa Timur,3523,"Tuban, Kab.",Tidak Mekar,,,,
+256,35,Jawa Timur,3504,"Tulungagung, Kab.",Tidak Mekar,,,,
+257,35,Jawa Timur,3572,"Blitar, Kota",Tidak Mekar,,,,
+258,35,Jawa Timur,3571,"Kediri, Kota",Tidak Mekar,,,,
+259,35,Jawa Timur,3577,"Madiun, Kota",Tidak Mekar,,,,
+260,35,Jawa Timur,3573,"Malang, Kota",Tidak Mekar,,,,
+261,35,Jawa Timur,3576,"Mojokerto, Kota",Tidak Mekar,,,,
+262,35,Jawa Timur,3575,"Pasuruan, Kota",Tidak Mekar,,,,
+263,35,Jawa Timur,3574,"Probolinggo, Kota",Tidak Mekar,,,,
+264,35,Jawa Timur,3578,"Surabaya, Kota",Tidak Mekar,,,,
+265,35,Jawa Timur,3579,"Batu, Kota",Daerah Anak,3507.0,"Malang, Kab.",2001.0,2003.0
+266,36,Banten,3602,"Lebak, Kab.",Tidak Mekar,,,,
+267,36,Banten,3601,"Pandeglang, Kab.",Tidak Mekar,,,,
+268,36,Banten,3604,"Serang, Kab.",Daerah Induk,,,,
+269,36,Banten,3603,"Tangerang, Kab.",Daerah Induk,,,,
+270,36,Banten,3672,"Cilegon, Kota",Tidak Mekar,,,,
+271,36,Banten,3671,"Tangerang, Kota",Tidak Mekar,,,,
+272,36,Banten,3673,"Serang, Kota",Daerah Anak,3604.0,"Serang, Kab.",2007.0,2009.0
+273,36,Banten,3674,"Tangerang Selatan, Kota",Daerah Anak,3603.0,"Tangerang, Kab.",2008.0,2010.0
+274,51,Bali,5103,"Badung, Kab.",Tidak Mekar,,,,
+275,51,Bali,5106,"Bangli, Kab.",Tidak Mekar,,,,
+276,51,Bali,5108,"Buleleng, Kab.",Tidak Mekar,,,,
+277,51,Bali,5104,"Gianyar, Kab.",Tidak Mekar,,,,
+278,51,Bali,5101,"Jembrana, Kab.",Tidak Mekar,,,,
+279,51,Bali,5107,"Karang Asem, Kab.",Tidak Mekar,,,,
+280,51,Bali,5105,"Klungkung, Kab.",Tidak Mekar,,,,
+281,51,Bali,5102,"Tabanan, Kab.",Tidak Mekar,,,,
+282,51,Bali,5171,"Denpasar, Kota",Tidak Mekar,,,,
+283,52,Nusa Tenggara Barat (NTB),5206,"Bima, Kab.",Daerah Induk,,,,
+284,52,Nusa Tenggara Barat (NTB),5205,"Dompu, Kab.",Tidak Mekar,,,,
+285,52,Nusa Tenggara Barat (NTB),5201,"Lombok Barat, Kab.",Daerah Induk,,,,
+286,52,Nusa Tenggara Barat (NTB),5202,"Lombok Tengah, Kab.",Tidak Mekar,,,,
+287,52,Nusa Tenggara Barat (NTB),5203,"Lombok Timur, Kab.",Tidak Mekar,,,,
+288,52,Nusa Tenggara Barat (NTB),5204,"Sumbawa, Kab.",Daerah Induk,,,,
+289,52,Nusa Tenggara Barat (NTB),5271,"Mataram, Kota",Tidak Mekar,,,,
+290,52,Nusa Tenggara Barat (NTB),5272,"Bima, Kota",Daerah Anak,5206.0,"Bima, Kab.",2002.0,2003.0
+291,52,Nusa Tenggara Barat (NTB),5207,"Sumbawa Barat, Kab.",Daerah Anak,5204.0,"Sumbawa, Kab.",2003.0,2005.0
+292,52,Nusa Tenggara Barat (NTB),5208,"Lombok Utara, Kab.",Daerah Anak,5201.0,"Lombok Barat, Kab.",2008.0,2009.0
+293,53,Nusa Tenggara Timur (NTT),5307,"Alor, Kab.",Tidak Mekar,,,,
+294,53,Nusa Tenggara Timur (NTT),5306,"Belu, Kab.",Tidak Mekar,,,,
+295,53,Nusa Tenggara Timur (NTT),5311,"Ende, Kab.",Tidak Mekar,,,,
+296,53,Nusa Tenggara Timur (NTT),5309,"Flores Timur, Kab.",Tidak Mekar,,,,
+297,53,Nusa Tenggara Timur (NTT),5303,"Kupang, Kab.",Daerah Induk,,,,
+298,53,Nusa Tenggara Timur (NTT),5308,"Lembata, Kab.",Tidak Mekar,,,,
+299,53,Nusa Tenggara Timur (NTT),5313,"Manggarai, Kab.",Daerah Induk,,,,
+300,53,Nusa Tenggara Timur (NTT),5312,"Ngada, Kab.",Daerah Induk,,,,
+301,53,Nusa Tenggara Timur (NTT),5310,"Sikka, Kab.",Tidak Mekar,,,,
+302,53,Nusa Tenggara Timur (NTT),5301,"Sumba Barat, Kab.",Daerah Induk,,,,
+303,53,Nusa Tenggara Timur (NTT),5302,"Sumba Timur, Kab.",Tidak Mekar,,,,
+304,53,Nusa Tenggara Timur (NTT),5304,"Timor Tengah Selatan, Kab.",Tidak Mekar,,,,
+305,53,Nusa Tenggara Timur (NTT),5305,"Timor Tengah Utara, Kab.",Tidak Mekar,,,,
+306,53,Nusa Tenggara Timur (NTT),5371,"Kupang, Kota",Tidak Mekar,,,,
+307,53,Nusa Tenggara Timur (NTT),5314,"Rote Ndao, Kab.",Daerah Anak,5303.0,"Kupang, Kab.",2002.0,2004.0
+308,53,Nusa Tenggara Timur (NTT),5315,"Manggarai Barat, Kab.",Daerah Anak,5313.0,"Manggarai, Kab.",2003.0,2005.0
+309,53,Nusa Tenggara Timur (NTT),5318,"Nagekeo, Kab.",Daerah Anak,5312.0,"Ngada, Kab.",2007.0,2008.0
+310,53,Nusa Tenggara Timur (NTT),5316,"Sumba Tengah, Kab.",Daerah Anak,5301.0,"Sumba Barat, Kab.",2007.0,2008.0
+311,53,Nusa Tenggara Timur (NTT),5317,"Sumba Barat Daya, Kab.",Daerah Anak,5301.0,"Sumba Barat, Kab.",2007.0,2008.0
+312,53,Nusa Tenggara Timur (NTT),5319,"Manggarai Timur, Kab.",Daerah Anak,5313.0,"Manggarai, Kab.",2007.0,2009.0
+313,53,Nusa Tenggara Timur (NTT),5320,"Sabu Raijua, Kab.",Daerah Anak,5303.0,"Kupang, Kab.",2008.0,2010.0
+314,53,Nusa Tenggara Timur (NTT),5321,"Malaka, Kab.",Daerah Anak,5303.0,"Kupang, Kab.",2013.0,2014.0
+315,61,Kalimantan Barat,6102,"Bengkayang, Kab.",Daerah Induk,,,,
+316,61,Kalimantan Barat,6108,"Kapuas Hulu, Kab.",Tidak Mekar,,,,
+317,61,Kalimantan Barat,6106,"Ketapang, Kab.",Daerah Induk,,,,
+318,61,Kalimantan Barat,6103,"Landak, Kab.",Tidak Mekar,,,,
+319,61,Kalimantan Barat,6104,"Pontianak, Kab.",Daerah Induk,,,,
+320,61,Kalimantan Barat,6101,"Sambas, Kab.",Tidak Mekar,,,,
+321,61,Kalimantan Barat,6105,"Sanggau, Kab.",Daerah Induk,,,,
+322,61,Kalimantan Barat,6107,"Sintang, Kab.",Daerah Induk,,,,
+323,61,Kalimantan Barat,6171,"Pontianak, Kota",Tidak Mekar,,,,
+324,61,Kalimantan Barat,6172,"Singkawang, Kota",Daerah Anak,6102.0,"Bengkayang, Kab.",2001.0,2002.0
+325,61,Kalimantan Barat,6109,"Sekadau, Kab.",Daerah Anak,6105.0,"Sanggau, Kab.",2003.0,2006.0
+326,61,Kalimantan Barat,6110,"Melawi, Kab.",Daerah Anak,6107.0,"Sintang, Kab.",2003.0,2005.0
+327,61,Kalimantan Barat,6111,"Kayong Utara, Kab.",Daerah Anak,6106.0,"Ketapang, Kab.",2007.0,2008.0
+328,61,Kalimantan Barat,6112,"Kubu Raya, Kab.",Daerah Anak,6104.0,"Pontianak, Kab.",2007.0,2009.0
+329,62,Kalimantan Tengah,6204,"Barito Selatan, Kab.",Daerah Induk,,,,
+330,62,Kalimantan Tengah,6205,"Barito Utara, Kab.",Daerah Induk,,,,
+331,62,Kalimantan Tengah,6203,"Kapuas, Kab.",Daerah Induk,,,,
+332,62,Kalimantan Tengah,6201,"Kotawaringin Barat, Kab.",Daerah Induk,,,,
+333,62,Kalimantan Tengah,6202,"Kotawaringin Timur, Kab.",Daerah Induk,,,,
+334,62,Kalimantan Tengah,6271,"Palangkaraya, Kota",Tidak Mekar,,,,
+335,62,Kalimantan Tengah,6206,"Sukamara, Kab.",Daerah Anak,6201.0,"Kotawaringin Barat, Kab.",2000.0,2003.0
+336,62,Kalimantan Tengah,6207,"Lamandau, Kab.",Daerah Anak,6201.0,"Kotawaringin Barat, Kab.",2000.0,2003.0
+337,62,Kalimantan Tengah,6208,"Seruyan, Kab.",Daerah Anak,6202.0,"Kotawaringin Timur, Kab.",2000.0,2003.0
+338,62,Kalimantan Tengah,6209,"Katingan, Kab.",Daerah Anak,6202.0,"Kotawaringin Timur, Kab.",2000.0,2003.0
+339,62,Kalimantan Tengah,6210,"Pulang Pisau, Kab.",Daerah Anak,6203.0,"Kapuas, Kab.",2000.0,2003.0
+340,62,Kalimantan Tengah,6211,"Gunung Mas, Kab.",Daerah Anak,6203.0,"Kapuas, Kab.",2000.0,2003.0
+341,62,Kalimantan Tengah,6212,"Barito Timur, Kab.",Daerah Anak,6204.0,"Barito Selatan, Kab.",2000.0,2003.0
+342,62,Kalimantan Tengah,6213,"Murung Raya, Kab.",Daerah Anak,6205.0,"Barito Utara, Kab.",2000.0,2003.0
+343,63,Kalimantan Selatan,6303,"Banjar, Kab.",Tidak Mekar,,,,
+344,63,Kalimantan Selatan,6304,"Barito Kuala, Kab.",Tidak Mekar,,,,
+345,63,Kalimantan Selatan,6306,"Hulu Sungai Selatan, Kab.",Tidak Mekar,,,,
+346,63,Kalimantan Selatan,6307,"Hulu Sungai Tengah, Kab.",Tidak Mekar,,,,
+347,63,Kalimantan Selatan,6308,"Hulu Sungai Utara, Kab.",Daerah Induk,,,,
+348,63,Kalimantan Selatan,6302,"Kota Baru, Kab.",Daerah Induk,,,,
+349,63,Kalimantan Selatan,6309,"Tabalong, Kab.",Tidak Mekar,,,,
+350,63,Kalimantan Selatan,6301,"Tanah Laut, Kab.",Tidak Mekar,,,,
+351,63,Kalimantan Selatan,6305,"Tapin, Kab.",Tidak Mekar,,,,
+352,63,Kalimantan Selatan,6371,"Banjarmasin, Kota",Tidak Mekar,,,,
+353,63,Kalimantan Selatan,6372,"Banjar Baru, Kota",Tidak Mekar,,,,
+354,63,Kalimantan Selatan,6311,"Balangan, Kab.",Daerah Anak,6308.0,"Hulu Sungai Utara, Kab.",2003.0,2004.0
+355,63,Kalimantan Selatan,6310,"Tanah Bumbu, Kab.",Daerah Anak,6302.0,"Kota Baru, Kab.",2003.0,2007.0
+356,64,Kalimantan Timur,6405,"Berau, Kab.",Tidak Mekar,,,,
+357,64,Kalimantan Timur,6403,"Kutai Kartanegara, Kab.",Tidak Mekar,,,,
+358,64,Kalimantan Timur,6402,"Kutai Barat, Kab.",Daerah Induk,,,,
+359,64,Kalimantan Timur,6404,"Kutai Timur, Kab.",Tidak Mekar,,,,
+360,64,Kalimantan Timur,6401,"Paser, Kab.",Daerah Induk,,,,
+361,64,Kalimantan Timur,6471,"Balikpapan, Kota",Tidak Mekar,,,,
+362,64,Kalimantan Timur,6474,"Bontang, Kota",Tidak Mekar,,,,
+363,64,Kalimantan Timur,6472,"Samarinda, Kota",Tidak Mekar,,,,
+364,64,Kalimantan Timur,6409,"Penajam Paser Utara, Kab.",Daerah Anak,6401.0,"Paser, Kab.",2002.0,2003.0
+365,64,Kalimantan Timur,6411,"Mahakam Ulu, Kab.",Daerah Anak,6402.0,"Kutai Barat, Kab.",2013.0,2014.0
+366,65,Kalimantan Utara,6502,"Bulungan, Kab.",Daerah Induk,,,,
+367,65,Kalimantan Utara,6571,"Tarakan, Kota",Tidak Mekar,,,,
+368,65,Kalimantan Utara,6501,"Malinau, Kab.",Daerah Anak,6502.0,"Bulungan, Kab.",1999.0,2002.0
+369,65,Kalimantan Utara,6504,"Nunukan, Kab.",Tidak Mekar,,,,
+370,65,Kalimantan Utara,6503,"Tana Tidung, Kab.",Daerah Anak,6502.0,"Bulungan, Kab.",2007.0,2009.0
+371,71,Sulawesi Utara,7101,"Bolaang Mongondow, Kab.",Daerah Induk,,,,
+372,71,Sulawesi Utara,7102,"Minahasa, Kab.",Daerah Induk,,,,
+373,71,Sulawesi Utara,7103,"Kepulauan Sangihe, Kab.",Daerah Induk,,,,
+374,71,Sulawesi Utara,7172,"Bitung, Kota",Tidak Mekar,,,,
+375,71,Sulawesi Utara,7171,"Manado, Kota",Tidak Mekar,,,,
+376,71,Sulawesi Utara,7104,"Kepulauan Talaud, Kab.",Daerah Anak,7103.0,"Kepulauan Sangihe, Kab.",2002.0,2005.0
+377,71,Sulawesi Utara,7173,"Tomohon, Kota",Daerah Anak,7102.0,"Minahasa, Kab.",2003.0,2004.0
+378,71,Sulawesi Utara,7105,"Minahasa Selatan, Kab.",Daerah Anak,7102.0,"Minahasa, Kab.",2003.0,2005.0
+379,71,Sulawesi Utara,7106,"Minahasa Utara, Kab.",Daerah Anak,7102.0,"Minahasa, Kab.",2003.0,2006.0
+380,71,Sulawesi Utara,7174,"Kotamobagu, Kota",Daerah Anak,7101.0,"Bolaang Mongondow, Kab.",2007.0,2008.0
+381,71,Sulawesi Utara,7109,"Minahasa Tenggara (Mitra), Kab.",Daerah Anak,7105.0,"Minahasa Selatan, Kab.",2007.0,2008.0
+382,71,Sulawesi Utara,7107,"Bolaang Mongondow Utara, Kab.",Daerah Anak,7101.0,"Bolaang Mongondow, Kab.",2007.0,2008.0
+383,71,Sulawesi Utara,7108,"Kep. Siau Tagulandang Biaro (Sitaro), Kab.",Daerah Anak,7103.0,"Kepulauan Sangihe, Kab.",2007.0,2008.0
+384,71,Sulawesi Utara,7111,"Bolaang Mongondow Timur, Kab.",Daerah Anak,7101.0,"Bolaang Mongondow, Kab.",2008.0,2009.0
+385,71,Sulawesi Utara,7110,"Bolaang Mongondow Selatan, Kab.",Daerah Anak,7101.0,"Bolaang Mongondow, Kab.",2008.0,2009.0
+386,72,Sulawesi Tengah,7202,"Banggai, Kab.",Tidak Mekar,,,,
+387,72,Sulawesi Tengah,7201,"Banggai Kepulauan, Kab.",Daerah Induk,,,,
+388,72,Sulawesi Tengah,7207,"Buol, Kab.",Daerah Anak,7206.0,"Toli-Toli, Kab.",1999.0,2005.0
+389,72,Sulawesi Tengah,7205,"Donggala, Kab.",Daerah Induk,,,,
+390,72,Sulawesi Tengah,7203,"Morowali, Kab.",Daerah Induk,,,,
+391,72,Sulawesi Tengah,7204,"Poso, Kab.",Daerah Induk,,,,
+392,72,Sulawesi Tengah,7206,"Toli-Toli, Kab.",Daerah Induk,,,,
+393,72,Sulawesi Tengah,7271,"Palu, Kota",Tidak Mekar,,,,
+394,72,Sulawesi Tengah,7208,"Parigi Moutong, Kab.",Daerah Anak,7205.0,"Donggala, Kab.",2002.0,2003.0
+395,72,Sulawesi Tengah,7209,"Tojo Una-Una, Kab.",Daerah Anak,7204.0,"Poso, Kab.",2003.0,2006.0
+396,72,Sulawesi Tengah,7210,"Sigi, Kab.",Daerah Anak,7205.0,"Donggala, Kab.",2008.0,2009.0
+397,72,Sulawesi Tengah,7211,"Banggai Laut, Kab.",Daerah Anak,7201.0,"Banggai Kepulauan, Kab.",2013.0,2014.0
+398,72,Sulawesi Tengah,7212,"Morowali Utara, Kab.",Daerah Anak,7203.0,"Morowali, Kab.",2013.0,2014.0
+399,73,Sulawesi Selatan,7303,"Bantaeng, Kab.",Tidak Mekar,,,,
+400,73,Sulawesi Selatan,7310,"Barru, Kab.",Tidak Mekar,,,,
+401,73,Sulawesi Selatan,7311,"Bone, Kab.",Tidak Mekar,,,,
+402,73,Sulawesi Selatan,7302,"Bulukumba, Kab.",Tidak Mekar,,,,
+403,73,Sulawesi Selatan,7316,"Enrekang, Kab.",Tidak Mekar,,,,
+404,73,Sulawesi Selatan,7306,"Gowa, Kab.",Tidak Mekar,,,,
+405,73,Sulawesi Selatan,7304,"Jeneponto, Kab.",Tidak Mekar,,,,
+406,73,Sulawesi Selatan,7317,"Luwu, Kab.",Daerah Induk,,,,
+407,73,Sulawesi Selatan,7322,"Luwu Utara, Kab.",Daerah Induk,,,,
+408,73,Sulawesi Selatan,7308,"Maros, Kab.",Tidak Mekar,,,,
+409,73,Sulawesi Selatan,7309,"Pangkajene Kepulauan, Kab.",Tidak Mekar,,,,
+410,73,Sulawesi Selatan,7315,"Pinrang, Kab.",Tidak Mekar,,,,
+411,73,Sulawesi Selatan,7301,"Selayar, Kab.",Tidak Mekar,,,,
+412,73,Sulawesi Selatan,7314,"Sidenreng Rappang, Kab.",Tidak Mekar,,,,
+413,73,Sulawesi Selatan,7307,"Sinjai, Kab.",Tidak Mekar,,,,
+414,73,Sulawesi Selatan,7312,"Soppeng, Kab.",Tidak Mekar,,,,
+415,73,Sulawesi Selatan,7305,"Takalar, Kab.",Tidak Mekar,,,,
+416,73,Sulawesi Selatan,7318,"Tana Toraja, Kab.",Daerah Induk,,,,
+417,73,Sulawesi Selatan,7313,"Wajo, Kab.",Tidak Mekar,,,,
+418,73,Sulawesi Selatan,7372,"Pare-Pare, Kota",Tidak Mekar,,,,
+419,73,Sulawesi Selatan,7371,"Makassar, Kota",Tidak Mekar,,,,
+420,73,Sulawesi Selatan,7373,"Palopo, Kota",Daerah Anak,7317.0,"Luwu, Kab.",2002.0,2003.0
+421,73,Sulawesi Selatan,7325,"Luwu Timur, Kab.",Daerah Anak,7322.0,"Luwu Utara, Kab.",2003.0,2004.0
+422,73,Sulawesi Selatan,7326,"Toraja Utara, Kab.",Daerah Anak,7318.0,"Tana Toraja, Kab.",2008.0,2009.0
+423,74,Sulawesi Tenggara,7401,"Buton, Kab.",Daerah Induk,,,,
+424,74,Sulawesi Tenggara,7403,"Konawe, Kab.",Daerah Induk,,,,
+425,74,Sulawesi Tenggara,7404,"Kolaka, Kab.",Daerah Induk,,,,
+426,74,Sulawesi Tenggara,7402,"Muna, Kab.",Daerah Induk,,,,
+427,74,Sulawesi Tenggara,7471,"Kendari, Kota",Tidak Mekar,,,,
+428,74,Sulawesi Tenggara,7472,"Bau-bau, Kota",Daerah Anak,7401.0,"Buton, Kab.",2001.0,2002.0
+429,74,Sulawesi Tenggara,7405,"Konawe Selatan, Kab.",Daerah Anak,7403.0,"Konawe, Kab.",2003.0,2004.0
+430,74,Sulawesi Tenggara,7406,"Bombana, Kab.",Daerah Anak,7401.0,"Buton, Kab.",2003.0,2006.0
+431,74,Sulawesi Tenggara,7407,"Wakatobi, Kab.",Daerah Anak,7401.0,"Buton, Kab.",2003.0,2007.0
+432,74,Sulawesi Tenggara,7408,"Kolaka Utara, Kab.",Daerah Anak,7404.0,"Kolaka, Kab.",2003.0,2005.0
+433,74,Sulawesi Tenggara,7410,"Konawe Utara, Kab.",Daerah Anak,7403.0,"Konawe, Kab.",2007.0,2008.0
+434,74,Sulawesi Tenggara,7409,"Buton Utara, Kab.",Daerah Anak,7402.0,"Muna, Kab.",2007.0,2008.0
+435,74,Sulawesi Tenggara,7411,"Kolaka Timur, Kab.",Daerah Anak,7404.0,"Kolaka, Kab.",2013.0,2014.0
+436,74,Sulawesi Tenggara,7412,"Konawe Kepulauan, Kab.",Daerah Anak,7403.0,"Konawe, Kab.",2013.0,2014.0
+437,75,Gorontalo,7501,"Boalemo, Kab.",Daerah Induk,,,,
+438,75,Gorontalo,7502,"Gorontalo, Kab.",Daerah Induk,,,,
+439,75,Gorontalo,7571,"Gorontalo, Kota",Tidak Mekar,,,,
+440,75,Gorontalo,7504,"Bone Bolango, Kab.",Daerah Anak,7502.0,"Gorontalo, Kab.",2003.0,2004.0
+441,75,Gorontalo,7503,"Pohuwato, Kab.",Daerah Anak,7501.0,"Boalemo, Kab.",2003.0,2005.0
+442,75,Gorontalo,7505,"Gorontalo Utara, Kab.",Daerah Anak,7502.0,"Gorontalo, Kab.",2007.0,2008.0
+443,76,Sulawesi Barat,7601,"Majene, Kab.",Tidak Mekar,,,,
+444,76,Sulawesi Barat,7604,"Mamuju, Kab.",Daerah Induk,,,,
+445,76,Sulawesi Barat,7602,"Polewali Mandar, Kab.",Daerah Induk,,,,
+446,76,Sulawesi Barat,7603,"Mamasa, Kab.",Daerah Anak,7602.0,"Polewali Mandar, Kab.",2002.0,2005.0
+447,76,Sulawesi Barat,7605,"Mamuju Utara, Kab.",Daerah Anak,7604.0,"Mamuju, Kab.",2003.0,2005.0
+448,76,Sulawesi Barat,7606,"Mamuju Tengah, Kab.",Daerah Anak,7604.0,"Mamuju, Kab.",2013.0,2014.0
+449,81,Maluku,8103,"Maluku Tengah, Kab.",Daerah Induk,,,,
+450,81,Maluku,8102,"Maluku Tenggara, Kab.",Daerah Induk,,,,
+451,81,Maluku,8101,"Maluku Tenggara Barat, Kab.",Daerah Anak,8102.0,"Maluku Tenggara, Kab.",1999.0,2002.0
+452,81,Maluku,8104,"Buru, Kab.",Daerah Induk,,,,
+453,81,Maluku,8171,"Ambon, Kota",Tidak Mekar,,,,
+454,81,Maluku,8105,"Kepulauan Aru, Kab.",Daerah Anak,8102.0,"Maluku Tenggara, Kab.",2003.0,2007.0
+455,81,Maluku,8107,"Seram Bagian Timur, Kab.",Daerah Anak,8103.0,"Maluku Tengah, Kab.",2003.0,2005.0
+456,81,Maluku,8106,"Seram Bagian Barat, Kab.",Daerah Anak,8103.0,"Maluku Tengah, Kab.",2003.0,2005.0
+457,81,Maluku,8172,"Tual, Kota",Daerah Anak,8102.0,"Maluku Tenggara, Kab.",2007.0,2009.0
+458,81,Maluku,8108,"Maluku Barat Daya, Kab.",Daerah Anak,8101.0,"Maluku Tenggara Barat, Kab.",2008.0,2009.0
+459,81,Maluku,8109,"Buru Selatan, Kab.",Daerah Anak,8104.0,"Buru, Kab.",2008.0,2009.0
+460,82,Maluku Utara,8201,"Halmahera Barat, Kab.",Daerah Induk,,,,
+461,82,Maluku Utara,8202,"Halmahera Tengah, Kab.",Daerah Induk,,,,
+462,82,Maluku Utara,8271,"Ternate, Kota",Tidak Mekar,,,,
+463,82,Maluku Utara,8203,"Kepulauan Sula, Kab.",Daerah Anak,8201.0,"Halmahera Barat, Kab.",2003.0,2006.0
+464,82,Maluku Utara,8272,"Tidore Kepulauan, Kota",Daerah Anak,8202.0,"Halmahera Tengah, Kab.",2003.0,2004.0
+465,82,Maluku Utara,8205,"Halmahera Utara, Kab.",Daerah Anak,8201.0,"Halmahera Barat, Kab.",2003.0,2005.0
+466,82,Maluku Utara,8204,"Halmahera Selatan, Kab.",Daerah Anak,8201.0,"Halmahera Barat, Kab.",2003.0,2004.0
+467,82,Maluku Utara,8206,"Halmahera Timur, Kab.",Daerah Anak,8202.0,"Halmahera Tengah, Kab.",2003.0,2004.0
+468,82,Maluku Utara,8207,"Pulau Morotai, Kab.",Daerah Anak,8205.0,"Halmahera Utara, Kab.",2008.0,2010.0
+469,82,Maluku Utara,8208,"Pulau Taliabu, Kab.",Daerah Anak,8203.0,"Kepulauan Sula, Kab.",2013.0,2014.0
+470,91,Papua Barat,9101,"Fak-Fak, Kab.",Daerah Induk,,,,
+471,91,Papua Barat,9105,"Manokwari, Kab.",Daerah Induk,,,,
+472,91,Papua Barat,9107,"Sorong, Kab.",Daerah Induk,,,,
+473,91,Papua Barat,9171,"Sorong, Kota",Tidak Mekar,,,,
+474,91,Papua Barat,9102,"Kaimana, Kab.",Daerah Anak,9101.0,"Fak-Fak, Kab.",2002.0,2004.0
+475,91,Papua Barat,9103,"Teluk Wondama, Kab.",Daerah Anak,9105.0,"Manokwari, Kab.",2002.0,2004.0
+476,91,Papua Barat,9104,"Teluk Bintuni, Kab.",Daerah Anak,9105.0,"Manokwari, Kab.",2002.0,2006.0
+477,91,Papua Barat,9106,"Sorong Selatan, Kab.",Daerah Anak,9107.0,"Sorong, Kab.",2002.0,2004.0
+478,91,Papua Barat,9108,"Raja Ampat, Kab.",Daerah Anak,9107.0,"Sorong, Kab.",2002.0,2004.0
+479,91,Papua Barat,9109,"Tambrauw, Kab.",Daerah Anak,9107.0,"Sorong, Kab.",2008.0,2010.0
+480,91,Papua Barat,9110,"Maybrat, Kab.",Daerah Anak,9107.0,"Sorong, Kab.",2009.0,2010.0
+481,91,Papua Barat,9111,"Manokwari Selatan, Kab.",Daerah Anak,9105.0,"Manokwari, Kab.",2012.0,2014.0
+482,91,Papua Barat,9112,"Pegunungan Arfak, Kab.",Daerah Anak,9105.0,"Manokwari, Kab.",2012.0,2014.0
+483,94,Papua,9409,"Biak Numfor, Kab.",Daerah Induk,,,,
+484,94,Papua,9403,"Jayapura, Kab.",Daerah Induk,,,,
+485,94,Papua,9402,"Jayawijaya, Kab.",Daerah Induk,,,,
+486,94,Papua,9401,"Merauke, Kab.",Daerah Induk,,,,
+487,94,Papua,9412,"Mimika, Kab.",Tidak Mekar,,,,
+488,94,Papua,9404,"Nabire, Kab.",Daerah Induk,,,,
+489,94,Papua,9410,"Paniai, Kab.",Daerah Induk,,,,
+490,94,Papua,9411,"Puncak Jaya, Kab.",Daerah Induk,,,,
+491,94,Papua,9408,"Yapen Waropen, Kab.",Daerah Induk,,,,
+492,94,Papua,9471,"Jayapura, Kota",Tidak Mekar,,,,
+493,94,Papua,9419,"Sarmi, Kab.",Daerah Anak,9403.0,"Jayapura, Kab.",2002.0,2006.0
+494,94,Papua,9420,"Keerom, Kab.",Daerah Anak,9403.0,"Jayapura, Kab.",2002.0,2006.0
+495,94,Papua,9417,"Pegunungan Bintang, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2002.0,2006.0
+496,94,Papua,9416,"Yahukimo, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2002.0,2005.0
+497,94,Papua,9418,"Tolikara, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2002.0,2005.0
+498,94,Papua,9415,"Asmat, Kab.",Daerah Anak,9401.0,"Merauke, Kab.",2002.0,2007.0
+499,94,Papua,9413,"Boven Digoel, Kab",Daerah Anak,9401.0,"Merauke, Kab.",2002.0,2005.0
+500,94,Papua,9414,"Mappi, Kab.",Daerah Anak,9401.0,"Merauke, Kab.",2002.0,2007.0
+501,94,Papua,9426,"Waropen, Kab.",Daerah Anak,9408.0,"Yapen Waropen, Kab.",2002.0,2007.0
+502,94,Papua,9427,"Supiori, Kab.",Daerah Anak,9409.0,"Biak Numfor, Kab.",2003.0,2005.0
+503,94,Papua,9428,"Mamberamo Raya, Kab.",Daerah Anak,9419.0,"Sarmi, Kab.",2007.0,2008.0
+504,94,Papua,9431,"Mamberamo Tengah, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2008.0,2010.0
+505,94,Papua,9432,"Yalimo, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2008.0,2009.0
+506,94,Papua,9430,"Lanny Jaya, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2008.0,2009.0
+507,94,Papua,9429,"Nduga, Kab.",Daerah Anak,9402.0,"Jayawijaya, Kab.",2008.0,2009.0
+508,94,Papua,9433,"Puncak, Kab.",Daerah Anak,9411.0,"Puncak Jaya, Kab.",2008.0,2009.0
+509,94,Papua,9434,"Dogiyai, Kab.",Daerah Anak,9404.0,"Nabire, Kab.",2008.0,2010.0
+510,94,Papua,9435,"Intan Jaya, Kab.",Daerah Anak,9410.0,"Paniai, Kab.",2008.0,2010.0
+511,94,Papua,9436,"Deiyai, Kab.",Daerah Anak,9410.0,"Paniai, Kab.",2008.0,2010.0

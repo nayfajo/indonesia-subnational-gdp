@@ -68,7 +68,7 @@ NOMINAL_GROWTH_LO = -0.80  # -80% YoY
 REAL_GROWTH_HI    = 0.70   # 70% YoY
 REAL_GROWTH_LO    = -0.50  # -50% YoY
 
-PROVINCE_TOL_PCT  = 20.0
+PROVINCE_TOL_PCT  = 20.0   # district sum vs independently-measured PROPINSI figure (loose: BPS residual)
 
 
 # ---------------------------------------------------------------------------
@@ -172,9 +172,23 @@ def check3_growth_anomalies(total, capita):
 
 def check4_province_totals():
     """
-    Sum district data rows by province and compare to the BPS-reported province totals
-    in the standardized files. Excludes per-capita (cannot sum) and oil_excluded=True
-    tables (structurally incomplete sums — only oil districts listed).
+    Sum district data rows by province and compare to the BPS-reported PROPINSI
+    totals in the standardized files. Excludes per-capita (cannot sum) and
+    oil_excluded=True tables (structurally incomplete sums — only oil districts
+    listed).
+
+    Dual-section publications (e.g. 2000-2001) and publication overlaps (2020-2022
+    vs 2021-2023) print the same rows twice. Exact repeats — same
+    (province, year, table_type, base_year, district name, value) — are collapsed
+    before summing so the district side is not double-counted. Province rows are
+    likewise deduplicated (the original code already did this; the data-row
+    dedup below is the 2026-09 fix for the DKI Jakarta / Lampung +90% false
+    positives).
+
+    A tighter parse-fidelity check against the printed "Jml N Kab./Kota" total
+    (row_type == "total_regmun") is a TODO: it needs robust handling of blank/
+    garbled district names and of the "#)" sub-row accounting, which varies by
+    publication era.
     """
     group_key = ["province_name_clean", "year", "table_type", "base_year"]
     frames = []
@@ -192,9 +206,13 @@ def check4_province_totals():
         if prov_rows.empty or data_rows.empty:
             continue
 
-        # Deduplicate province rows before aggregating: dual-section publications
-        # print the province total once per section, so .sum() would double-count.
+        # Collapse exact-repeat rows from dual-section pages / publication overlaps.
+        # Keying on the value too means a genuine district that appears twice with
+        # *different* values is left alone (it should surface, not be hidden).
+        data_rows = data_rows.drop_duplicates(
+            subset=group_key + ["region_name_base", "value_standardized"], keep="first")
         prov_rows = prov_rows.drop_duplicates(subset=group_key, keep="first")
+
         prov_agg = (
             prov_rows.groupby(group_key, dropna=False)["value_standardized"]
             .sum().reset_index()
@@ -439,7 +457,7 @@ def check9_implied_population(total, capita):
       - implied population outside [10k, 12M] (implausible for any district)
       - YoY implied-population change beyond ±25%
     Jumps at pemekaran years for split parents are EXPECTED (the capita panel
-    keeps rump-parent territory after a split — codebook Section 7.14); such
+    keeps rump-parent territory after a split — data guide Section 7.14); such
     rows are annotated near_known_split=True. Does not fail the pipeline.
     """
     t = total[(total["table_type"] == "nominal") & (total["oil_excluded"] == False)][
@@ -523,7 +541,7 @@ ROSTER_SERIES = [
 def check11_roster_completeness():
     """
     A district present in publication i-1 and i+1 but absent from publication i
-    is the signature of a silently-collided name (codebook Section 7.12) or a
+    is the signature of a silently-collided name (data guide Section 7.12) or a
     dropped table page. Uses the native panel, which retains every source's
     rows. Expected result: zero.
     """
@@ -548,6 +566,55 @@ def check11_roster_completeness():
     return 0, (
         f"CHECK 11 WARN : {len(out)} sandwich-missing districts (possible silent "
         f"name collision) → pipeline_out/audits/qa_roster_completeness.csv"
+    )
+
+
+# ---------------------------------------------------------------------------
+# CHECK 12 — Frozen values (exact year-over-year repeats)
+# ---------------------------------------------------------------------------
+
+def check12_frozen_values():
+    """
+    A value that exactly repeats its prior year (to the rupiah) within the same
+    series is invisible to CHECK 3 (growth anomalies): 0% year-over-year change
+    trips no threshold. It is nonetheless a strong transcription-error signature
+    — real districts do not report the identical rupiah figure two years running
+    — and this class caught two confirmed errors during construction (Bojonegoro
+    1999, both series duplicating 1998; Mandailing Natal 1996 duplicating 1997),
+    both since corrected (correction_id P9_recover, P_MN96_dup). Runs on the
+    native panels (source-level, pre-aggregation) so a real repeat is not
+    diluted or created by child-summation.
+    """
+    group_key = ["district_id", "table_type", "base_year", "oil_excluded"]
+    frames = []
+
+    for label, fname in [("total", "panel_pdrb_total_native.csv"),
+                         ("capita", "panel_pdrb_capita_native.csv")]:
+        df = pd.read_csv(OUTPUT_DIR / fname, low_memory=False)
+        df = df[(~df["is_pre_split_aggregate"].fillna(False).astype(bool)) &
+                df["value_standardized"].notna() & (df["value_standardized"] > 0) &
+                df["district_id"].notna()].copy()
+        df = df.sort_values("source_priority").drop_duplicates(group_key + ["year"], keep="first")
+        df = df.sort_values(group_key + ["year"])
+        g = df.groupby(group_key, dropna=False)
+        df["prev_value"] = g["value_standardized"].shift(1)
+        df["prev_year"]  = g["year"].shift(1)
+        frozen = df[(df["prev_year"] == df["year"] - 1) &
+                   (df["value_standardized"] == df["prev_value"])].copy()
+        if len(frozen):
+            frozen["panel"] = label
+            frames.append(frozen[["panel", "district_id", "year", "table_type",
+                                  "base_year", "oil_excluded", "value_standardized",
+                                  "source_file"]])
+
+    if not frames:
+        return 0, "CHECK 12 PASS : no frozen (exact year-over-year repeat) values"
+
+    out = pd.concat(frames, ignore_index=True)
+    out.to_csv(AUDIT_DIR / "qa_frozen_values.csv", index=False)
+    return len(out), (
+        f"CHECK 12 WARN : {len(out)} frozen year-over-year values "
+        f"→ pipeline_out/audits/qa_frozen_values.csv"
     )
 
 
@@ -585,6 +652,7 @@ def main():
     results.append(check9_implied_population(total, capita))
     results.append(check10_deflator(total))
     results.append(check11_roster_completeness())
+    results.append(check12_frozen_values())
 
     print("\n" + "=" * 70)
     print("SUMMARY")

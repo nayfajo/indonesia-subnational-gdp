@@ -26,8 +26,8 @@ KARANG ASEM,KARANGASEM,spelling_variant,PDRB_2003_2007_long.csv|PDRB_2008-2012_l
 LIMA PULUH KOTO,LIMA PULUH KOTA,spelling_variant,PDRB_1996-1999_long.csv|PDRB_2000-2003_long.csv|PDRB_2003_2007_long.csv|PDRB_2008-2012_long.csv|PDRB_capita_2000-2003_long.csv|PDRB_capita_2003-2007_long.csv|PDRB_capita_2008_2012_long.csv,KOTO is local dialect variant; KOTA is the official BPS name (used in 2013+ publications)
 OGAN KOMERING HILIR,OGAN KOMERING ILIR,spelling_variant,PDRB_1996-1999_long.csv,HILIR variant appears only in 1996-1999 total; all other publications use ILIR
 PALANGKARAYA,PALANGKA RAYA,spelling_variant,PDRB_1996-1999_long.csv|PDRB_2000-2003_long.csv|PDRB_capita_1996-1999_long.csv|PDRB_capita_2000-2003_long.csv,No-space variant in 1996-2003 publications; PALANGKA RAYA is canonical BPS form
-KOTA BARU,KOTABARU,spelling_variant,PDRB_2008-2012_long.csv|PDRB_2013_2017_long.csv|PDRB_2018-2022_long.csv|PDRB_capita_2008_2012_long.csv|PDRB_capita_2013-2017_long.csv|PDRB_capita_2018_2022_long.csv,DEAD in current pipeline — "Kota Baru" extracts admin_type=kota first leaving base=BARU; see BARU entry below
-BARU,KOTABARU,spelling_variant,PDRB_1996-1999.csv|PDRB_2000-2001.csv|PDRB_2002-2004.csv|PDRB_2005-2007.csv|PDRB_2008-2010.csv|PDRB_2011-2013.csv|PDRB_2014-2016.csv|PDRB_2017-2019.csv|PDRB_2020-2022.csv|PDRB_2021-2023.csv|PDRB-capita_1996-1999.csv|PDRB-capita_2000-2001.csv|PDRB-capita_2002-2004.csv|PDRB-capita_2005-2007.csv|PDRB-capita_2008-2010.csv|PDRB-capita_2011-2013.csv|PDRB-capita_2014-2016.csv|PDRB-capita_2017-2019.csv|PDRB-capita_2020-2022.csv|PDRB-capita_2021-2023.csv,Kabupaten Kotabaru (Kalimantan Selatan): both "Kota Baru" and "Kab. Kota Baru" strip admin_type prefixes leaving base=BARU; only BARU entry fires in practice
+KOTA BARU,KOTABARU,spelling_variant,PDRB_2008-2012_long.csv|PDRB_2013_2017_long.csv|PDRB_2018-2022_long.csv|PDRB_capita_2008_2012_long.csv|PDRB_capita_2013-2017_long.csv|PDRB_capita_2018_2022_long.csv,"DEAD in current pipeline — ""Kota Baru"" extracts admin_type=kota first leaving base=BARU; see BARU entry below"
+BARU,KOTABARU,spelling_variant,PDRB_1996-1999.csv|PDRB_2000-2001.csv|PDRB_2002-2004.csv|PDRB_2005-2007.csv|PDRB_2008-2010.csv|PDRB_2011-2013.csv|PDRB_2014-2016.csv|PDRB_2017-2019.csv|PDRB_2020-2022.csv|PDRB_2021-2023.csv|PDRB-capita_1996-1999.csv|PDRB-capita_2000-2001.csv|PDRB-capita_2002-2004.csv|PDRB-capita_2005-2007.csv|PDRB-capita_2008-2010.csv|PDRB-capita_2011-2013.csv|PDRB-capita_2014-2016.csv|PDRB-capita_2017-2019.csv|PDRB-capita_2020-2022.csv|PDRB-capita_2021-2023.csv,"Kabupaten Kotabaru (Kalimantan Selatan): both ""Kota Baru"" and ""Kab. Kota Baru"" strip admin_type prefixes leaving base=BARU; only BARU entry fires in practice"
 ACEH TAINIANG,ACEH TAMIANG,ocr_garble,"PDRB_2000-2001.csv,PDRB-capita_2000-2001.csv",
 ACEH ]AYA,ACEH JAYA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading ] garbled J
 BANG LI,BANGLI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
@@ -42,7 +42,7 @@ KENND,KERINCI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 CIROBON,CIREBON,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 MAJALENGICA,MAJALENGKA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 BANJAMEGARA,BANJARNEGARA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
-PAB,PATI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Uncertain; most plausible 3-char OCR for Jawa Tengah district
+PAB,PATI,ocr_garble,PDRB_2000-2001.csv,"Verified against PDRB_2000-2001.pdf p.14 (Table 13) 2026-09-17: exact 4-year value match (2.489.971,73 / 2.841.667,34 / 3.145.873,14 / 3.398.763,01) confirms Pati"
 PURBALMGGA,PURBALINGGA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 SALABGA,SALATIGA,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 SUKOHAIJO,SUKOHARJO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
@@ -83,7 +83,7 @@ INDRAGIN HULU,INDRAGIRI HULU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-200
 KANMUN,KARIMUN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 KUANTAN SMGMGI,KUANTAN SINGINGI,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",
 3ENEPONTO,JENEPONTO,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Leading 3 garbled J
-BAMI,BARRU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Uncertain; most plausible short-name Sulawesi Selatan district
+BAMI,BARRU,ocr_garble,PDRB_2000-2001.csv,"Verified against PDRB_2000-2001.pdf p.55 (Table 53) 2026-09-17: exact 4-year value match (158.115,75 / 165.363,24 / 172.577,24 / 181.606,27) confirms Barru"
 MANNIJU,MAMUJU,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Listed under Sulawesi Selatan pre-2004; resolves via province fallback to Sulawesi Barat
 PANGLCAJENE KEPULAUAN,PANGKAJENE DAN KEPULAUAN,ocr_garble,"PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv",Updated target to canonical DAN KEPULAUAN form
 PANGKAJENE KEPULAUAN,PANGKAJENE DAN KEPULAUAN,rename,"PDRB_2002-2004.csv,PDRB-capita_2002-2004.csv,PDRB_2005-2007.csv,PDRB-capita_2005-2007.csv,PDRB_2008-2010.csv,PDRB-capita_2008-2010.csv",Official name extended to include DAN; 2000-vintage canonical is PANGKAJENE DAN KEPULAUAN (id 351)
